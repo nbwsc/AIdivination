@@ -18,7 +18,7 @@
                 :autosize="{ minRows: 4, maxRows: 8 }">
             </el-input>
 
-            <el-button class="w-4/5 mt-8" type="primary" size="large" @click="submit"> 提出する </el-button>
+            <el-button class="w-4/5 mt-8 btn" type="primary" size="large" @click="submit"> 提出する </el-button>
         </div>
     </div>
     <div class="mask result" style="z-index: 1000;" v-if="showresult">
@@ -132,4 +132,6 @@ function submit() {
     padding: 32px 16px;
     font-size: 12px;
 }
+
+.btn {}
 </style>
