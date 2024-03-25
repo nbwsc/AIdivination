@@ -15,8 +15,8 @@
         <transition name="slide-fade">
             <div class="page" v-if="currentStep === 1">
                 <div class="text">{{ h }}的姓名是？</div>
-                <el-input v-model="character.lastName" placeholder="姓" size="normal" clearable></el-input>
-                <el-input v-model="character.firstName" placeholder="名" size="normal" clearable></el-input>
+                <el-input v-model="character.lastName" placeholder="姓" size="normal"></el-input>
+                <el-input v-model="character.firstName" placeholder="名" size="normal"></el-input>
                 <el-select v-model="character.pronoun" value-key="" placeholder="性别" filterable @change="changH">
                     <el-option v-for="item in ['先生', '女士']" :key="item" :label="item" :value="item">
                     </el-option>
@@ -25,7 +25,7 @@
                     <div class="text">
                         {{ h }}是你的
                     </div>
-                    <el-input v-model="character.relation" placeholder="关系" size="normal" clearable></el-input>
+                    <el-input v-model="character.relation" placeholder="关系" size="normal"></el-input>
                 </div>
                 <el-button type="primary" size="default"
                     @click="next(['lastName', 'firstName', 'pronoun', 'relation'])">继续</el-button>
@@ -47,11 +47,11 @@
                     <div class="text">
                         {{ h }}的离世原因是？
                     </div>
-                    <el-input v-model="character.causeOfDeath" placeholder="死因" size="normal" clearable></el-input>
+                    <el-input v-model="character.causeOfDeath" placeholder="离世原因" size="normal"></el-input>
                     <div class="text">
                         {{ h }}的宗教是？
                     </div>
-                    <el-input v-model="character.religion" placeholder="宗教" size="normal" clearable></el-input>
+                    <el-input v-model="character.religion" placeholder="宗教" size="normal"></el-input>
                 </div>
                 <el-button type="primary" size="default"
                     @click="next(['birthDate', 'deathDate', 'causeOfDeath', 'religion'])">继续</el-button>
@@ -68,39 +68,35 @@
                 <div class="text-s">
                     外向性
                 </div>
-                <el-select v-model="character.ExtraversionIndex" value-key="" placeholder="外向和社交行为" clearable
-                    filterable>
+                <el-select v-model="character.ExtraversionIndex" value-key="" placeholder="外向和社交行为" filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
                 <div class="text-s">
                     友好度
                 </div>
-                <el-select v-model="character.AgreeablenessIndex" value-key="" placeholder="合作和富有同情心的倾向" clearable
-                    filterable>
+                <el-select v-model="character.AgreeablenessIndex" value-key="" placeholder="合作和富有同情心的倾向" filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
                 <div class="text-s">
                     开放性
                 </div>
-                <el-select v-model="character.OpennessIndex" value-key="" placeholder="接受新经验和方法" clearable filterable>
+                <el-select v-model="character.OpennessIndex" value-key="" placeholder="接受新经验和方法" filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
                 <div class="text-s">
                     责任心
                 </div>
-                <el-select v-model="character.ConscientiousnessIndex" value-key="" placeholder="有组织性和责任感的倾向" clearable
-                    filterable>
+                <el-select v-model="character.ConscientiousnessIndex" value-key="" placeholder="有组织性和责任感的倾向" filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
                 <div class="text-s">
                     神经质
                 </div>
-                <el-select v-model="character.NeuroticismIndex" value-key="" placeholder="容易情绪不稳定和负面情绪" clearable
-                    filterable>
+                <el-select v-model="character.NeuroticismIndex" value-key="" placeholder="容易情绪不稳定和负面情绪" filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
@@ -129,11 +125,10 @@
                 <div v-for="(relation, i) in character.otherRelations" :key="i">
                     <el-row :gutter="20">
                         <span class="text">{{ h }}的</span>
-                        <el-input style="width:8rem" v-model="relation.relation" placeholder="关系" size="normal"
-                            clearable></el-input>
+                        <el-input style="width:8rem" v-model="relation.relation" placeholder="关系"
+                            size="normal"></el-input>
                         <span class="text">是</span>
-                        <el-input style="width:8rem" v-model="relation.name" placeholder="名字" size="normal"
-                            clearable></el-input>
+                        <el-input style="width:8rem" v-model="relation.name" placeholder="名字" size="normal"></el-input>
                     </el-row>
                 </div>
                 <el-button type="primary" size="default" @click="gotoChat()">开始聊天</el-button>
@@ -291,6 +286,10 @@ async function gotoChat() {
     height: 42px;
     line-height: 42px;
     font-size: 18px;
+}
+
+.el-input__count {
+    background-color: #0000 !important;
 }
 
 .el-select {
