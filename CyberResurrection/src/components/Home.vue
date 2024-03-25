@@ -153,55 +153,56 @@ const indexOptions = [
 
 const character: any = ref({
     _id: undefined,
-    firstName: '如玉',
-    lastName: '王',
-    pronoun: '先生',// 称呼/性别（先生/女士）
-    birthDate: '1991-01-03',//出生时间
-    deathDate: '2023-10-01',//死亡时间
-    causeOfDeath: '车祸',//死因
-    religion: '佛教',// 宗教
+    //     firstName: '如玉',
+    //     lastName: '王',
+    //     pronoun: '先生',// 称呼/性别（先生/女士）
+    //     birthDate: '1991-01-03',//出生时间
+    //     deathDate: '2023-10-01',//死亡时间
+    //     causeOfDeath: '车祸',//死因
+    //     religion: '佛教',// 宗教
 
-    ExtraversionIndex: 2,// 外向性：外向和社交行为
-    AgreeablenessIndex: 3,//宜人：合作和富有同情心的倾向
-    OpennessIndex: 4,//开放性：接受新经验和方法
-    ConscientiousnessIndex: 5,// 责任心：有组织性和责任感的倾向
-    NeuroticismIndex: 1,//神经质：容易情绪不稳定和负面情绪
+    //     ExtraversionIndex: 2,// 外向性：外向和社交行为
+    //     AgreeablenessIndex: 3,//宜人：合作和富有同情心的倾向
+    //     OpennessIndex: 4,//开放性：接受新经验和方法
+    //     ConscientiousnessIndex: 5,// 责任心：有组织性和责任感的倾向
+    //     NeuroticismIndex: 1,//神经质：容易情绪不稳定和负面情绪
 
-    writingSyle: `时间就像海绵里的水，只要愿挤，总还是有的。
-倘若只看书，便变成书橱。
-我好象是一只牛，吃的是草，挤出的是奶、血。
-其实地上本没有路，走的人多了，也便成了路。
-哪里有天才，我只不过是把别人喝咖啡的时间都用在工作上了。`,// 写作/说话风格 他们曾经说过的话/写过的文字
+    //     writingSyle: `时间就像海绵里的水，只要愿挤，总还是有的。
+    // 倘若只看书，便变成书橱。
+    // 我好象是一只牛，吃的是草，挤出的是奶、血。
+    // 其实地上本没有路，走的人多了，也便成了路。
+    // 哪里有天才，我只不过是把别人喝咖啡的时间都用在工作上了。`,// 写作/说话风格 他们曾经说过的话/写过的文字
 
-    relation: '哥哥',// 和我的关系
+    //     relation: '哥哥',// 和我的关系
 
-    otherRelations: [{ // 死者 的 {relation} 是 {name}
-        name: '张大千',
-        relation: '母亲'
-    }],
-    talkabout: '女朋友',// 谈话主题
-    userMood: '悲伤',//用户心情}
-    // firstName: '',
-    // lastName: '',
-    // pronoun: '',// 称呼/性别（先生/女士）
-    // birthDate: '',//出生时间
-    // deathDate: '',//死亡时间
-    // causeOfDeath: '',//死因
-    // relation: '',// 和我的关系
-    // religion: '',// 宗教
+    //     otherRelations: [{ // 死者 的 {relation} 是 {name}
+    //         name: '张大千',
+    //         relation: '母亲'
+    //     }],
+    //     talkabout: '女朋友',// 谈话主题
+    //     userMood: '悲伤',//用户心情
 
-    // ExtraversionIndex: "",// 外向性：外向和社交行为
-    // AgreeablenessIndex: "",//宜人：合作和富有同情心的倾向
-    // OpennessIndex: "",//开放性：接受新经验和方法
-    // ConscientiousnessIndex: "",// 责任心：有组织性和责任感的倾向
-    // NeuroticismIndex: "",//神经质：容易情绪不稳定和负面情绪
+    firstName: '',
+    lastName: '',
+    pronoun: '',// 称呼/性别（先生/女士）
+    birthDate: '',//出生时间
+    deathDate: '',//死亡时间
+    causeOfDeath: '',//死因
+    relation: '',// 和我的关系
+    religion: '',// 宗教
 
-    // writingSyle: "",// 写作/说话风格 他们曾经说过的话/写过的文字
+    ExtraversionIndex: "",// 外向性：外向和社交行为
+    AgreeablenessIndex: "",//宜人：合作和富有同情心的倾向
+    OpennessIndex: "",//开放性：接受新经验和方法
+    ConscientiousnessIndex: "",// 责任心：有组织性和责任感的倾向
+    NeuroticismIndex: "",//神经质：容易情绪不稳定和负面情绪
+
+    writingSyle: "",// 写作/说话风格 他们曾经说过的话/写过的文字
 
 
-    // otherRelations: [],
-    // talkabout: '',// 谈话主题
-    // userMood: '',//用户心情}
+    otherRelations: [],
+    talkabout: '',// 谈话主题
+    userMood: '',//用户心情
 })
 
 const currentStep = ref(0)
