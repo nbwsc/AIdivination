@@ -2,15 +2,19 @@
     <div class="panel">
         <transition name="slide-fade">
             <div class="page" v-if="currentStep === 0">
-                <div>
-                    我们来这里是为了将您与那些已经过世的人联系起来。
+                <div class="text">
+                    这里是为了让您与那些已经过世的人联系。
                 </div>
-                <el-button type="primary" size="default" @click="next">继续</el-button>
+                <div class="text">
+                    请告诉我们关于{{ h }}的一些信息。
+                </div>
+
+                <el-button type="primary" size="default" @click="next([])">继续</el-button>
             </div>
         </transition>
         <transition name="slide-fade">
             <div class="page" v-if="currentStep === 1">
-                <div>{{ h }}的姓名是？</div>
+                <div class="text">{{ h }}的姓名是？</div>
                 <el-input v-model="character.lastName" placeholder="姓" size="normal" clearable></el-input>
                 <el-input v-model="character.firstName" placeholder="名" size="normal" clearable></el-input>
                 <el-select v-model="character.pronoun" value-key="" placeholder="姓别" filterable @change="changH">
@@ -18,140 +22,143 @@
                     </el-option>
                 </el-select>
                 <div>
-                    <div>
+                    <div class="text">
                         {{ h }}是你的
                     </div>
                     <el-input v-model="character.relation" placeholder="关系" size="normal" clearable></el-input>
                 </div>
-                <el-button type="primary" size="default" @click="next">继续</el-button>
+                <el-button type="primary" size="default"
+                    @click="next(['lastName', 'firstName', 'pronoun', 'relation'])">继续</el-button>
             </div>
         </transition>
         <transition name="slide-fade">
             <div class="page" v-if="currentStep === 2">
                 <div>
-                    <div>
+                    <div class="text">
                         {{ h }}的生日是？
                     </div>
                     <el-date-picker v-model="character.birthDate" type="date" size="normal" placeholder="选择日期时间">
                     </el-date-picker>
-                    <div>
+                    <div class="text">
                         {{ h }}离开的日期是？
                     </div>
                     <el-date-picker v-model="character.deathDate" type="date" size="normal" placeholder="选择日期时间">
                     </el-date-picker>
-                    <div>
-                        {{ h }}的死因是？
+                    <div class="text">
+                        {{ h }}的离世原因是？
                     </div>
                     <el-input v-model="character.causeOfDeath" placeholder="死因" size="normal" clearable></el-input>
-                    <div>
+                    <div class="text">
                         {{ h }}的宗教是？
                     </div>
                     <el-input v-model="character.religion" placeholder="宗教" size="normal" clearable></el-input>
                 </div>
-                <el-button type="primary" size="default" @click="next">继续</el-button>
+                <el-button type="primary" size="default"
+                    @click="next(['birthDate', 'deathDate', 'causeOfDeath', 'religion'])">继续</el-button>
             </div>
         </transition>
         <transition name="slide-fade">
             <div class="page" v-if="currentStep === 3">
-                <div>
+                <div class="text">
                     {{ h }}的性格特点是？（1 - 5分，1分为无，5分为满分）
                 </div>
-                <div>
-                    外向性：外向和社交行为
+                <div class="text">
+                    外向性
                 </div>
-                <el-select v-model="character.ExtraversionIndex" value-key="" placeholder="" clearable filterable>
+                <el-select v-model="character.ExtraversionIndex" value-key="" placeholder="外向和社交行为" clearable
+                    filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div>
-                    宜人：合作和富有同情心的倾向
+                <div class="text">
+                    友好度
                 </div>
-                <el-select v-model="character.AgreeablenessIndex" value-key="" placeholder="" clearable filterable>
+                <el-select v-model="character.AgreeablenessIndex" value-key="" placeholder="合作和富有同情心的倾向" clearable
+                    filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div>
-                    开放性：接受新经验和方法
+                <div class="text">
+                    开放性
                 </div>
-                <el-select v-model="character.OpennessIndex" value-key="" placeholder="" clearable filterable>
+                <el-select v-model="character.OpennessIndex" value-key="" placeholder="接受新经验和方法" clearable filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div>
-                    责任心：有组织性和责任感的倾向
+                <div class="text">
+                    责任心
                 </div>
-                <el-select v-model="character.ConscientiousnessIndex" value-key="" placeholder="" clearable filterable>
+                <el-select v-model="character.ConscientiousnessIndex" value-key="" placeholder="有组织性和责任感的倾向" clearable
+                    filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div>
-                    神经质：容易情绪不稳定和负面情绪
+                <div class="text">
+                    神经质
                 </div>
-                <el-select v-model="character.NeuroticismIndex" value-key="" placeholder="" clearable filterable>
+                <el-select v-model="character.NeuroticismIndex" value-key="" placeholder="容易情绪不稳定和负面情绪" clearable
+                    filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
 
-                <el-button type="primary" size="default" @click="next">继续</el-button>
+                <el-button type="primary" size="default"
+                    @click="next(['ExtraversionIndex', 'AgreeablenessIndex', 'OpennessIndex', 'ConscientiousnessIndex', 'NeuroticismIndex'])">继续</el-button>
             </div>
         </transition>
         <div class="page" v-if="currentStep === 4">
-            <div>
-                {{ h }}曾经说过的话/写过的文字是
+            <div class="text">
+                {{ h }}曾经说过的话或写过的文字是
                 <el-input type="textarea" v-model="character.writingSyle" placeholder="更多的信息帮助我们更好的了解{{ h }}"
                     :maxlength="300" :show-word-limit="300" :autosize="{ minRows: 4, maxRows: 10 }">
                 </el-input>
             </div>
-            <el-button type="primary" size="default" @click="next">继续</el-button>
+            <el-button type="primary" size="default" @click="next(['writingSyle'])">继续</el-button>
         </div>
         <div class="page" v-if="currentStep === 5">
-            <div>
+            <div class="text">
                 {{ h }}的其他关系是？
             </div>
-            <el-button type="primary" size="default"
-                @click="character.otherRelations.push({ relation: '', name: '' })">添加关系</el-button>
+            <el-button type="primary" size="default" @click="addRelation">添加关系</el-button>
             <div v-for="(relation, i) in character.otherRelations" :key="i">
                 <el-row :gutter="20">
-                    <span>{{ h }}的</span>
-                    <el-input v-model="relation.relation" placeholder="关系" size="normal" clearable></el-input>
-                    <span>是</span>
-                    <el-input v-model="relation.name" placeholder="名字" size="normal" clearable></el-input>
+                    <span class="text">{{ h }}的</span>
+                    <el-input style="width:8rem" v-model="relation.relation" placeholder="关系" size="normal"
+                        clearable></el-input>
+                    <span class="text">是</span>
+                    <el-input style="width:8rem" v-model="relation.name" placeholder="名字" size="normal"
+                        clearable></el-input>
                 </el-row>
-
             </div>
-            <el-button type="primary" size="default" @click="next">继续</el-button>
-        </div>
-        <div class="page" v-if="currentStep === 6">
-            <div>
-                我们来这里是为了将您与那些已经超越的人联系起来。
-            </div>
-            <el-button type="primary" size="default" @click="next">继续</el-button>
+            <el-button type="primary" size="default" @click="gotoChat()">开始聊天</el-button>
         </div>
 
     </div>
 </template>
 <script lang="ts" setup>
+import axios from 'axios';
+import { ElMessage } from 'element-plus';
 import { ref } from 'vue'
 const h = ref('他/她')
 const changH = (val: string) => {
     h.value = val === '先生' ? '他' : '她'
 }
 const indexOptions = [
-    { label: '1 几乎不', value: 1 },
+    { label: '1 几乎没有', value: 1 },
     { label: '2 很轻微', value: 2 },
     { label: '3 有一点', value: 3 },
     { label: '4 比较多', value: 4 },
     { label: '5 很典型', value: 5 },
 ]
 
-const character = ref({
+const character: any = ref({
+    _id: undefined,
     firstName: '如玉',
     lastName: '王',
     pronoun: '先生',// 称呼/性别（先生/女士）
     birthDate: '1991-01-03',//出生时间
     deathDate: '2023-10-01',//死亡时间
     causeOfDeath: '车祸',//死因
-    relation: '哥哥',// 和我的关系
     religion: '佛教',// 宗教
 
     ExtraversionIndex: 2,// 外向性：外向和社交行为
@@ -166,6 +173,7 @@ const character = ref({
 其实地上本没有路，走的人多了，也便成了路。
 哪里有天才，我只不过是把别人喝咖啡的时间都用在工作上了。`,// 写作/说话风格 他们曾经说过的话/写过的文字
 
+    relation: '哥哥',// 和我的关系
 
     otherRelations: [{ // 死者 的 {relation} 是 {name}
         name: '张大千',
@@ -173,35 +181,158 @@ const character = ref({
     }],
     talkabout: '女朋友',// 谈话主题
     userMood: '悲伤',//用户心情}
+    // firstName: '',
+    // lastName: '',
+    // pronoun: '',// 称呼/性别（先生/女士）
+    // birthDate: '',//出生时间
+    // deathDate: '',//死亡时间
+    // causeOfDeath: '',//死因
+    // relation: '',// 和我的关系
+    // religion: '',// 宗教
+
+    // ExtraversionIndex: "",// 外向性：外向和社交行为
+    // AgreeablenessIndex: "",//宜人：合作和富有同情心的倾向
+    // OpennessIndex: "",//开放性：接受新经验和方法
+    // ConscientiousnessIndex: "",// 责任心：有组织性和责任感的倾向
+    // NeuroticismIndex: "",//神经质：容易情绪不稳定和负面情绪
+
+    // writingSyle: "",// 写作/说话风格 他们曾经说过的话/写过的文字
+
+
+    // otherRelations: [],
+    // talkabout: '',// 谈话主题
+    // userMood: '',//用户心情}
 })
 
 const currentStep = ref(0)
-const next = () => {
+const next = (params: Array<string>) => {
+    // check params
+    if (params.length > 0) {
+        for (let i = 0; i < params.length; i++) {
+            if (!character.value[params[i]]) {
+                return ElMessage.error('请填写完整信息')
+            }
+        }
+    }
+    saveCharactor()
     const nextStep = currentStep.value + 1;
     currentStep.value = -1;
     setTimeout(() => {
         currentStep.value = nextStep
     }, 800)
 }
+
+function addRelation() {
+    if (character.value.otherRelations.length >= 5) return ElMessage.warning('最多添加5个关系')
+    character.value.otherRelations.push({
+        name: '',
+        relation: ''
+    })
+}
+async function saveCharactor() {
+    const r = await axios.post('http://leapcapital.cn:8099/CyberResurrection/upsertCharacter', {
+        data: character.value
+    })
+    character.value._id = r.data.data._id
+}
+
+async function gotoChat() {
+    await saveCharactor()
+    window.location.href = '/chat?id=' + character.value._id
+}
+
 </script>
-<style lang="css" scoped>
+<style lang="css">
 .page {
     padding: 20px;
     text-align: center;
     width: 100vw;
+    max-width: 700px;
     height: 100vh;
     background-color: #000;
     color: white;
+
 }
 
 .panel {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     background-color: #000;
     align-items: center;
     flex-direction: column;
+    padding: 10%;
+}
+
+.text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.el-input {
+    width: 50%;
+    margin: 8px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+}
+
+.el-select {
+    width: 50%;
+    margin: 8px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+}
+
+.el-textarea__inner {
+    margin: 8px;
+    line-height: 42px;
+    height: 42px;
+    background-color: #0000;
+    font-size: 18px;
+}
+
+.el-select__wrapper {
+    margin: 8px;
+    line-height: 42px;
+    height: 42px;
+    background-color: #0000;
+    font-size: 18px;
+}
+
+.el-input__wrapper {
+    width: 50%;
+    margin: 8px;
+    height: 42px;
+    font-size: 18px;
+    background-color: #0000;
+}
+
+.el-button {
+    margin: 8px;
+    margin-top: 32px;
+    height: 42px;
+    font-size: 18px;
+    width: 50%;
+    background-color: #0000;
+    border: 1px solid #fff;
+    border-radius: 21px;
+}
+
+.el-button:hover {
+    color: #fff;
+    border-color: #aaa;
+    background-color: #aaa;
+    outline: 0;
+}
+
+.el-date-editor.el-input,
+.el-date-editor.el-input__wrapper {
+    width: 50%;
+    height: 42px;
 }
 
 .slide-fade-enter-active {
