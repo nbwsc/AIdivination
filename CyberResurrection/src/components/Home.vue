@@ -17,7 +17,7 @@
                 <div class="text">{{ h }}的姓名是？</div>
                 <el-input v-model="character.lastName" placeholder="姓" size="normal" clearable></el-input>
                 <el-input v-model="character.firstName" placeholder="名" size="normal" clearable></el-input>
-                <el-select v-model="character.pronoun" value-key="" placeholder="姓别" filterable @change="changH">
+                <el-select v-model="character.pronoun" value-key="" placeholder="性别" filterable @change="changH">
                     <el-option v-for="item in ['先生', '女士']" :key="item" :label="item" :value="item">
                     </el-option>
                 </el-select>
@@ -60,9 +60,12 @@
         <transition name="slide-fade">
             <div class="page" v-if="currentStep === 3">
                 <div class="text">
-                    {{ h }}的性格特点是？（1 - 5分，1分为无，5分为满分）
+                    {{ h }}的性格特点是？
                 </div>
-                <div class="text">
+                <div style="color:#888">
+                    （1 - 5分，5分为满分）
+                </div>
+                <div class="text-s">
                     外向性
                 </div>
                 <el-select v-model="character.ExtraversionIndex" value-key="" placeholder="外向和社交行为" clearable
@@ -70,7 +73,7 @@
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div class="text">
+                <div class="text-s">
                     友好度
                 </div>
                 <el-select v-model="character.AgreeablenessIndex" value-key="" placeholder="合作和富有同情心的倾向" clearable
@@ -78,14 +81,14 @@
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div class="text">
+                <div class="text-s">
                     开放性
                 </div>
                 <el-select v-model="character.OpennessIndex" value-key="" placeholder="接受新经验和方法" clearable filterable>
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div class="text">
+                <div class="text-s">
                     责任心
                 </div>
                 <el-select v-model="character.ConscientiousnessIndex" value-key="" placeholder="有组织性和责任感的倾向" clearable
@@ -93,7 +96,7 @@
                     <el-option v-for="item in indexOptions" :key="item.value" :label="item.label" :value="item.value">
                     </el-option>
                 </el-select>
-                <div class="text">
+                <div class="text-s">
                     神经质
                 </div>
                 <el-select v-model="character.NeuroticismIndex" value-key="" placeholder="容易情绪不稳定和负面情绪" clearable
@@ -106,32 +109,36 @@
                     @click="next(['ExtraversionIndex', 'AgreeablenessIndex', 'OpennessIndex', 'ConscientiousnessIndex', 'NeuroticismIndex'])">继续</el-button>
             </div>
         </transition>
-        <div class="page" v-if="currentStep === 4">
-            <div class="text">
-                {{ h }}曾经说过的话或写过的文字是
-                <el-input type="textarea" v-model="character.writingSyle" placeholder="更多的信息帮助我们更好的了解{{ h }}"
-                    :maxlength="300" :show-word-limit="300" :autosize="{ minRows: 4, maxRows: 10 }">
-                </el-input>
+        <transition name="slide-fade">
+            <div class="page" v-if="currentStep === 4">
+                <div class="text">
+                    {{ h }}曾经说过的话或写过的文字是
+                    <el-input type="textarea" v-model="character.writingSyle" :placeholder="'更多的信息帮助我们更好的了解' + h"
+                        :maxlength="300" :show-word-limit="300" :autosize="{ minRows: 4, maxRows: 10 }">
+                    </el-input>
+                </div>
+                <el-button type="primary" size="default" @click="next(['writingSyle'])">继续</el-button>
             </div>
-            <el-button type="primary" size="default" @click="next(['writingSyle'])">继续</el-button>
-        </div>
-        <div class="page" v-if="currentStep === 5">
-            <div class="text">
-                {{ h }}的其他关系是？
+        </transition>
+        <transition name="slide-fade">
+            <div class="page" v-if="currentStep === 5">
+                <div class="text">
+                    {{ h }}的其他关系是？
+                </div>
+                <el-button type="primary" size="default" @click="addRelation">添加关系</el-button>
+                <div v-for="(relation, i) in character.otherRelations" :key="i">
+                    <el-row :gutter="20">
+                        <span class="text">{{ h }}的</span>
+                        <el-input style="width:8rem" v-model="relation.relation" placeholder="关系" size="normal"
+                            clearable></el-input>
+                        <span class="text">是</span>
+                        <el-input style="width:8rem" v-model="relation.name" placeholder="名字" size="normal"
+                            clearable></el-input>
+                    </el-row>
+                </div>
+                <el-button type="primary" size="default" @click="gotoChat()">开始聊天</el-button>
             </div>
-            <el-button type="primary" size="default" @click="addRelation">添加关系</el-button>
-            <div v-for="(relation, i) in character.otherRelations" :key="i">
-                <el-row :gutter="20">
-                    <span class="text">{{ h }}的</span>
-                    <el-input style="width:8rem" v-model="relation.relation" placeholder="关系" size="normal"
-                        clearable></el-input>
-                    <span class="text">是</span>
-                    <el-input style="width:8rem" v-model="relation.name" placeholder="名字" size="normal"
-                        clearable></el-input>
-                </el-row>
-            </div>
-            <el-button type="primary" size="default" @click="gotoChat()">开始聊天</el-button>
-        </div>
+        </transition>
 
     </div>
 </template>
@@ -248,7 +255,7 @@ async function gotoChat() {
     padding: 20px;
     text-align: center;
     width: 100vw;
-    max-width: 700px;
+    max-width: 780px;
     height: 100vh;
     background-color: #000;
     color: white;
@@ -272,24 +279,30 @@ async function gotoChat() {
     margin-top: 1rem;
 }
 
+.text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
 .el-input {
-    width: 50%;
-    margin: 8px;
+    width: 80%;
+    margin-bottom: 8px;
     height: 42px;
     line-height: 42px;
     font-size: 18px;
 }
 
 .el-select {
-    width: 50%;
-    margin: 8px;
+    width: 80%;
+    margin-bottom: 8px;
     height: 42px;
     line-height: 42px;
     font-size: 18px;
 }
 
 .el-textarea__inner {
-    margin: 8px;
+    margin-bottom: 8px;
     line-height: 42px;
     height: 42px;
     background-color: #0000;
@@ -297,7 +310,6 @@ async function gotoChat() {
 }
 
 .el-select__wrapper {
-    margin: 8px;
     line-height: 42px;
     height: 42px;
     background-color: #0000;
@@ -305,8 +317,7 @@ async function gotoChat() {
 }
 
 .el-input__wrapper {
-    width: 50%;
-    margin: 8px;
+    width: 80%;
     height: 42px;
     font-size: 18px;
     background-color: #0000;
@@ -317,7 +328,7 @@ async function gotoChat() {
     margin-top: 32px;
     height: 42px;
     font-size: 18px;
-    width: 50%;
+    width: 80%;
     background-color: #0000;
     border: 1px solid #fff;
     border-radius: 21px;
@@ -332,7 +343,7 @@ async function gotoChat() {
 
 .el-date-editor.el-input,
 .el-date-editor.el-input__wrapper {
-    width: 50%;
+    width: 80%;
     height: 42px;
 }
 
