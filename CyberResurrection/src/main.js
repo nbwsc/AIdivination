@@ -4,5 +4,6 @@ import App from "./App.vue";
 import "element-plus/theme-chalk/el-loading.css";
 import "element-plus/theme-chalk/el-message-box.css";
 import "element-plus/theme-chalk/el-message.css";
+import router from "./router";
 
-createApp(App).mount("#app");
+createApp(App).use(router).mount("#app");
