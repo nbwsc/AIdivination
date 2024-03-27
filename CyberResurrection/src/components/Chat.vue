@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="inputpanel">
-            <el-input type="textarea" :rows="4" v-model="message" placeholder="请输入你想说的话" :maxlength="-1"
+            <el-input type="textarea" :rows="2" v-model="message" placeholder="请输入你想说的话" :maxlength="-1"
                 :show-word-limit="false">
             </el-input>
             <el-button type="primary" size="default" @click="sendMessage">发送</el-button>
