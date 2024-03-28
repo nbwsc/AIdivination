@@ -6,12 +6,12 @@
                 <ChatBubble :chat="item.chat" :type="item.type" :createdAt="item.createdAt"></ChatBubble>
             </div>
         </div>
-        <div class="inputpanel">
+        <h1 v-if="isShare" style="color:#aaa;text-align: center;font-size: 42px;padding-top: 40px;">【分享模式】</h1> 
+        <div class="inputpanel" v-if="!isShare">
             <el-input type="textarea" :rows="2" v-model="message" placeholder="请输入你想说的话" :maxlength="-1"
                 :show-word-limit="false">
             </el-input>
             <el-button type="primary" size="default" @click="sendMessage">发送</el-button>
-
         </div>
     </div>
 </template>
@@ -26,9 +26,10 @@ const message = ref('')
 const history: Ref<any[]> = ref([])
 let charactorId
 
+const route = useRoute()
+const isShare = route.query.share === 'true'
 onMounted(() => {
     // get history
-    const route = useRoute()
     if (!route.query.id) {
         return ElMessage('参数错误！')
     }
