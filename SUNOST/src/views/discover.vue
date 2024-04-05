@@ -50,7 +50,7 @@ onMounted(() => {
 })
 
 async function getRecommand() {
-    const r = await axios.get('http://localhost:9000/sunost/getRecommand', {
+    const r = await axios.get('/sunost/getRecommand', {
         query: {
             page: 0
         }

@@ -156,23 +156,26 @@ export default {
                 ElMessage.warning('Choose some tags, at least one, Dude!')
                 return
             }
-            // const r = await axios.get('http://leapcapital.cn:8099/sunost/generate', this.music)
-            const r = await axios.post('http://localhost:9000/sunost/generate', this.music)
+            const r = await axios.post('/sunost/generate', this.music)
             if (r.data.code !== 0) {
                 if (r.data.msg === 'Sign in required') {
                     this.$emit('needLogin')
                 }
-
                 ElMessage.error(r.data.msg)
-
             }
+            this.isCreateShow = false
         },
+
         async getMyOSTs() {
-            // const r = await axios.post('http://leapcapital.cn:8099/sunost/getMyOSTs')
-            const r = await axios.post('http://localhost:9000/sunost/getMyOSTs')
+            const r = await axios.post('/sunost/getMyOSTs')
             if (r.data.code === 0) {
                 this.myOSTs = r.data.data.list;
                 this.total = r.data.data.total;
+                if (this.myOSTs[0].state !== 'success') {
+                    setTimeout(() => {
+                        this.getMyOSTs();
+                    }, 5000);
+                }
             } else {
                 this.myOSTs = [];
                 ElMessage.error(r.data.msg)

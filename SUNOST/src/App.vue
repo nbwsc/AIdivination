@@ -75,8 +75,7 @@ export default {
 
   methods: {
     async info() {
-      const r = await axios.get('http://localhost:9000/account/info')
-      // const r = await axios.get('http://leapcapital.cn:8099/account/info')
+      const r = await axios.get('/account/info')
       if (r.data.code === 0) {
         this.account = r.data.data.account
       } else {
@@ -95,6 +94,9 @@ export default {
     },
 
     onPlayClicked(ost) {
+      if (!ost.audio_url) {
+        return
+      }
       this.$refs.audioPlayerx.pause();
       this.title = ost.title;
       // this.playlist = [ost.audio_url];
@@ -112,8 +114,7 @@ export default {
     },
 
     reportPlay(ost) {
-      // await axios.get('http://leapcapital.cn:8099/sunost/playCount?id=' + ost._id)
-      axios.get('http://localhost:9000/sunost/playCount?id=' + ost._id)
+      axios.get('/sunost/playCount?id=' + ost._id)
     },
 
     onPlay() {

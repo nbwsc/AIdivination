@@ -8,7 +8,7 @@
             <div class="text-xs mt-2 h-12 overflow-hidden">{{ ost.tags }}</div>
             <div class="text-xs mt-2">{{ $filters.format(ost.createTime) }}</div>
         </div>
-        <!-- card body -->
+        <div class="text-2xl pt-24 mask" v-if="ost.state !== 'success'">{{ ost.state }}</div>
     </el-card>
 </template>
 <script setup>
@@ -18,10 +18,23 @@ defineProps({
 </script>
 <style scoped>
 .card {
+    position: relative;
     min-width: 220px;
+    border: 0;
 }
 
 .card:hover {
     scale: 1.05;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    text-align: center;
 }
 </style>

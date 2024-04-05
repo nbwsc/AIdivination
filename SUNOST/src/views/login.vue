@@ -47,8 +47,7 @@ export default {
                 ElMessage.error("Username or Password can not be empty")
                 return
             }
-            const r = await axios.post('http://localhost:9000/account/login', {
-                // const r = await axios.post('http://leapcapital.cn:8099/account/login', {
+            const r = await axios.post('/account/login', {
                 username: this.username,
                 password: this.password
             })
@@ -66,8 +65,7 @@ export default {
                 ElMessage.error("Username or Password can not be empty")
                 return
             }
-            const r = await axios.post('http://localhost:9000/account/signup', {
-                // const r = await axios.post('http://leapcapital.cn:8099/account/signup', {
+            const r = await axios.post('/account/signup', {
                 username: this.username,
                 password: this.password
             })
