@@ -164,6 +164,9 @@ export default {
                 ElMessage.error(r.data.msg)
             }
             this.isCreateShow = false
+            setTimeout(() => {
+                this.getMyOSTs()
+            }, 1000);
         },
 
         async getMyOSTs() {
