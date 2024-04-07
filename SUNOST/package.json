@@ -11,8 +11,10 @@
     "deploy2": "vite build && scp -r dist/* ubuntu@3.144.208.85:/var/aiapps/SUNOST"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "axios": "^1.6.8",
     "element-plus": "^2.6.1",
+    "js-cookie": "^3.0.5",
     "moment": "^2.30.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",

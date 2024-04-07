@@ -1,6 +1,6 @@
 <template>
     <div class="login">
-        <el-card class="w-full m-auto max-w-md min-w-md">
+        <el-card class="w-1/2 m-auto min-w-96">
             <div class="clearfix">
                 <div class="text-2xl m-8 text-center">SUNOST</div>
                 <div class="text-center text-lm mb-4">Sign In Or Sign Up Easily</div>
@@ -16,7 +16,7 @@
                 </el-form-item>
             </el-form>
             <div class="m-4 m-auto">
-                <el-button style="margin-left: 200px;" class="" type="primary" @click="signin">Sign In</el-button>
+                <el-button type="primary" @click="signin">Sign In</el-button>
                 <span class="w-12 text-center"> Or </span>
                 <el-button @click="signup">Sign Up</el-button>
             </div>

@@ -1,14 +1,15 @@
 <template>
     <div class="p-16 generate">
-        <div class="cursor-pointer underline createbtn" @click="create">
+        <div class="text-2xl cursor-pointer underline createbtn mt-8" @click="create">
             Create Your Masterpiece
             <span class="bold" v-if="!myOSTs.length">
                 For FREE!
             </span>
-            <span v-else>(cost 20 balance for 2 songs once)</span>
+            <span v-else>
+                <br>(cost 20 balance for 2 songs once)</span>
         </div>
         <div class="text-2xl mt-8 bold"># My OST</div>
-        <div class="mt-4 flex flex-wrap ">
+        <div class="mt-4 flex flex-wrap justify-center">
             <div v-if="!myOSTs.length" class="text-4xl text-gray-500 mt-8">Empty here. Waiting for your creation.</div>
             <Card v-for="(ost, index) in myOSTs" :key="index" :ost="ost" @playclick="$emit('playclick', ost)"></Card>
         </div>

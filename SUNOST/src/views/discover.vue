@@ -13,12 +13,12 @@
             or CREATE your own OST
         </div>
 
-        <div class="mt-8 flex flex-wrap ">
+        <div class="mt-8 flex flex-wrap justify-center">
             <Card v-for="(ost, index) in osts" :key="index" :ost="ost" @playclick="$emit('playclick', ost)"></Card>
         </div>
         <div class="text-sm mt-16 mb-16">
             <div class="cursor-pointer" @click="contact()">
-                EMAIL US：support@sunost.ai
+                EMAIL US：support@sunost.com
             </div>
             <div>
                 Copyright © 2024 SUNOST. All rights reserved.
@@ -60,10 +60,10 @@ async function getRecommand() {
 }
 
 function contact() {
-    ElMessage({
-        message: '先等等联系吧，还没开发完',
-        type: 'info'
-    });
+    // ElMessage({
+    //     message: '先等等联系吧，还没开发完',
+    //     type: 'info'
+    // });
 }
 
 </script>

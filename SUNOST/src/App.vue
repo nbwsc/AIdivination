@@ -8,7 +8,7 @@
       </span>
     </div>
     <div class="menu">
-      <nav>
+      <nav class="pcnav">
         <RouterLink class="text-lm underline navitem" to="/">Discover</RouterLink>
         <RouterLink class="text-lm underline navitem" to="/generate">Generate</RouterLink>
         <el-tooltip v-if="account._id" :content="'Balance: ' + account.sunoScore" placement="top" effect="dark">
@@ -16,6 +16,27 @@
         </el-tooltip>
 
         <a v-else class="text-lm navitem" @click="onLoginClicked">Sign In</a>
+      </nav>
+      <nav class="mobilenav">
+        <el-dropdown>
+          <span class="el-dropdown-link">
+            MENU
+          </span>
+          <template #dropdown>
+            <el-dropdown-menu>
+              <el-dropdown-item>
+                <RouterLink class="text-lm underline navitem" to="/">Discover</RouterLink>
+              </el-dropdown-item>
+              <el-dropdown-item>
+                <RouterLink class="text-lm underline navitem" to="/generate">Generate</RouterLink>
+              </el-dropdown-item>
+              <el-dropdown-item>
+                <a v-if="account._id" class="text-lm navitem" @click="onLoginClicked">{{ this.account.username }}</a>
+                <a v-else class="text-lm navitem" @click="onLoginClicked">Sign In</a>
+              </el-dropdown-item>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
       </nav>
     </div>
   </header>
@@ -193,6 +214,8 @@ export default {
   width: 120px;
   margin-top: 10px;
   color: #c5c5c5;
+  /* background-image: url('/favicon.ico');
+  background-size: 100%; */
 }
 
 
@@ -258,5 +281,19 @@ export default {
 .dialog {
   background-color: #00000088;
   height: 70vh;
+}
+
+.mobilenav {
+  display: none;
+}
+
+@media (width <=600px) {
+  .mobilenav {
+    display: block;
+  }
+
+  .pcnav {
+    display: none;
+  }
 }
 </style>

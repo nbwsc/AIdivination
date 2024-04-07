@@ -4,14 +4,22 @@
             <span class="text-sm">{{ ost.title }}</span>
         </div>
         <div @click="$emit('playclick', ost)">
-            <img class="w-full" :src="ost.image_url" alt="">
+            <img class="w-full cover" :src="ost.image_url" alt="">
             <div class="text-xs mt-2 h-12 overflow-hidden">{{ ost.tags }}</div>
-            <div class="text-xs mt-2">{{ $filters.format(ost.createTime) }}</div>
+            <div class="text-xs"> {{ $filters.format(ost.createTime) }}</div>
+            <el-icon>
+                <Headset class="text-sm" />
+                <span class="ml-2 text-sm">
+                    {{ ost.playCount }}
+                </span>
+            </el-icon>
         </div>
+
         <div class="text-2xl pt-24 mask" v-if="ost.state !== 'success'">{{ ost.state }}</div>
     </el-card>
 </template>
 <script setup>
+import { Headset } from '@element-plus/icons-vue'
 defineProps({
     ost: Object
 })
@@ -36,5 +44,9 @@ defineProps({
     background-color: rgba(0, 0, 0, 0.4);
     color: #fff;
     text-align: center;
+}
+
+.cover {
+    min-height: 189px;
 }
 </style>
