@@ -6,7 +6,7 @@
                 For FREE!
             </span>
             <span v-else>
-                <br>(cost 20 balance for 2 songs once)</span>
+                <br>(Cost 20 Credit for 2 Songs Once)</span>
         </div>
         <div class="text-2xl mt-8 bold"># My OST</div>
         <div class="mt-4 flex flex-wrap justify-center">
@@ -123,6 +123,7 @@ export default {
         }
     },
     mounted() {
+        document.title = 'Generate - Sunost - Free Background Music for Games and Films'
         if (getToken()) {
             this.getMyOSTs()
         }

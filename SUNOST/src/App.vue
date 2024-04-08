@@ -11,7 +11,7 @@
       <nav class="pcnav">
         <RouterLink class="text-lm underline navitem" to="/">Discover</RouterLink>
         <RouterLink class="text-lm underline navitem" to="/generate">Generate</RouterLink>
-        <el-tooltip v-if="account._id" :content="'Balance: ' + account.sunoScore" placement="top" effect="dark">
+        <el-tooltip v-if="account._id" :content="'Credit: ' + account.sunoScore" placement="top" effect="dark">
           <a class="text-lm navitem" @click="onLoginClicked">{{ this.account.username }}</a>
         </el-tooltip>
 

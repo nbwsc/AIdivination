@@ -1,8 +1,8 @@
 <template>
     <div class="discover">
-        <div class="text-4xl mt-24">
+        <h1 class="text-4xl mt-24">
             DISCOVER NEW SOUND WITH AI
-        </div>
+        </h1>
         <div class="text-2xl mt-16">
             EXPLORE an OST for your
             <span style="display:inline-block;width:6rem;color: rgb(236, 65, 65);" class="text-4xl">
@@ -47,6 +47,8 @@ const osts = ref([])
 
 onMounted(() => {
     getRecommand()
+    // set html title for this page
+    document.title = 'Discover - Sunost - Free Background Music for Games and Films'
 })
 
 async function getRecommand() {
