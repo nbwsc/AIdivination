@@ -1,6 +1,5 @@
 <template>
     <div>
-        sdflsdfajsdflksj
         <Card :ost="ost"></Card>
     </div>
 </template>
