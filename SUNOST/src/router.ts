@@ -18,6 +18,16 @@ const router = createRouter({
       name: "detail",
       component: () => import("./views/ostdetail.vue"),
     },
+    {
+      path: "/privacy",
+      name: "privacy",
+      component: () => import("./views/privacy.vue"),
+    },
+    {
+      path: "/terms",
+      name: "terms",
+      component: () => import("./views/terms.vue"),
+    },
   ],
 });
 

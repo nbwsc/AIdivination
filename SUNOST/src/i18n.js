@@ -1,5 +1,13 @@
 export default {
   English: {
+    app: {
+      discover: "Discover",
+      generate: "Generate",
+      signin: "Sign In",
+      signup: "Sign Up",
+      signout: "Sign Out",
+      menu: "Menu",
+    },
     lang: "English",
     title: "Fortune Stick",
     ph_fortunes: "Enter your fortune",

@@ -21,6 +21,13 @@
                 EMAIL US：support@sunost.com
             </div>
             <div>
+                <RouterLink class="text-lm " to="/terms">Terms of Service </RouterLink>
+                <span>
+                    |
+                </span>
+                <RouterLink class="text-lm " to="/privacy"> Privacy Policy</RouterLink>
+            </div>
+            <div>
                 Copyright © 2024 SUNOST. All rights reserved.
             </div>
         </div>
