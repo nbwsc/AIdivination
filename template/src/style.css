@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    /* font-family: PingFangSC-Regular, sans-serif; */
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    /* font-family: Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
+}
+
+:root {
+    --el-color-primary: rgb(63, 28, 158);
+}
+
+.el-button {
+    color: rgb(63, 28, 158);
+}
+
+.el-button:hover {
+    color: #fff;
+    border-color: rgb(63, 28, 158);
+    background-color: rgb(63, 28, 158);
+    outline: 0;
+}
+
+.el-dialog__title{
+    color: #c5c5c5;
+}
