@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
+#app {
+    width:300px;
+    height: 500px;
     /* font-family: PingFangSC-Regular, sans-serif; */
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
     /* font-family: Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
