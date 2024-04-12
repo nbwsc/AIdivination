@@ -7,8 +7,7 @@
             </div>
         </div>
         <div class="inputpanel">
-            <el-input type="textarea" :rows="2" v-model="message" placeholder="请输入" :maxlength="-1"
-                :show-word-limit="false">
+            <el-input type="textarea" :rows="2" v-model="message" placeholder="请输入" :maxlength="200" show-word-limit>
             </el-input>
             <el-button type="primary" size="default" :disabled="disabledApp" @click="sendMessage">发送</el-button>
         </div>
@@ -48,6 +47,9 @@ async function getHistory() {
         uuid, companyId: companyInfo._id
     })
     history.value = r.data.data.map(e => { e.createdAt = now(e.createdAt); return e })
+    if (!history.value.length) {
+        pushHistory('你好，我是你的专属客服，有什么可以帮助你的吗？', 'BOT')
+    }
     moveBottom()
 }
 
@@ -58,10 +60,6 @@ async function checkAccessKey() {
     if (r.data.code === 0) {
         disabledApp.value = false
         companyInfo = r.data.data
-        ElMessage({
-            message: 'AccessKey 验证成功',
-            type: 'success',
-        })
         await getHistory()
     } else {
         disabledApp.value = true
@@ -147,5 +145,6 @@ function now(t?: string) {
     height: 500px;
     position: relative;
     border: 1px solid;
+    padding: 8px;
 }
 </style>

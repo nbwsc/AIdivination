@@ -28,7 +28,7 @@ const message = defineProps({
 <style scoped>
 .chatbubble {
     padding: 4px 0;
-    color: #c5c5c5;
+    color: #555;
     width: 100%;
     animation: fadeIn 1s ease-in-out;
 }
@@ -48,6 +48,6 @@ const message = defineProps({
 }
 
 .time {
-    color: #555
+    color: #c5c5c5;
 }
 </style>
