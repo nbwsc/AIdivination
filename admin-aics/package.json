@@ -1,0 +1,32 @@
+{
+  "name": "fe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && scp -r dist/* ubuntu@188.131.164.111:/var/aiapps/SUNOST",
+    "deploy2": "vite build && scp -r dist/* ubuntu@3.144.208.85:/var/aiapps/SUNOST"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "axios": "^1.6.8",
+    "element-plus": "^2.6.1",
+    "js-cookie": "^3.0.5",
+    "moment": "^2.30.1",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0",
+    "vue3-audio-player": "^1.0.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "vite": "^5.1.6"
+  }
+}
