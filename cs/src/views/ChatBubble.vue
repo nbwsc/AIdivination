@@ -1,9 +1,9 @@
 <template>
     <div class="chatbubble" :class="{ isRight: message.type === 'User' }">
-        <div>
+        <div class="text-sm">
             {{ message.chat }}
         </div>
-        <div class="time">{{ message.createdAt }}</div>
+        <div class="time text-xs">{{ message.createdAt }}</div>
     </div>
 </template>
 <script lang="ts" setup>
@@ -27,8 +27,8 @@ const message = defineProps({
 </script>
 <style scoped>
 .chatbubble {
-    padding: 16px 0;
-    color: #fff;
+    padding: 4px 0;
+    color: #c5c5c5;
     width: 100%;
     animation: fadeIn 1s ease-in-out;
 }

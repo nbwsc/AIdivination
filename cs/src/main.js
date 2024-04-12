@@ -8,8 +8,8 @@ import axios from "axios";
 import "element-plus/theme-chalk/el-message.css";
 import "./style.css";
 moment.locale("zh-cn");
-axios.defaults.baseURL = "https://livewithai.tech/aiapi";
-// axios.defaults.baseURL = 'http://localhost:9000'
+// axios.defaults.baseURL = "https://livewithai.tech/aiapi";
+axios.defaults.baseURL = 'http://localhost:9000'
 
 const app = createApp(App);
 app.use(router);

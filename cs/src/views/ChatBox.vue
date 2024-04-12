@@ -10,7 +10,7 @@
             <el-input type="textarea" :rows="2" v-model="message" placeholder="请输入" :maxlength="-1"
                 :show-word-limit="false">
             </el-input>
-            <el-button type="primary" size="default" @click="sendMessage">发送</el-button>
+            <el-button type="primary" size="default" :disabled="disabledApp" @click="sendMessage">发送</el-button>
         </div>
     </div>
 </template>
@@ -18,29 +18,58 @@
 import { useRoute } from 'vue-router'
 import { ref, onMounted, Ref } from 'vue'
 import axios from 'axios';
+import { v4 as uuidv4 } from 'uuid';
 import ChatBubble from './ChatBubble.vue';
 import { ElMessage } from 'element-plus';
 const message = ref('')
 const history: Ref<any[]> = ref([])
 let accessKey
-
+let uuid
+let companyInfo
 const route = useRoute()
-onMounted(() => {
+const disabledApp = ref(true)
+onMounted(async () => {
     // get history
-    console.log(route.query)
-    if (!route.query.accessKey) {
-        return ElMessage('参数错误！')
+    accessKey = route.query.accessKey
+    if (!accessKey) {
+        return ElMessage('缺少AccessKey')
     }
-    accessKey = route.query.accessKey as string
-    // getHistory()
+    uuid = window.localStorage.getItem('aics_uuid')
+    if (!uuid) {
+        uuid = uuidv4();
+        window.localStorage.setItem('aics_uuid', uuid)
+    }
+
+    await checkAccessKey()
 })
 
 async function getHistory() {
     const r = await axios.post('aics/getChatHistory', {
-        characterId: accessKey
+        uuid, companyId: companyInfo._id
     })
     history.value = r.data.data.map(e => { e.createdAt = now(e.createdAt); return e })
     moveBottom()
+}
+
+async function checkAccessKey() {
+    const r = await axios.post('aics/checkAccessKey', {
+        accessKey, uuid
+    })
+    if (r.data.code === 0) {
+        disabledApp.value = false
+        companyInfo = r.data.data
+        ElMessage({
+            message: 'AccessKey 验证成功',
+            type: 'success',
+        })
+        await getHistory()
+    } else {
+        disabledApp.value = true
+        ElMessage({
+            message: 'AccessKey 验证失败',
+            type: 'error',
+        })
+    }
 }
 
 function pushHistory(chat: string, type: string) {
@@ -67,14 +96,14 @@ async function sendMessage() {
     const chat = message.value
     message.value = ''
     pushHistory(chat, 'User')
-    const r = await axios.post('http://leapcapital.cn:8099/CyberResurrection/chat', {
-        accountId: "test",
-        characterId: accessKey,
+    const r = await axios.post('/aics/chat', {
+        uuid,
+        companyId: companyInfo._id,
         chat
     })
     if (r.data.code === 0) {
         const chat = r.data.data
-        pushHistory(chat, 'Charactor')
+        pushHistory(chat, 'BOT')
     } else {
         ElMessage('抱歉出错了！请稍后重试')
     }
@@ -99,10 +128,9 @@ function now(t?: string) {
 
 .chatpanel {
     height: 65%;
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
     overflow-y: scroll;
-    padding: 20px 5%;
+    padding: 8px;
 }
 
 .el-textarea__inner {
@@ -112,17 +140,6 @@ function now(t?: string) {
     background-color: #0000;
     font-size: 18px;
     color: #aaa
-}
-
-.el-button {
-    margin: 8px;
-    margin-top: 32px;
-    height: 42px;
-    font-size: 18px;
-    width: 80%;
-    background-color: #0000;
-    border: 1px solid #fff;
-    border-radius: 21px;
 }
 
 .chatbox {

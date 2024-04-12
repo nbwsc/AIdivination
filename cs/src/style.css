@@ -13,18 +13,3 @@
 :root {
     --el-color-primary: rgb(63, 28, 158);
 }
-
-.el-button {
-    color: rgb(63, 28, 158);
-}
-
-.el-button:hover {
-    color: #fff;
-    border-color: rgb(63, 28, 158);
-    background-color: rgb(63, 28, 158);
-    outline: 0;
-}
-
-.el-dialog__title{
-    color: #c5c5c5;
-}

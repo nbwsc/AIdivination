@@ -6,12 +6,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: () => import("./views/discover.vue"),
-    },
-    {
-      path: "/generate",
-      name: "generate",
-      component: () => import("./views/generate.vue"),
+      component: () => import("./views/ChatBox.vue"),
     },
     {
       path: "/privacy",
