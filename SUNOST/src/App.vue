@@ -87,6 +87,9 @@ export default {
       axios.defaults.headers.common['x-token'] = token
       this.info()
     }
+    window.onGoogleCallback = (googleUser) => {
+      console.log(googleUser)
+    }
   },
   computed: {
     SignInTXT() {
@@ -101,6 +104,7 @@ export default {
         this.account = r.data.data.account
       } else {
         ElMessage.error(r.data.msg)
+        removeToken()
       }
     },
 

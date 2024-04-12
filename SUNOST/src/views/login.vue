@@ -3,7 +3,15 @@
         <el-card class="w-1/2 m-auto min-w-96">
             <div class="clearfix">
                 <div class="text-2xl m-8 text-center">SUNOST</div>
-                <div class="text-center text-lm mb-4">Sign In Or Sign Up Easily</div>
+            </div>
+            <div id="g_id_onload"
+                data-client_id="970143445791-kggfil9bli5dh82le1tc8u2mu1fpitb3.apps.googleusercontent.com"
+                data-context="signin" data-ux_mode="popup" data-callback="onGoogleCallback" data-auto_select="true"
+                data-itp_support="true">
+            </div>
+
+            <div class="g_id_signin" data-type="standard" data-shape="rectangular" data-theme="outline"
+                data-text="signin_with" data-size="large" data-logo_alignment="left">
             </div>
             <el-form>
                 <el-form-item label="Username">
@@ -20,6 +28,7 @@
                 <span class="w-12 text-center"> Or </span>
                 <el-button @click="signup">Sign Up</el-button>
             </div>
+
         </el-card>
     </div>
 </template>
@@ -40,8 +49,10 @@ export default {
         if (getToken()) {
             this.$emit('onLogin')
         }
+
     },
     methods: {
+
         async signin() {
             if (this.username === "" || this.password === "") {
                 ElMessage.error("Username or Password can not be empty")
@@ -81,4 +92,4 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style></style>
