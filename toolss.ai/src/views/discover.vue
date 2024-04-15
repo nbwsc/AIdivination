@@ -3,7 +3,7 @@
         <h1 class="text-4xl  mt-16">Discover The Best AI Tools & Websites</h1>
         <h2 class="text-xl mt-8">
             <span style="color:#cf4343">
-                12,423
+                12,{{ aicount }}
             </span>
             AIs and
             <span style="color:#cf4343">
@@ -12,12 +12,12 @@
             categories in the best AI tools directory.
         </h2>
         <div class="text-xl mt-8"> AI tools list are updated daily</div>
-        <el-input class="searchinput" v-model="search" placeholder="Search for tools" size="normal" clearable
+        <el-input class="searchinput" v-model="search" placeholder="Search for tools" clearable
             @change="onSearch"></el-input>
         <div class="flex flex-wrap justify-center max-w-7xl m-auto">
             <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :key="tool.id"></toolcard>
         </div>
-        <el-button v-if="!search" type="text" size="default" @click="loadMore">
+        <el-button v-if="!search" type="text" @click="loadMore">
             <div class="text-white underline">
                 Load More ...
             </div>
@@ -47,12 +47,24 @@ import toolcard from './toolcard.vue';
 const toolsToShow = ref([])
 const showLimit = 20
 const search = ref('')
+const aicount = ref(435)
+
+
 function onSearch() {
     toolsToShow.value = toolsjson.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase()))
     console.log(toolsToShow.value)
 }
 
 onMounted(() => {
+    const localCount = window.localStorage.getItem('aicount')
+    if (localCount) {
+        aicount.value = +localCount
+    }
+    setTimeout(() => {
+        aicount.value += 1
+        window.localStorage.setItem('aicount', aicount.value)
+    }, 8456);
+
     toolsToShow.value = toolsjson.slice(0, showLimit)
 })
 
