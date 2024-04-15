@@ -35,4 +35,8 @@ function goto(tool) {
     color: #fff;
     border: 0;
 }
+
+.card:hover {
+    scale: 1.05;
+}
 </style>

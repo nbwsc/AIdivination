@@ -88,10 +88,11 @@ function loadMore() {
 }
 
 .searchinput {
-    width: 60%;
+    width: 80%;
+    max-width: 800px;
     height: 60px;
     font-size: 32px;
     line-height: 60px;
-    margin: 24px;
+    margin: 32px;
 }
 </style>
