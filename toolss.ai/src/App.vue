@@ -1,6 +1,6 @@
 <template>
   <header class="navbar">
-    <a href="https://www.toolss.ai" class="text-4xl flex  logo">
+    <a href="https://toolss.ai" class="text-4xl flex  logo">
       <img src="@/assets/toolss2.png" alt="">
       <!-- <span>
         TOOLS
