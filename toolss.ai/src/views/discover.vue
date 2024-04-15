@@ -1,7 +1,6 @@
 <template>
     <div class="discover">
-        <h1 class="text-4xl  mt-16">Discover The Best AI Websites & Tools</h1>
-
+        <h1 class="text-4xl  mt-16">Discover The Best AI Tools & Websites</h1>
         <h2 class="text-xl mt-8">
             <span style="color:#cf4343">
                 12,423
@@ -17,13 +16,12 @@
             @change="onSearch"></el-input>
         <div class="flex flex-wrap justify-center max-w-7xl m-auto">
             <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :key="tool.id"></toolcard>
-            <el-button v-if="!search" type="text" size="default" @click="loadMore">
-                <div class="text-white underline">
-                    Load More ...
-                </div>
-            </el-button>
-
         </div>
+        <el-button v-if="!search" type="text" size="default" @click="loadMore">
+            <div class="text-white underline">
+                Load More ...
+            </div>
+        </el-button>
 
         <div class="text-sm mt-16 mb-16">
             <a class="cursor-pointer underline" href="mailto:support@toolss.ai">
@@ -37,7 +35,7 @@
                 <RouterLink class="text-lm " to="/privacy"> Privacy Policy</RouterLink>
             </div>
             <div>
-                Copyright © 2024 Toolss.ai . All rights reserved.
+                Copyright © 2024 Toolss.ai & All rights reserved.
             </div>
         </div>
     </div>

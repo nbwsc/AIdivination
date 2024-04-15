@@ -1,5 +1,5 @@
 <template>
-    <el-card class="w-64 card" shadow="hover" :body-style="{ padding: '20px' }">
+    <el-card class="w-56 card" shadow="hover" :body-style="{ padding: '20px' }">
         <div slot="header">
             <div class="text-sm h-8 cursor-pointer" @click="goto(tool)">{{ tool.name }}</div>
             <el-tag type="info" size="mini" effect="dark">{{ tool.task }}</el-tag>
