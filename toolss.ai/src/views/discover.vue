@@ -93,7 +93,7 @@ function loadMore() {
     font-weight: bold;
     color: #f5f5f5;
     text-align: center;
-    padding: 60px 2rem;
+    padding: 60px 0rem;
 }
 
 .el-input__wrapper {
