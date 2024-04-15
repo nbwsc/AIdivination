@@ -5,7 +5,7 @@
             <span style="color:#cf4343">
                 12,{{ aicount }}
             </span>
-            AIs and
+            AI tools and
             <span style="color:#cf4343">
                 143
             </span>
@@ -13,8 +13,8 @@
         </h2>
         <div class="text-xl mt-8"> AI tools list are updated daily</div>
         <el-input class="searchinput" v-model="search" placeholder="Search for tools" @change="onSearch"></el-input>
-        <div class="flex flex-wrap justify-center max-w-7xl m-auto">
-            <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :key="tool.id"></toolcard>
+        <div class="flex flex-wrap justify-center m-auto">
+            <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :search="search" :key="tool.id"></toolcard>
         </div>
         <el-button v-if="!search" type="text" @click="loadMore">
             <div class="text-white underline">
@@ -40,18 +40,29 @@
     </div>
 </template>
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, watch } from 'vue'
 import toolsjson from './tools.json'
-import toolcard from './toolcard.vue';
+import toolslogojson from './toolslogo.json'
+import toolcard from './card-small.vue';
+
 const toolsToShow = ref([])
-let showLimit = 20
 const search = ref('')
 const aicount = ref(435)
+
+watch(search, () => {
+    onSearch()
+})
+const allTools = toolsjson.map((e, i) => {
+    e.logo = toolslogojson[i]
+    return e
+})
+let showLimit = 20
+
 
 
 function onSearch() {
     showLimit = 20
-    toolsToShow.value = toolsjson.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase())).slice(0, showLimit)
+    toolsToShow.value = allTools.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase())).slice(0, showLimit)
 }
 
 onMounted(() => {
@@ -64,11 +75,14 @@ onMounted(() => {
         window.localStorage.setItem('aicount', aicount.value)
     }, 8456);
 
-    toolsToShow.value = toolsjson.slice(0, showLimit)
+    toolsToShow.value = allTools.slice(0, showLimit).map((e, i) => {
+        e.logo = toolslogojson[i];
+        return e
+    })
 })
 
 function loadMore() {
-    toolsToShow.value = toolsjson.slice(0, toolsToShow.value.length + showLimit)
+    toolsToShow.value = allTools.slice(0, toolsToShow.value.length + showLimit)
 }
 
 

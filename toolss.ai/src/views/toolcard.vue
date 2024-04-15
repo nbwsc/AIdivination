@@ -4,8 +4,8 @@
             <div class="text-sm h-8 cursor-pointer" @click="goto(tool)">{{ tool.name }}</div>
             <el-tag type="info" size="mini" effect="dark">{{ tool.task }}</el-tag>
         </div>
-        <img class="mt-4 cursor-pointer" :src="`https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}`"
-            alt="">
+        <img class="mt-4 cursor-pointer"
+            :src="tool.logo || `https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}`" alt="">
         <div class="text-sm mt-4">
             {{ tool.desc || tool.task_slug }}
         </div>
