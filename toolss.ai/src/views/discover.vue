@@ -12,8 +12,7 @@
             categories in the best AI tools directory.
         </h2>
         <div class="text-xl mt-8"> AI tools list are updated daily</div>
-        <el-input class="searchinput" v-model="search" placeholder="Search for tools" clearable
-            @change="onSearch"></el-input>
+        <el-input class="searchinput" v-model="search" placeholder="Search for tools" @change="onSearch"></el-input>
         <div class="flex flex-wrap justify-center max-w-7xl m-auto">
             <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :key="tool.id"></toolcard>
         </div>
@@ -45,14 +44,14 @@ import { ref, computed, onMounted } from 'vue'
 import toolsjson from './tools.json'
 import toolcard from './toolcard.vue';
 const toolsToShow = ref([])
-const showLimit = 20
+let showLimit = 20
 const search = ref('')
 const aicount = ref(435)
 
 
 function onSearch() {
-    toolsToShow.value = toolsjson.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase()))
-    console.log(toolsToShow.value)
+    showLimit = 20
+    toolsToShow.value = toolsjson.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase())).slice(0, showLimit)
 }
 
 onMounted(() => {
