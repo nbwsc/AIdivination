@@ -1,5 +1,5 @@
 {
-  "name": "fe",
+  "name": "admin-aics",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build && scp -r dist/* ubuntu@188.131.164.111:/var/aiapps/SUNOST",
-    "deploy2": "vite build && scp -r dist/* ubuntu@3.144.208.85:/var/aiapps/SUNOST"
+    "deploy": "vite build && scp -r dist/* ubuntu@188.131.164.111:/var/aiapps/adminaics"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
