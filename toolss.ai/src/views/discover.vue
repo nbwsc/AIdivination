@@ -41,21 +41,17 @@
 </template>
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
-import toolsjson from './tools.json'
-import toolslogojson from './toolslogo.json'
 import toolcard from './card-small.vue';
 
 const toolsToShow = ref([])
 const search = ref('')
 const aicount = ref(435)
-
+let allTools = []
+let newDate = ''
 watch(search, () => {
     onSearch()
 })
-const allTools = toolsjson.map((e, i) => {
-    e.logo = toolslogojson[i]
-    return e
-})
+
 let showLimit = 20
 
 
@@ -65,7 +61,11 @@ function onSearch() {
     toolsToShow.value = allTools.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase())).slice(0, showLimit)
 }
 
-onMounted(() => {
+onMounted(async () => {
+    const response = await fetch("/tools.json");
+    const json = await response.json();
+    newDate = json[0].uploadAt
+    allTools = json.map(e => e.uploadAt ? { ...e, isNew: true } : e)
     const localCount = window.localStorage.getItem('aicount')
     if (localCount) {
         aicount.value = +localCount
@@ -75,10 +75,7 @@ onMounted(() => {
         window.localStorage.setItem('aicount', aicount.value)
     }, 8456);
 
-    toolsToShow.value = allTools.slice(0, showLimit).map((e, i) => {
-        e.logo = toolslogojson[i];
-        return e
-    })
+    toolsToShow.value = allTools.slice(0, showLimit)
 })
 
 function loadMore() {

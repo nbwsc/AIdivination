@@ -1,6 +1,6 @@
 <template>
     <el-card class="w-80 card" shadow="hover" :body-style="{ padding: '20px' }">
-        <div class="flex">
+        <div class="flex relative">
 
             <img class="w-16 mr-4 cursor-pointer"
                 :src="tool.logo || `https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}`" alt="">
@@ -8,6 +8,8 @@
                 <div class="text-sm h-8 cursor-pointer" @click="goto(tool)" v-html="namehtml"></div>
                 <el-tag class="text-xs" type="info" effect="dark" v-html="taskhtml"></el-tag>
             </div>
+            <div class="newflag" v-if="tool.isNew">New</div>
+
         </div>
     </el-card>
 </template>
@@ -61,5 +63,25 @@ function goto(tool) {
 
 .card:hover {
     scale: 1.05;
+}
+
+.newflag {
+    position: absolute;
+    top: -11px;
+    right: 8px;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    color: rgb(207, 67, 67);
+    font-size: 21px;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+    transform: rotate(38deg);
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0;
+    border-radius: 0 0 0 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 </style>

@@ -16,6 +16,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 defineProps(['tool'])
+
 // const tool = {
 //     id: "42367",
 //     name: "Nendo",

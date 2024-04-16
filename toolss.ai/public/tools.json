@@ -1,0 +1,5487 @@
+[
+  {
+    "id": "42388",
+    "logo": "https://media.theresanaiforthat.com/icons/limitless.svg?height=207",
+    "name": "Limitless",
+    "task": "Meeting summaries",
+    "task_id": "120",
+    "task_slug": "meeting-summaries",
+    "url": "https://www.limitless.ai/?ref=toolss&utm_source=toolss&utm_medium=referral",
+    "uploadAt": "2024-04-16"
+  },
+  {
+    "id": "42386",
+    "logo": "https://media.theresanaiforthat.com/icons/growth-makers.svg?height=207",
+    "name": "Growth Makers",
+    "task": "Marketing strategies",
+    "task_id": "13722",
+    "task_slug": "marketing-strategies",
+    "url": "https://www.growthmakers.app/?ref=toolss&utm_source=toolss&utm_medium=referral",
+    "uploadAt": "2024-04-16"
+  },
+  {
+    "id": "42385",
+    "logo": "https://media.theresanaiforthat.com/icons/august-1713211647.svg?height=207",
+    "name": "August",
+    "task": "Health advice",
+    "task_id": "1001",
+    "task_slug": "health-advice",
+    "url": "https://www.getbeyondhealth.com/?ref=toolss&utm_source=toolss&utm_medium=referral",
+    "uploadAt": "2024-04-16"
+  },
+  {
+    "id": "42378",
+    "logo": "https://media.theresanaiforthat.com/icons/explainit.svg?height=207",
+    "name": "ExplainIt",
+    "task": "Documentation Q&A",
+    "task_id": "13655",
+    "task_slug": "documentation-q-a",
+    "url": "https://explainit.mzslabs.com/?ref=toolss&utm_source=toolss&utm_medium=referral",
+    "uploadAt": "2024-04-16"
+  },
+  {
+    "id": "42367",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Nendo",
+    "task": "Music samples",
+    "task_id": "6172",
+    "task_slug": "music-samples",
+    "url": "https://nendo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42365",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-children-s-book-creator.svg?height=207",
+    "name": "AI Children's Book Creator",
+    "task": "Children's stories",
+    "task_id": "68",
+    "task_slug": "children-s-stories",
+    "url": "https://kidsbook.connelly.casa/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42360",
+    "logo": "https://media.theresanaiforthat.com/icons/mytask.svg?height=207",
+    "name": "MyTask",
+    "task": "Task management",
+    "task_id": "13850",
+    "task_slug": "task-management",
+    "url": "https://mytaskai.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42359",
+    "logo": "https://media.theresanaiforthat.com/icons/intelligeniusai.svg?height=207",
+    "name": "IntelliGeniusAI",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://intelligenius.ai/home/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42345",
+    "logo": "https://media.theresanaiforthat.com/icons/localgpt.png?height=207",
+    "name": "LocalGPT",
+    "task": "Private conversations",
+    "task_id": "30150",
+    "task_slug": "private-conversations",
+    "url": "https://chromewebstore.google.com/detail/localgpt-local-private-fr/olmanpjepeepjakgebgggedhjmlfjonf?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42344",
+    "logo": "https://media.theresanaiforthat.com/icons/faishion.png?height=207",
+    "name": "fAIshion",
+    "task": "Virtual try-ons",
+    "task_id": "29989",
+    "task_slug": "virtual-try-ons",
+    "url": "https://chromewebstore.google.com/detail/faishion-virtual-try-on-p/gpclcbeibdepihaaeddaaijekabieiok?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42336",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-reelity-trip-planner.svg?height=207",
+    "name": "AI Reelity Trip Planner",
+    "task": "Travel plans",
+    "task_id": "20311",
+    "task_slug": "travel-plans",
+    "url": "https://www.aireelity.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42340",
+    "logo": "https://media.theresanaiforthat.com/icons/wikipedia-article-ai.svg?height=207",
+    "name": "Wikipedia Article AI",
+    "task": "Wikipedia pages",
+    "task_id": "30149",
+    "task_slug": "wikipedia-pages",
+    "url": "https://www.wikipediaarticle.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42339",
+    "logo": "https://media.theresanaiforthat.com/icons/reel2recipe.svg?height=207",
+    "name": "Reel2Recipe",
+    "task": "Video to recipes",
+    "task_id": "5895",
+    "task_slug": "video-to-recipes",
+    "url": "https://reel2recipe.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42338",
+    "logo": "https://media.theresanaiforthat.com/icons/excel-master.svg?height=207",
+    "name": "Excel Master",
+    "task": "Excel assistance",
+    "task_id": "15647",
+    "task_slug": "excel-assistance",
+    "url": "https://excelmaster.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42337",
+    "logo": "https://media.theresanaiforthat.com/icons/wozlo-chess.png?height=207",
+    "name": "Wozlo Chess",
+    "task": "Chess coaching",
+    "task_id": "15739",
+    "task_slug": "chess-coaching",
+    "url": "https://apps.apple.com/us/app/wozlo-chess/id6481724799?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42325",
+    "logo": "https://media.theresanaiforthat.com/icons/acepal.svg?height=207",
+    "name": "ACEPAL",
+    "task": "Marketing task management",
+    "task_id": "30146",
+    "task_slug": "marketing-task-management",
+    "url": "https://acepal.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42317",
+    "logo": "https://media.theresanaiforthat.com/icons/empowerme.svg?height=207",
+    "name": "EmpowerMe",
+    "task": "Leadership development",
+    "task_id": "29582",
+    "task_slug": "leadership-development",
+    "url": "https://transforme.com.au/empower-me/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42316",
+    "logo": "https://media.theresanaiforthat.com/icons/aionisys.svg?height=207",
+    "name": "Aionisys",
+    "task": "E-commerce support",
+    "task_id": "28183",
+    "task_slug": "e-commerce-support",
+    "url": "https://www.aionisys.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42315",
+    "logo": "https://media.theresanaiforthat.com/icons/storipress.svg?height=207",
+    "name": "Storipress",
+    "task": "Sales",
+    "task_id": "13096",
+    "task_slug": "sales",
+    "url": "https://storipress.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42311",
+    "logo": "https://media.theresanaiforthat.com/icons/tipis-ai.svg?height=207",
+    "name": "Tipis AI",
+    "task": "Data analysis",
+    "task_id": "2132",
+    "task_slug": "data-analysis",
+    "url": "https://tipis.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42314",
+    "logo": "https://media.theresanaiforthat.com/icons/replexica.svg?height=207",
+    "name": "Replexica",
+    "task": "Frontend code generation",
+    "task_id": "23485",
+    "task_slug": "frontend-code-generation",
+    "url": "https://replexica.com/en?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42313",
+    "logo": "https://media.theresanaiforthat.com/icons/astrology-works.svg?height=207",
+    "name": "Astrology Works",
+    "task": "Astrology",
+    "task_id": "13177",
+    "task_slug": "astrology",
+    "url": "https://astrology.works/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42312",
+    "logo": "https://media.theresanaiforthat.com/icons/facelessvideos-ai.svg?height=207",
+    "name": "FacelessVideos.AI",
+    "task": "Faceless videos",
+    "task_id": "29334",
+    "task_slug": "faceless-videos",
+    "url": "https://www.facelessvideos.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42298",
+    "logo": "https://media.theresanaiforthat.com/icons/breezemail.svg?height=207",
+    "name": "Breezemail",
+    "task": "Outlook email management",
+    "task_id": "30142",
+    "task_slug": "outlook-email-management",
+    "url": "https://www.breezemail.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42289",
+    "logo": "https://media.theresanaiforthat.com/icons/sumyai.svg?height=207",
+    "name": "SumyAI",
+    "task": "YouTube summaries",
+    "task_id": "281",
+    "task_slug": "youtube-summaries",
+    "url": "https://www.sumyai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42288",
+    "logo": "https://media.theresanaiforthat.com/icons/write-conch-ai.svg?height=207",
+    "name": "Write Conch AI",
+    "task": "Academic writing",
+    "task_id": "1474",
+    "task_slug": "academic-writing",
+    "url": "https://www.writeconch.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42286",
+    "logo": "https://media.theresanaiforthat.com/icons/sunoh.svg?height=207",
+    "name": "Sunoh",
+    "task": "Medical documentation",
+    "task_id": "13949",
+    "task_slug": "medical-documentation",
+    "url": "https://sunoh.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42275",
+    "logo": "https://media.theresanaiforthat.com/icons/thunderbit.svg?height=207",
+    "name": "Thunderbit",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://thunderbit.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42287",
+    "logo": "https://media.theresanaiforthat.com/icons/udio.svg?height=207",
+    "name": "Udio",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://www.udio.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42284",
+    "logo": "https://media.theresanaiforthat.com/icons/picassopix.svg?height=207",
+    "name": "PicassoPix",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://picassopix.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42283",
+    "logo": "https://media.theresanaiforthat.com/icons/rgx-tools.svg?height=207",
+    "name": "RGX Tools",
+    "task": "Regex generation",
+    "task_id": "23544",
+    "task_slug": "regex-generation",
+    "url": "https://rgx.tools/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42282",
+    "logo": "https://media.theresanaiforthat.com/icons/agora.svg?height=207",
+    "name": "Agora",
+    "task": "Product search",
+    "task_id": "6373",
+    "task_slug": "product-search",
+    "url": "https://searchagora.com/chat?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42279",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-song-cover-generator.svg?height=207",
+    "name": "AI Song Cover Generator",
+    "task": "Album covers",
+    "task_id": "180",
+    "task_slug": "album-covers",
+    "url": "https://aisongcovergenerator.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42266",
+    "logo": "https://media.theresanaiforthat.com/icons/think-in-italian.svg?height=207",
+    "name": "Think In Italian",
+    "task": "Italian lessons",
+    "task_id": "14660",
+    "task_slug": "italian-lessons",
+    "url": "https://www.thinkinitalian.com/ai-tutor/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42258",
+    "logo": "https://media.theresanaiforthat.com/icons/product-description-generator-by-aidirectories.svg?height=207",
+    "name": "Product Description Generator by AIDirectories",
+    "task": "Product descriptions",
+    "task_id": "176",
+    "task_slug": "product-descriptions",
+    "url": "https://www.aidirectori.es/tools/product-description-generator?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10439",
+    "logo": "https://media.theresanaiforthat.com/icons/osum.png?height=207",
+    "name": "Osum",
+    "task": "Market research",
+    "task_id": "6143",
+    "task_slug": "market-research",
+    "url": "https://osum.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1168",
+    "logo": "https://media.theresanaiforthat.com/icons/b12-io.svg?height=207",
+    "name": "B12.io",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "http://www.b12.io/?utm_source=theresanaiforthat&utm_medium=affiliate&utm_campaign=ppc"
+  },
+  {
+    "id": "10099",
+    "logo": "https://media.theresanaiforthat.com/icons/venturekit.svg?height=207",
+    "name": "Venturekit",
+    "task": "Business plans",
+    "task_id": "6412",
+    "task_slug": "business-plans",
+    "url": "https://www.venturekit.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42000",
+    "logo": "https://media.theresanaiforthat.com/icons/robofin.svg?height=207",
+    "name": "RoboFin",
+    "task": "Investment analysis",
+    "task_id": "14028",
+    "task_slug": "investment-analysis",
+    "url": "https://robotika.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7414",
+    "logo": "https://media.theresanaiforthat.com/icons/transcript-lol.svg?height=207",
+    "name": "Transcript LOL",
+    "task": "Audio transcription",
+    "task_id": "335",
+    "task_slug": "audio-transcription",
+    "url": "https://transcript.lol/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1785",
+    "logo": "https://media.theresanaiforthat.com/icons/taplio.svg?height=207",
+    "name": "Taplio",
+    "task": "Linkedin posts",
+    "task_id": "204",
+    "task_slug": "linkedin-posts",
+    "url": "https://taplio.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41275",
+    "logo": "https://media.theresanaiforthat.com/icons/quuu.png?height=207",
+    "name": "Quuu",
+    "task": "Social media management",
+    "task_id": "6251",
+    "task_slug": "social-media-management",
+    "url": "https://quuu.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "587",
+    "logo": "https://media.theresanaiforthat.com/icons/echowin.png?height=207",
+    "name": "echowin",
+    "task": "Call answering",
+    "task_id": "13316",
+    "task_slug": "call-answering",
+    "url": "https://echo.win/?utm_campaign=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10574",
+    "logo": "https://media.theresanaiforthat.com/icons/wavoai.svg?height=207",
+    "name": "WavoAI",
+    "task": "Audio transcription",
+    "task_id": "335",
+    "task_slug": "audio-transcription",
+    "url": "https://wavoai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41614",
+    "logo": "https://media.theresanaiforthat.com/icons/lede.svg?height=207",
+    "name": "Lede",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://thelede.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9348",
+    "logo": "https://media.theresanaiforthat.com/icons/uxsniff.svg?height=207",
+    "name": "UXSniff",
+    "task": "User experience analysis",
+    "task_id": "6493",
+    "task_slug": "user-experience-analysis",
+    "url": "https://uxsniff.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7949",
+    "logo": "https://media.theresanaiforthat.com/icons/unreal-speech.svg?height=207",
+    "name": "Unreal Speech",
+    "task": "Text to speech",
+    "task_id": "4",
+    "task_slug": "text-to-speech",
+    "url": "https://unrealspeech.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9100",
+    "logo": "https://media.theresanaiforthat.com/icons/noagi-chat.svg?height=207",
+    "name": "NoAGI Chat",
+    "task": "ChatGPT",
+    "task_id": "13069",
+    "task_slug": "chatgpt",
+    "url": "https://chat.noagi.ai/login?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4394",
+    "logo": "https://media.theresanaiforthat.com/icons/documind.png?height=207",
+    "name": "Documind",
+    "task": "Document Q&A",
+    "task_id": "726",
+    "task_slug": "document-q-a",
+    "url": "https://www.documind.chat/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10309",
+    "logo": "https://media.theresanaiforthat.com/icons/beeyond-ai.svg?height=207",
+    "name": "Beeyond AI",
+    "task": "Productivity",
+    "task_id": "13165",
+    "task_slug": "productivity",
+    "url": "https://www.beeyondai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5562",
+    "logo": "https://media.theresanaiforthat.com/icons/limecube.svg?height=207",
+    "name": "Limecube",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://limecube.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40716",
+    "logo": "https://media.theresanaiforthat.com/icons/favikon.svg?height=207",
+    "name": "Favikon",
+    "task": "Influencer marketing",
+    "task_id": "5960",
+    "task_slug": "influencer-marketing",
+    "url": "https://www.favikon.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7089",
+    "logo": "https://media.theresanaiforthat.com/icons/pitchpower.svg?height=207",
+    "name": "PitchPower",
+    "task": "Client proposals",
+    "task_id": "13468",
+    "task_slug": "client-proposals",
+    "url": "https://www.pitchpower.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1342",
+    "logo": "https://media.theresanaiforthat.com/icons/speechmatics.png?height=207",
+    "name": "Speechmatics",
+    "task": "Speech to text",
+    "task_id": "5",
+    "task_slug": "speech-to-text",
+    "url": "https://www.speechmatics.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7588",
+    "logo": "https://media.theresanaiforthat.com/icons/earningsedge-ai.png?height=207",
+    "name": "EarningsEdge.ai",
+    "task": "Stock market analysis",
+    "task_id": "115",
+    "task_slug": "stock-market-analysis",
+    "url": "https://www.earningsedge.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41745",
+    "logo": "https://media.theresanaiforthat.com/icons/pietra-product-design-studio.svg?height=207",
+    "name": "Pietra Product Design Studio",
+    "task": "Product design",
+    "task_id": "256",
+    "task_slug": "product-design",
+    "url": "https://www.pietrastudio.com/platform/design-studio?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4657",
+    "logo": "https://media.theresanaiforthat.com/icons/cara-by-webtastic-ai.png?height=207",
+    "name": "Cara by Webtastic AI",
+    "task": "Customer leads\n",
+    "task_id": "5749",
+    "task_slug": "customer-leads",
+    "url": "https://webtastic.ai/?utm_source=meetcara.ai"
+  },
+  {
+    "id": "6045",
+    "logo": "https://media.theresanaiforthat.com/icons/chatsimple-ai-sales-chatbot.svg?height=207",
+    "name": "Chatsimple AI Sales Chatbot",
+    "task": "Sales",
+    "task_id": "13096",
+    "task_slug": "sales",
+    "url": "https://www.chatsimple.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5150",
+    "logo": "https://media.theresanaiforthat.com/icons/aiter.png?height=207",
+    "name": "Aiter",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://aiter.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8171",
+    "logo": "https://media.theresanaiforthat.com/icons/founderpal.svg?height=207",
+    "name": "FounderPal",
+    "task": "Marketing strategies",
+    "task_id": "13722",
+    "task_slug": "marketing-strategies",
+    "url": "https://founderpal.ai/marketing-strategy-generator?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8744",
+    "logo": "https://media.theresanaiforthat.com/icons/illumidesk.svg?height=207",
+    "name": "IllumiDesk",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://info.illumidesk.com/generate-course-with-ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2570",
+    "logo": "https://media.theresanaiforthat.com/icons/meetz.svg?height=207",
+    "name": "Meetz",
+    "task": "Customer leads\n",
+    "task_id": "5749",
+    "task_slug": "customer-leads",
+    "url": "https://www.meetz.ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1083",
+    "logo": "https://media.theresanaiforthat.com/icons/mindsmith.png?height=207",
+    "name": "Mindsmith",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://www.mindsmith.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9489",
+    "logo": "https://media.theresanaiforthat.com/icons/webwave-ai.png?height=207",
+    "name": "WebWave AI",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://webwave.me/ai-website-builder?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5013",
+    "logo": "https://media.theresanaiforthat.com/icons/gitgab.svg?height=207",
+    "name": "GitGab",
+    "task": "ChatGPT on Github",
+    "task_id": "6507",
+    "task_slug": "chatgpt-on-github",
+    "url": "https://www.gitgab.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2349",
+    "logo": "https://media.theresanaiforthat.com/icons/caffeinated-cx.svg?height=207",
+    "name": "Caffeinated CX",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://caffeinatedcx.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42028",
+    "logo": "https://media.theresanaiforthat.com/icons/perceivable.svg?height=207",
+    "name": "Perceivable",
+    "task": "Communication improvement",
+    "task_id": "1724",
+    "task_slug": "communication-improvement",
+    "url": "https://perceivable.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5582",
+    "logo": "https://media.theresanaiforthat.com/icons/boltai.svg?height=207",
+    "name": "BoltAI",
+    "task": "ChatGPT on Mac",
+    "task_id": "679",
+    "task_slug": "chatgpt-on-mac",
+    "url": "https://boltai.com?ref=toolss"
+  },
+  {
+    "id": "17822",
+    "logo": "https://media.theresanaiforthat.com/icons/inlinks.png?height=207",
+    "name": "InLinks",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://inlinks.com/?fpr=toolss"
+  },
+  {
+    "id": "33067",
+    "logo": "https://media.theresanaiforthat.com/icons/appsmakerstore.svg?height=207",
+    "name": "AppsMakerStore",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://appsmakerstore.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7334",
+    "logo": "https://media.theresanaiforthat.com/icons/trove.png?height=207",
+    "name": "Trove",
+    "task": "Surveys",
+    "task_id": "13152",
+    "task_slug": "surveys",
+    "url": "https://www.gettrove.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30580",
+    "logo": "https://media.theresanaiforthat.com/icons/snapheadshots.svg?height=207",
+    "name": "Snapheadshots",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://snapheadshots.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9385",
+    "logo": "https://media.theresanaiforthat.com/icons/aiapply.svg?height=207",
+    "name": "AiApply",
+    "task": "Job search",
+    "task_id": "13280",
+    "task_slug": "job-search",
+    "url": "https://aiapply.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2605",
+    "logo": "https://media.theresanaiforthat.com/icons/commenter-ai.svg?height=207",
+    "name": "Commenter AI",
+    "task": "LinkedIn comments",
+    "task_id": "330",
+    "task_slug": "linkedin-comments",
+    "url": "https://commenter.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41913",
+    "logo": "https://media.theresanaiforthat.com/icons/multichat-ai.svg?height=207",
+    "name": "MultiChat AI",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://www.multichatai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6411",
+    "logo": "https://media.theresanaiforthat.com/icons/productai.svg?height=207",
+    "name": "ProductAI",
+    "task": "Product images",
+    "task_id": "286",
+    "task_slug": "product-images",
+    "url": "https://www.productai.photo/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40975",
+    "logo": "https://media.theresanaiforthat.com/icons/diffusionhub.svg?height=207",
+    "name": "DiffusionHub",
+    "task": "Image and video generation",
+    "task_id": "194",
+    "task_slug": "image-and-video-generation",
+    "url": "https://www.diffusionhub.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3439",
+    "logo": "https://media.theresanaiforthat.com/icons/alcotravel.svg?height=207",
+    "name": "Alcotravel",
+    "task": "Travel itineraries",
+    "task_id": "685",
+    "task_slug": "travel-itineraries",
+    "url": "https://aicotravel.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4635",
+    "logo": "https://media.theresanaiforthat.com/icons/keywordsearch.svg?height=207",
+    "name": "KeywordSearch",
+    "task": "YouTube keyword search",
+    "task_id": "6391",
+    "task_slug": "youtube-keyword-search",
+    "url": "https://www.keywordsearch.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40500",
+    "logo": "https://media.theresanaiforthat.com/icons/supermoon.svg?height=207",
+    "name": "Supermoon",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://getsupermoon.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2284",
+    "logo": "https://media.theresanaiforthat.com/icons/luminal.svg?height=207",
+    "name": "Luminal",
+    "task": "Data management",
+    "task_id": "5767",
+    "task_slug": "data-management",
+    "url": "https://getluminal.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40654",
+    "logo": "https://media.theresanaiforthat.com/icons/shortlistiq.svg?height=207",
+    "name": "ShortlistIQ",
+    "task": "Candidate screening",
+    "task_id": "13291",
+    "task_slug": "candidate-screening",
+    "url": "https://www.shortlistiq.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7932",
+    "logo": "https://media.theresanaiforthat.com/icons/magicpost.svg?height=207",
+    "name": "MagicPost",
+    "task": "Linkedin posts",
+    "task_id": "204",
+    "task_slug": "linkedin-posts",
+    "url": "https://magicpost.in/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4907",
+    "logo": "https://media.theresanaiforthat.com/icons/zencall.png?height=207",
+    "name": "ZenCall",
+    "task": "Call answering",
+    "task_id": "13316",
+    "task_slug": "call-answering",
+    "url": "https://www.zencall.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3670",
+    "logo": "https://media.theresanaiforthat.com/icons/hyperis.png?height=207",
+    "name": "Hyperis",
+    "task": "Productivity",
+    "task_id": "13165",
+    "task_slug": "productivity",
+    "url": "https://hyperis.com/"
+  },
+  {
+    "id": "6706",
+    "logo": "https://media.theresanaiforthat.com/icons/ix-coach.png?height=207",
+    "name": "IX Coach",
+    "task": "Coaching",
+    "task_id": "13101",
+    "task_slug": "coaching",
+    "url": "https://www.ixcoach.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "865",
+    "logo": "https://media.theresanaiforthat.com/icons/userevaluation.svg?height=207",
+    "name": "Userevaluation",
+    "task": "Customer insights",
+    "task_id": "270",
+    "task_slug": "customer-insights",
+    "url": "https://www.userevaluation.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4400",
+    "logo": "https://media.theresanaiforthat.com/icons/pineapple-builder.svg?height=207",
+    "name": "Pineapple Builder",
+    "task": "Website Building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "http://pineapplebuilder.com?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5908",
+    "logo": "https://media.theresanaiforthat.com/icons/olympia.svg?height=207",
+    "name": "Olympia",
+    "task": "Virtual employees",
+    "task_id": "10646",
+    "task_slug": "virtual-employees",
+    "url": "https://olympia.chat?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9012",
+    "logo": "https://media.theresanaiforthat.com/icons/agenda-hero.svg?height=207",
+    "name": "Agenda Hero",
+    "task": "Calendar assistant",
+    "task_id": "326",
+    "task_slug": "calendar-assistant",
+    "url": "https://agendahero.com/magic?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10423",
+    "logo": "https://media.theresanaiforthat.com/icons/limeline.svg?height=207",
+    "name": "Limeline",
+    "task": " Meetings",
+    "task_id": "13125",
+    "task_slug": "meetings",
+    "url": "https://www.limeline.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9920",
+    "logo": "https://media.theresanaiforthat.com/icons/skillfusion.svg?height=207",
+    "name": "Skillfusion",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://www.skillfusion.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6330",
+    "logo": "https://media.theresanaiforthat.com/icons/paintit-ai.png?height=207",
+    "name": "Paintit.ai",
+    "task": "Interior design",
+    "task_id": "127",
+    "task_slug": "interior-design",
+    "url": "https://paintit.ai/interior-ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8554",
+    "logo": "https://media.theresanaiforthat.com/icons/optimyzee.svg?height=207",
+    "name": "Optimyzee",
+    "task": "Ad management",
+    "task_id": "6443",
+    "task_slug": "ad-management",
+    "url": "https://www.optimyzee.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2754",
+    "logo": "https://media.theresanaiforthat.com/icons/feedback-by-ai.png?height=207",
+    "name": "Feedback by AI",
+    "task": "Business planning",
+    "task_id": "6302",
+    "task_slug": "business-planning",
+    "url": "https://feedbackbyai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7460",
+    "logo": "https://media.theresanaiforthat.com/icons/skillpool.svg?height=207",
+    "name": "SkillPool",
+    "task": "Job recruitment",
+    "task_id": "589",
+    "task_slug": "job-recruitment",
+    "url": "https://skillpool.tech/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40834",
+    "logo": "https://media.theresanaiforthat.com/icons/pact-monster.svg?height=207",
+    "name": "Pact Monster",
+    "task": "Meetings",
+    "task_id": "13125",
+    "task_slug": "meetings",
+    "url": "https://pact.monster/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1262",
+    "logo": "https://media.theresanaiforthat.com/icons/writingmate.png?height=207",
+    "name": "WritingMate",
+    "task": "ChatGPT for Chrome",
+    "task_id": "1063",
+    "task_slug": "chatgpt-for-chrome",
+    "url": "https://chrome.google.com/webstore/detail/writingmate-1-chatgpt-wri/iihamopomflffiecicbgelncanmfionp?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4799",
+    "logo": "https://media.theresanaiforthat.com/icons/fina-1682793060.png?height=207",
+    "name": "Fina",
+    "task": "Financial advice",
+    "task_id": "334",
+    "task_slug": "financial-advice",
+    "url": "https://fina.xyz/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6448",
+    "logo": "https://media.theresanaiforthat.com/icons/cronbotai.png?height=207",
+    "name": "CronbotAI",
+    "task": "Customer Support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://www.cronbot.ai/?utm_source=theresanaiforthat&utm_medium=social&utm_campaign=promotion"
+  },
+  {
+    "id": "41396",
+    "logo": "https://media.theresanaiforthat.com/icons/cowriter-ai.svg?height=207",
+    "name": "CoWriter AI",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://cowriter.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9216",
+    "logo": "https://media.theresanaiforthat.com/icons/social-intents.svg?height=207",
+    "name": "Social Intents",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://www.socialintents.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41560",
+    "logo": "https://media.theresanaiforthat.com/icons/docsdna.png?height=207",
+    "name": "DocsDNA",
+    "task": "Document management",
+    "task_id": "6084",
+    "task_slug": "document-management",
+    "url": "https://docsdna.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41772",
+    "logo": "https://media.theresanaiforthat.com/icons/chatbit.png?height=207",
+    "name": "Chatbit",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://chatbit.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "26770",
+    "logo": "https://media.theresanaiforthat.com/icons/bizplanner-ai.svg?height=207",
+    "name": "BizPlanner AI",
+    "task": "Business plans",
+    "task_id": "6412",
+    "task_slug": "business-plans",
+    "url": "https://bizplanner.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41291",
+    "logo": "https://media.theresanaiforthat.com/icons/lychee.svg?height=207",
+    "name": "Lychee",
+    "task": "Data visualization",
+    "task_id": "6496",
+    "task_slug": "data-visualization",
+    "url": "https://www.lych3e.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42095",
+    "logo": "https://media.theresanaiforthat.com/icons/jobsolv.svg?height=207",
+    "name": "Jobsolv",
+    "task": "Job Search",
+    "task_id": "13280",
+    "task_slug": "job-search",
+    "url": "https://www.jobsolv.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42156",
+    "logo": "https://media.theresanaiforthat.com/icons/korbit.svg?height=207",
+    "name": "Korbit",
+    "task": "Code reviews",
+    "task_id": "61",
+    "task_slug": "code-reviews",
+    "url": "https://www.korbit.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1965",
+    "logo": "https://media.theresanaiforthat.com/icons/stunning.svg?height=207",
+    "name": "Stunning",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://www.stunning.so/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4147",
+    "logo": "https://media.theresanaiforthat.com/icons/palettebrain.png?height=207",
+    "name": "PaletteBrain",
+    "task": "ChatGPT on Mac",
+    "task_id": "679",
+    "task_slug": "chatgpt-on-mac",
+    "url": "https://palettebrain.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5883",
+    "logo": "https://media.theresanaiforthat.com/icons/betterpic-ai-headshots.png?height=207",
+    "name": "BetterPic | AI Headshots",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://www.betterpic.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4271",
+    "logo": "https://media.theresanaiforthat.com/icons/recall-ai.png?height=207",
+    "name": "Recall AI",
+    "task": "Summaries",
+    "task_id": "13062",
+    "task_slug": "summaries",
+    "url": "https://www.recall.wiki/extension?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4843",
+    "logo": "https://media.theresanaiforthat.com/icons/storybooks.png?height=207",
+    "name": "Storybooks",
+    "task": "Children's stories",
+    "task_id": "68",
+    "task_slug": "children-s-stories",
+    "url": "https://www.storybooks.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7622",
+    "logo": "https://media.theresanaiforthat.com/icons/turboscribe.svg?height=207",
+    "name": "TurboScribe",
+    "task": "Audio/video transcription",
+    "task_id": "14020",
+    "task_slug": "audio-video-transcription",
+    "url": "https://turboscribe.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10278",
+    "logo": "https://media.theresanaiforthat.com/icons/aimreply.svg?height=207",
+    "name": "AImReply",
+    "task": "Email writing",
+    "task_id": "44",
+    "task_slug": "email-writing",
+    "url": "https://aimreply.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2418",
+    "logo": "https://media.theresanaiforthat.com/icons/greip.svg?height=207",
+    "name": "Greip",
+    "task": "Fraud prevention",
+    "task_id": "13795",
+    "task_slug": "fraud-prevention",
+    "url": "https://greip.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4773",
+    "logo": "https://media.theresanaiforthat.com/icons/aspect.svg?height=207",
+    "name": "Aspect",
+    "task": "Interview notes",
+    "task_id": "6436",
+    "task_slug": "interview-notes",
+    "url": "https://aspect-hq.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4253",
+    "logo": "https://media.theresanaiforthat.com/icons/tinyeinstein.svg?height=207",
+    "name": "TinyEinstein",
+    "task": "Email marketing",
+    "task_id": "14039",
+    "task_slug": "email-marketing",
+    "url": "https://www.tinyeinstein.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3947",
+    "logo": "https://media.theresanaiforthat.com/icons/doogle-ai.svg?height=207",
+    "name": "Doogle AI",
+    "task": "App recommendations",
+    "task_id": "6205",
+    "task_slug": "app-recommendations",
+    "url": "http://doogle.app?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "939",
+    "logo": "https://media.theresanaiforthat.com/icons/eightify.svg?height=207",
+    "name": "Eightify",
+    "task": "YouTube summaries",
+    "task_id": "281",
+    "task_slug": "youtube-summaries",
+    "url": "https://www.eightify.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7852",
+    "logo": "https://media.theresanaiforthat.com/icons/noah.svg?height=207",
+    "name": "Noah",
+    "task": "Document Q&A",
+    "task_id": "726",
+    "task_slug": "document-q-a",
+    "url": "https://tavrn.art/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8257",
+    "logo": "https://media.theresanaiforthat.com/icons/moments.svg?height=207",
+    "name": "Moments",
+    "task": "Relationship management",
+    "task_id": "13738",
+    "task_slug": "relationship-management",
+    "url": "https://scheduledapp.com/moments/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2874",
+    "logo": "https://media.theresanaiforthat.com/icons/digitalgenius.png?height=207",
+    "name": "DigitalGenius",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://digitalgenius.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7537",
+    "logo": "https://media.theresanaiforthat.com/icons/chatwith.svg?height=207",
+    "name": "Chatwith",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://chatwith.tools/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4395",
+    "logo": "https://media.theresanaiforthat.com/icons/qonqur.png?height=207",
+    "name": "Qonqur",
+    "task": "learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://qonqur.xyz/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3122",
+    "logo": "https://media.theresanaiforthat.com/icons/job-hunt-mode.svg?height=207",
+    "name": "Job Hunt Mode",
+    "task": "Career development",
+    "task_id": "13500",
+    "task_slug": "career-development",
+    "url": "https://jobhuntmode.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9618",
+    "logo": "https://media.theresanaiforthat.com/icons/dreamgen-story-generator.png?height=207",
+    "name": "DreamGen Story Generator",
+    "task": "Story writing",
+    "task_id": "57",
+    "task_slug": "story-writing",
+    "url": "https://dreamgen.com/story-writing?ref=toolss_story_writing&utm_source=toolss_story_writing"
+  },
+  {
+    "id": "5652",
+    "logo": "https://media.theresanaiforthat.com/icons/chaindesk.png?height=207",
+    "name": "Chaindesk",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://www.chaindesk.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40381",
+    "logo": "https://media.theresanaiforthat.com/icons/deepwander.png?height=207",
+    "name": "Deepwander",
+    "task": "Journaling",
+    "task_id": "13156",
+    "task_slug": "journaling",
+    "url": "https://www.deepwander.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41394",
+    "logo": "https://media.theresanaiforthat.com/icons/dreamgen-role-play.svg?height=207",
+    "name": "DreamGen Role Play",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://dreamgen.com/role-playing?ref=toolss_role_playing&utm_source=toolss_role_playing"
+  },
+  {
+    "id": "41768",
+    "logo": "https://media.theresanaiforthat.com/icons/prometai.svg?height=207",
+    "name": "PrometAI",
+    "task": "Business plans",
+    "task_id": "6412",
+    "task_slug": "business-plans",
+    "url": "https://prometai.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42383",
+    "logo": "https://media.theresanaiforthat.com/icons/calesitai.svg?height=207",
+    "name": "CalesitAI",
+    "task": "Marketing content",
+    "task_id": "13595",
+    "task_slug": "marketing-content",
+    "url": "https://www.calesitai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42298",
+    "logo": "https://media.theresanaiforthat.com/icons/breezemail.svg?height=207",
+    "name": "Breezemail",
+    "task": "Outlook email management",
+    "task_id": "30142",
+    "task_slug": "outlook-email-management",
+    "url": "https://www.breezemail.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42095",
+    "logo": "https://media.theresanaiforthat.com/icons/jobsolv.svg?height=207",
+    "name": "Jobsolv",
+    "task": "Job Search",
+    "task_id": "13280",
+    "task_slug": "job-search",
+    "url": "https://www.jobsolv.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42312",
+    "logo": "https://media.theresanaiforthat.com/icons/facelessvideos-ai.svg?height=207",
+    "name": "FacelessVideos.AI",
+    "task": "Faceless videos",
+    "task_id": "29334",
+    "task_slug": "faceless-videos",
+    "url": "https://www.facelessvideos.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42287",
+    "logo": "https://media.theresanaiforthat.com/icons/udio.svg?height=207",
+    "name": "Udio",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://www.udio.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42275",
+    "logo": "https://media.theresanaiforthat.com/icons/thunderbit.svg?height=207",
+    "name": "Thunderbit",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://thunderbit.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42194",
+    "logo": "https://media.theresanaiforthat.com/icons/cleeai.svg?height=207",
+    "name": "CleeAI",
+    "task": "Search engine",
+    "task_id": "282",
+    "task_slug": "search-engine",
+    "url": "https://www.cleeai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42159",
+    "logo": "https://media.theresanaiforthat.com/icons/seona-ai.svg?height=207",
+    "name": "Seona AI",
+    "task": "SEO optimization",
+    "task_id": "13691",
+    "task_slug": "seo-optimization",
+    "url": "https://seonaai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42158",
+    "logo": "https://media.theresanaiforthat.com/icons/mapmindai.svg?height=207",
+    "name": "MapMindAI",
+    "task": "Mind maps",
+    "task_id": "30084",
+    "task_slug": "mind-maps",
+    "url": "https://mapmindai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42156",
+    "logo": "https://media.theresanaiforthat.com/icons/korbit.svg?height=207",
+    "name": "Korbit",
+    "task": "Code reviews",
+    "task_id": "61",
+    "task_slug": "code-reviews",
+    "url": "https://www.korbit.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42134",
+    "logo": "https://media.theresanaiforthat.com/icons/bith.svg?height=207",
+    "name": "Bith",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://bith.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42126",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Headshot AI Generator",
+    "task": "Avatars",
+    "task_id": "13049",
+    "task_slug": "avatars",
+    "url": "https://headshotaigenerator.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42118",
+    "logo": "https://media.theresanaiforthat.com/icons/somi.svg?height=207",
+    "name": "Somi",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://somi.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42100",
+    "logo": "https://media.theresanaiforthat.com/icons/linkedin-post-generator-ai.svg?height=207",
+    "name": "LinkedIn Post Generator AI",
+    "task": "Linkedin posts",
+    "task_id": "204",
+    "task_slug": "linkedin-posts",
+    "url": "https://linkedin-post-generator.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42097",
+    "logo": "https://media.theresanaiforthat.com/icons/atsfriendly.svg?height=207",
+    "name": "ATSFriendly",
+    "task": "Resume optimization",
+    "task_id": "5931",
+    "task_slug": "resume-optimization",
+    "url": "https://www.atsfriendly.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42096",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-domain-gpt.png?height=207",
+    "name": "AI Domain GPT",
+    "task": "Domain name ideas",
+    "task_id": "389",
+    "task_slug": "domain-name-ideas",
+    "url": "https://aidomaingpt.com/en?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42074",
+    "logo": "https://media.theresanaiforthat.com/icons/ideapicker.svg?height=207",
+    "name": "IdeaPicker",
+    "task": "Startup ideas",
+    "task_id": "82",
+    "task_slug": "startup-ideas",
+    "url": "https://ideapicker.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42067",
+    "logo": "https://media.theresanaiforthat.com/icons/kognitium.svg?height=207",
+    "name": "Kognitium",
+    "task": "Knowledge exploration",
+    "task_id": "14543",
+    "task_slug": "knowledge-exploration",
+    "url": "https://kognitium.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42062",
+    "logo": "https://media.theresanaiforthat.com/icons/plandex.svg?height=207",
+    "name": "Plandex",
+    "task": "Software development",
+    "task_id": "13623",
+    "task_slug": "software-development",
+    "url": "https://plandex.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42046",
+    "logo": "https://media.theresanaiforthat.com/icons/pic-copilot.svg?height=207",
+    "name": "Pic Copilot",
+    "task": "Ads",
+    "task_id": "13057",
+    "task_slug": "ads",
+    "url": "https://www.piccopilot.com/home?utm_source=aff&utm_medium=TAAFT"
+  },
+  {
+    "id": "42033",
+    "logo": "https://media.theresanaiforthat.com/icons/img2html.svg?height=207",
+    "name": "IMG2HTML",
+    "task": "Image to HTML",
+    "task_id": "966",
+    "task_slug": "image-to-html",
+    "url": "https://www.img2html.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42031",
+    "logo": "https://media.theresanaiforthat.com/icons/short-videos-app.svg?height=207",
+    "name": "Short Videos App",
+    "task": "Short videos",
+    "task_id": "6539",
+    "task_slug": "short-videos",
+    "url": "https://www.shortvideosapp.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42014",
+    "logo": "https://media.theresanaiforthat.com/icons/warpvideo-ai.png?height=207",
+    "name": "Warpvideo AI",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://warpvideo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42002",
+    "logo": "https://media.theresanaiforthat.com/icons/aigenerator.svg?height=207",
+    "name": "AIGenerator",
+    "task": "Image enhancement",
+    "task_id": "614",
+    "task_slug": "image-enhancement",
+    "url": "https://aigenerator.plus/photo-fix?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "42000",
+    "logo": "https://media.theresanaiforthat.com/icons/robofin.svg?height=207",
+    "name": "RoboFin",
+    "task": "Investment analysis",
+    "task_id": "14028",
+    "task_slug": "investment-analysis",
+    "url": "https://robotika.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40571",
+    "logo": "https://media.theresanaiforthat.com/icons/beamjobs.png?height=207",
+    "name": "BeamJobs",
+    "task": "Resumes",
+    "task_id": "13066",
+    "task_slug": "resumes",
+    "url": "https://www.beamjobs.com/"
+  },
+  {
+    "id": "41745",
+    "logo": "https://media.theresanaiforthat.com/icons/pietra-product-design-studio.svg?height=207",
+    "name": "Pietra Product Design Studio",
+    "task": "Product design",
+    "task_id": "256",
+    "task_slug": "product-design",
+    "url": "https://www.pietrastudio.com/platform/design-studio?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41314",
+    "logo": "https://media.theresanaiforthat.com/icons/wavyr-prototyper.svg?height=207",
+    "name": "Wavyr Prototyper",
+    "task": "Web design",
+    "task_id": "6001",
+    "task_slug": "web-design",
+    "url": "https://www.getaprototype.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41805",
+    "logo": "https://media.theresanaiforthat.com/icons/goenhance.svg?height=207",
+    "name": "GoEnhance",
+    "task": "Image & video editing",
+    "task_id": "1459",
+    "task_slug": "image-video-editing",
+    "url": "https://www.goenhance.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41857",
+    "logo": "https://media.theresanaiforthat.com/icons/a1-art.png?height=207",
+    "name": "A1.art",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://a1.art/?source=navi&plan=there"
+  },
+  {
+    "id": "41768",
+    "logo": "https://media.theresanaiforthat.com/icons/prometai.svg?height=207",
+    "name": "PrometAI",
+    "task": "Business plans",
+    "task_id": "6412",
+    "task_slug": "business-plans",
+    "url": "https://prometai.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41772",
+    "logo": "https://media.theresanaiforthat.com/icons/chatbit.png?height=207",
+    "name": "Chatbit",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://chatbit.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41535",
+    "logo": "https://media.theresanaiforthat.com/icons/blend-ai.svg?height=207",
+    "name": "Blend AI",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://www.tryblend.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41702",
+    "logo": "https://media.theresanaiforthat.com/icons/gees.svg?height=207",
+    "name": "Gees",
+    "task": "Product design",
+    "task_id": "256",
+    "task_slug": "product-design",
+    "url": "https://gees.com/?source=gnavi&plan=there"
+  },
+  {
+    "id": "41359",
+    "logo": "https://media.theresanaiforthat.com/icons/archie-ai.png?height=207",
+    "name": "Archie AI",
+    "task": "Product development",
+    "task_id": "6410",
+    "task_slug": "product-development",
+    "url": "https://archie.8base.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41386",
+    "logo": "https://media.theresanaiforthat.com/icons/listen2-ai-news-podcasts.png?height=207",
+    "name": "Listen2.AI - News & Podcasts",
+    "task": "News",
+    "task_id": "13099",
+    "task_slug": "news",
+    "url": "https://listen2.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41240",
+    "logo": "https://media.theresanaiforthat.com/icons/bridge-1709501190.svg?height=207",
+    "name": "Bridge",
+    "task": "Customer feedback analysis",
+    "task_id": "9951",
+    "task_slug": "customer-feedback-analysis",
+    "url": "https://get-bridge.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41959",
+    "logo": "https://media.theresanaiforthat.com/icons/sunoai.svg?height=207",
+    "name": "SunoAI",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://sunoai.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41931",
+    "logo": "https://media.theresanaiforthat.com/icons/god-of-prompt.png?height=207",
+    "name": "God of Prompt",
+    "task": "Prompts",
+    "task_id": "13059",
+    "task_slug": "prompts",
+    "url": "https://chat.openai.com/g/g-nPwpAqi10-god-of-prompt?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41727",
+    "logo": "https://media.theresanaiforthat.com/icons/gptsidekick.svg?height=207",
+    "name": "GPTSidekick",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://gptsidekick.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41697",
+    "logo": "https://media.theresanaiforthat.com/icons/inkflow.svg?height=207",
+    "name": "Inkflow",
+    "task": "Book writing",
+    "task_id": "185",
+    "task_slug": "book-writing",
+    "url": "https://inkflow.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41693",
+    "logo": "https://media.theresanaiforthat.com/icons/name-drop-ai.svg?height=207",
+    "name": "Name Drop AI",
+    "task": "Brand growth",
+    "task_id": "13413",
+    "task_slug": "brand-growth",
+    "url": "https://name-drop.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41645",
+    "logo": "https://media.theresanaiforthat.com/icons/answerthis.svg?height=207",
+    "name": "AnswerThis",
+    "task": "Research papers summaries",
+    "task_id": "13310",
+    "task_slug": "research-papers-summaries",
+    "url": "https://answerthis.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41615",
+    "logo": "https://media.theresanaiforthat.com/icons/stockimagery.svg?height=207",
+    "name": "StockImagery",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://www.stockimagery.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41614",
+    "logo": "https://media.theresanaiforthat.com/icons/lede.svg?height=207",
+    "name": "Lede",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://thelede.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41553",
+    "logo": "https://media.theresanaiforthat.com/icons/dubble.svg?height=207",
+    "name": "Dubble",
+    "task": "Step-by-step guides",
+    "task_id": "5903",
+    "task_slug": "step-by-step-guides",
+    "url": "https://dubble.so/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41533",
+    "logo": "https://media.theresanaiforthat.com/icons/mycody.svg?height=207",
+    "name": "MyCody",
+    "task": "Career development",
+    "task_id": "13500",
+    "task_slug": "career-development",
+    "url": "https://www.mycody.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41493",
+    "logo": "https://media.theresanaiforthat.com/icons/heartfelt-services.svg?height=207",
+    "name": "Heartfelt Services",
+    "task": "Therapy",
+    "task_id": "13145",
+    "task_slug": "therapy",
+    "url": "https://heartfelt.services/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41478",
+    "logo": "https://media.theresanaiforthat.com/icons/eternity-ac.svg?height=207",
+    "name": "Eternity AC",
+    "task": "Virtual clones",
+    "task_id": "13602",
+    "task_slug": "virtual-clones",
+    "url": "https://eternity.ac/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41420",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-story-generator.svg?height=207",
+    "name": "AI Story Generator",
+    "task": "Story writing",
+    "task_id": "57",
+    "task_slug": "story-writing",
+    "url": "https://www.datanumen.com/ai-story-generator/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41416",
+    "logo": "https://media.theresanaiforthat.com/icons/clipfly-ai-video-generator.svg?height=207",
+    "name": "Clipfly AI Video Generator",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.clipfly.ai/ai-video-generator?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41394",
+    "logo": "https://media.theresanaiforthat.com/icons/dreamgen-role-play.svg?height=207",
+    "name": "DreamGen Role Play",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://dreamgen.com/role-playing?ref=toolss_role_playing&utm_source=toolss_role_playing"
+  },
+  {
+    "id": "41275",
+    "logo": "https://media.theresanaiforthat.com/icons/quuu.png?height=207",
+    "name": "Quuu",
+    "task": "Social media management",
+    "task_id": "6251",
+    "task_slug": "social-media-management",
+    "url": "https://quuu.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41241",
+    "logo": "https://media.theresanaiforthat.com/icons/rune-content.svg?height=207",
+    "name": "Rune Content",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://www.runecontent.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41228",
+    "logo": "https://media.theresanaiforthat.com/icons/zeroinbox.svg?height=207",
+    "name": "ZeroInbox",
+    "task": "Email management",
+    "task_id": "6441",
+    "task_slug": "email-management",
+    "url": "https://www.zeroinbox.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41212",
+    "logo": "https://media.theresanaiforthat.com/icons/heypat.svg?height=207",
+    "name": "HeyPat",
+    "task": "Knowledge assistant",
+    "task_id": "30037",
+    "task_slug": "knowledge-assistant",
+    "url": "https://www.heypat.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41171",
+    "logo": "https://media.theresanaiforthat.com/icons/promptmate.svg?height=207",
+    "name": "Promptmate",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://promptmate.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41667",
+    "logo": "https://media.theresanaiforthat.com/icons/reportgpt.png?height=207",
+    "name": "ReportGPT",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://report-gpt.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40638",
+    "logo": "https://media.theresanaiforthat.com/icons/vana.svg?height=207",
+    "name": "Vana",
+    "task": "Virtual avatars",
+    "task_id": "13826",
+    "task_slug": "virtual-avatars",
+    "url": "https://www.vana.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41140",
+    "logo": "https://media.theresanaiforthat.com/icons/trynectar.svg?height=207",
+    "name": "TryNectar",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://trynectar.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40779",
+    "logo": "https://media.theresanaiforthat.com/icons/seo-ai-free.png?height=207",
+    "name": "SEO AI (free)",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://www.seoby.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40862",
+    "logo": "https://media.theresanaiforthat.com/icons/sylphai.svg?height=207",
+    "name": "SylphAI",
+    "task": "People search",
+    "task_id": "30004",
+    "task_slug": "people-search",
+    "url": "https://sylph.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40777",
+    "logo": "https://media.theresanaiforthat.com/icons/tradepost-ai.png?height=207",
+    "name": "Tradepost.ai",
+    "task": "Investment Ideas",
+    "task_id": "6293",
+    "task_slug": "investment-ideas",
+    "url": "https://tradepost.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40750",
+    "logo": "https://media.theresanaiforthat.com/icons/marblism.svg?height=207",
+    "name": "Marblism",
+    "task": "Coding",
+    "task_id": "13045",
+    "task_slug": "coding",
+    "url": "https://www.marblism.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7008",
+    "logo": "https://media.theresanaiforthat.com/icons/axonn-personal-ai-models-for-twitter-and-linkedin.svg?height=207",
+    "name": "Axonn - Personal AI models for Twitter and LinkedIn",
+    "task": "Social media posts",
+    "task_id": "74",
+    "task_slug": "social-media-posts",
+    "url": "https://www.axonn.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41156",
+    "logo": "https://media.theresanaiforthat.com/icons/sitesgpt-com.svg?height=207",
+    "name": "SitesGPT.com",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://www.sitesgpt.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41082",
+    "logo": "https://media.theresanaiforthat.com/icons/freepik-pikaso.svg?height=207",
+    "name": "Freepik Pikaso",
+    "task": "Sketch to image",
+    "task_id": "2092",
+    "task_slug": "sketch-to-image",
+    "url": "https://www.freepik.com/ai/pikaso-ai-drawing?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "41073",
+    "logo": "https://media.theresanaiforthat.com/icons/inbox-zero-ai.svg?height=207",
+    "name": "Inbox Zero AI",
+    "task": "Email management",
+    "task_id": "6441",
+    "task_slug": "email-management",
+    "url": "https://www.getinboxzero.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40966",
+    "logo": "https://media.theresanaiforthat.com/icons/journey-1708638862.svg?height=207",
+    "name": "Journey",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://www.journeyplus.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40923",
+    "logo": "https://media.theresanaiforthat.com/icons/adobe-ai-assistant.png?height=207",
+    "name": "Adobe AI Assistant",
+    "task": "Document Q&A",
+    "task_id": "726",
+    "task_slug": "document-q-a",
+    "url": "https://news.adobe.com/news/news-details/2024/Adobe-Brings-Conversational-AI-to-Trillions-of-PDFs-with-the-New-AI-Assistant-in-Reader-and-Acrobat/default.aspx?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40816",
+    "logo": "https://media.theresanaiforthat.com/icons/sologo.svg?height=207",
+    "name": "Sologo",
+    "task": "Logo design",
+    "task_id": "80",
+    "task_slug": "logo-design",
+    "url": "https://www.sologo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40760",
+    "logo": "https://media.theresanaiforthat.com/icons/ownai-by-dept-me.svg?height=207",
+    "name": "OwnAI by Dept.me",
+    "task": "Productivity",
+    "task_id": "13165",
+    "task_slug": "productivity",
+    "url": "https://www.dept.me/welcome?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40732",
+    "logo": "https://media.theresanaiforthat.com/icons/sora-by-openai.png?height=207",
+    "name": "Sora by OpenAI",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://openai.com/sora?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40718",
+    "logo": "https://media.theresanaiforthat.com/icons/anythingllm.svg?height=207",
+    "name": "AnythingLLM",
+    "task": "Document Q&A",
+    "task_id": "726",
+    "task_slug": "document-q-a",
+    "url": "https://useanything.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40716",
+    "logo": "https://media.theresanaiforthat.com/icons/favikon.svg?height=207",
+    "name": "Favikon",
+    "task": "Influencer marketing",
+    "task_id": "5960",
+    "task_slug": "influencer-marketing",
+    "url": "https://www.favikon.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40676",
+    "logo": "https://media.theresanaiforthat.com/icons/roast-my-website-1707809645.png?height=207",
+    "name": "Roast My Website",
+    "task": "Website analysis",
+    "task_id": "5814",
+    "task_slug": "website-analysis",
+    "url": "https://chat.openai.com/g/g-DCYz18lI4-roast-my-website?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40570",
+    "logo": "https://media.theresanaiforthat.com/icons/techmart-ai.svg?height=207",
+    "name": "Techmart AI",
+    "task": "Startup advice",
+    "task_id": "11380",
+    "task_slug": "startup-advice",
+    "url": "https://chat.jointechmart.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40433",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Video GPT",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://chat.openai.com/g/g-MJM52gB3D-video-gpt?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40426",
+    "logo": "https://media.theresanaiforthat.com/icons/celebrity-ai-voice.svg?height=207",
+    "name": "Celebrity AI Voice",
+    "task": "Voice cloning",
+    "task_id": "762",
+    "task_slug": "voice-cloning",
+    "url": "https://www.celebrityaivoice.net/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40381",
+    "logo": "https://media.theresanaiforthat.com/icons/deepwander.png?height=207",
+    "name": "Deepwander",
+    "task": "Journaling",
+    "task_id": "13156",
+    "task_slug": "journaling",
+    "url": "https://www.deepwander.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40378",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-humanizer.svg?height=207",
+    "name": "AI Humanizer",
+    "task": "Text humanization",
+    "task_id": "13429",
+    "task_slug": "text-humanization",
+    "url": "https://www.aihumanizer.org/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40333",
+    "logo": "https://media.theresanaiforthat.com/icons/aiimagegenerator-1706952383.png?height=207",
+    "name": "AIImageGenerator",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://aiimagegenerator.is/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40321",
+    "logo": "https://media.theresanaiforthat.com/icons/rimo.svg?height=207",
+    "name": "Rimo",
+    "task": "Article writing",
+    "task_id": "742",
+    "task_slug": "article-writing",
+    "url": "https://rimo.app/en/about/ai-editor?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40263",
+    "logo": "https://media.theresanaiforthat.com/icons/sheet-copilot.svg?height=207",
+    "name": "Sheet Copilot",
+    "task": "Spreadsheet tasks",
+    "task_id": "942",
+    "task_slug": "spreadsheet-tasks",
+    "url": "https://www.sheetcopilot.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40241",
+    "logo": "https://media.theresanaiforthat.com/icons/influencerfarm.svg?height=207",
+    "name": "InfluencerFarm",
+    "task": "Virtual influencers",
+    "task_id": "29939",
+    "task_slug": "virtual-influencers",
+    "url": "https://influencerfarm.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "27096",
+    "logo": "https://media.theresanaiforthat.com/icons/replyguy.svg?height=207",
+    "name": "ReplyGuy",
+    "task": "Social media replies",
+    "task_id": "408",
+    "task_slug": "social-media-replies",
+    "url": "https://replyguy.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40974",
+    "logo": "https://media.theresanaiforthat.com/icons/qtandard.png?height=207",
+    "name": "Qtandard",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://qtandard.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40006",
+    "logo": "https://media.theresanaiforthat.com/icons/lustgf-ai-girlfriend.svg?height=207",
+    "name": "LustGF AI Girlfriend",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://lustgf.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30580",
+    "logo": "https://media.theresanaiforthat.com/icons/snapheadshots.svg?height=207",
+    "name": "Snapheadshots",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://snapheadshots.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "32487",
+    "logo": "https://media.theresanaiforthat.com/icons/kin-personal-ai.svg?height=207",
+    "name": "Kin - Personal AI",
+    "task": "Personal Development",
+    "task_id": "5943",
+    "task_slug": "personal-development",
+    "url": "https://mykin.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40782",
+    "logo": "https://media.theresanaiforthat.com/icons/wisdomplan.svg?height=207",
+    "name": "WisdomPlan",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://wisdomplan.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40177",
+    "logo": "https://media.theresanaiforthat.com/icons/synthlife.svg?height=207",
+    "name": "SynthLife",
+    "task": "Virtual influencers",
+    "task_id": "29939",
+    "task_slug": "virtual-influencers",
+    "url": "https://synthlife.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40080",
+    "logo": "https://media.theresanaiforthat.com/icons/yt-ideas.svg?height=207",
+    "name": "YT Ideas",
+    "task": "Youtube content ideas",
+    "task_id": "17174",
+    "task_slug": "youtube-content-ideas",
+    "url": "https://yt-ideas.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40065",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-coloringpage-online.svg?height=207",
+    "name": "AI ColoringPage Online",
+    "task": "Coloring pages",
+    "task_id": "1722",
+    "task_slug": "coloring-pages",
+    "url": "https://www.aicoloringpages.online/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40060",
+    "logo": "https://media.theresanaiforthat.com/icons/website-audit-by-flowpoint-ai.png?height=207",
+    "name": "Website Audit by Flowpoint.ai",
+    "task": "Website optimization",
+    "task_id": "511",
+    "task_slug": "website-optimization",
+    "url": "https://chat.openai.com/g/g-sNVZT6oAU-website-audit-ux-ui-content-by-flowpoint-ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "40003",
+    "logo": "https://media.theresanaiforthat.com/icons/ideamap.svg?height=207",
+    "name": "Ideamap",
+    "task": "Brainstorming",
+    "task_id": "13110",
+    "task_slug": "brainstorming",
+    "url": "https://ideamap.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "39978",
+    "logo": "https://media.theresanaiforthat.com/icons/humanizeai.svg?height=207",
+    "name": "HumanizeAI",
+    "task": "Text humanization",
+    "task_id": "13429",
+    "task_slug": "text-humanization",
+    "url": "https://www.humanizeai.pro/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "39962",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-client-finder-by-synthmind.svg?height=207",
+    "name": "AI Client Finder by SynthMind",
+    "task": "Customer leads",
+    "task_id": "5749",
+    "task_slug": "customer-leads",
+    "url": "https://synthmind.app/ad/leadsai3/?utm_campaign=nav_toolss"
+  },
+  {
+    "id": "39887",
+    "logo": "https://media.theresanaiforthat.com/icons/videomaker-by-invideo-ai.png?height=207",
+    "name": "VideoMaker - by Invideo AI",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://chat.openai.com/g/g-h8l4uLHFQ-videomaker-by-invideo-ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "39877",
+    "logo": "https://media.theresanaiforthat.com/icons/sheetyai.svg?height=207",
+    "name": "SheetyAI",
+    "task": "Excel formulas",
+    "task_id": "16",
+    "task_slug": "excel-formulas",
+    "url": "https://sheety.ai/formula-generator?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "38292",
+    "logo": "https://media.theresanaiforthat.com/icons/erogen.svg?height=207",
+    "name": "Erogen",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://erogen.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "35267",
+    "logo": "https://media.theresanaiforthat.com/icons/informly-idea-validator.svg?height=207",
+    "name": "Informly Idea Validator",
+    "task": "Startup ideas",
+    "task_id": "82",
+    "task_slug": "startup-ideas",
+    "url": "https://validator.informly.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "34984",
+    "logo": "https://media.theresanaiforthat.com/icons/cutechat.svg?height=207",
+    "name": "CuteChat",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://cutechat.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "34088",
+    "logo": "https://media.theresanaiforthat.com/icons/write-minimal.svg?height=207",
+    "name": "Write Minimal",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://www.writeminimal.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "33067",
+    "logo": "https://media.theresanaiforthat.com/icons/appsmakerstore.svg?height=207",
+    "name": "AppsMakerStore",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://appsmakerstore.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "31449",
+    "logo": "https://media.theresanaiforthat.com/icons/cartbuddygpt.svg?height=207",
+    "name": "CartBuddyGPT",
+    "task": "Shopping assistance",
+    "task_id": "5798",
+    "task_slug": "shopping-assistance",
+    "url": "https://cartbuddygpt.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30810",
+    "logo": "https://media.theresanaiforthat.com/icons/podmob.svg?height=207",
+    "name": "Podmob",
+    "task": "Podcast summaries",
+    "task_id": "264",
+    "task_slug": "podcast-summaries",
+    "url": "https://www.podmob.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30520",
+    "logo": "https://media.theresanaiforthat.com/icons/full-stack-ai.svg?height=207",
+    "name": "Full Stack AI",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://fsai.elie.tech/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30515",
+    "logo": "https://media.theresanaiforthat.com/icons/prompt-octopus.svg?height=207",
+    "name": "Prompt Octopus",
+    "task": "Prompt engineering",
+    "task_id": "7408",
+    "task_slug": "prompt-engineering",
+    "url": "https://promptoctopus.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30505",
+    "logo": "https://media.theresanaiforthat.com/icons/colorcinch.svg?height=207",
+    "name": "Colorcinch",
+    "task": "Image cartooning",
+    "task_id": "157",
+    "task_slug": "image-cartooning",
+    "url": "https://www.cartoonize.net/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30475",
+    "logo": "https://media.theresanaiforthat.com/icons/insprints.svg?height=207",
+    "name": "Insprints",
+    "task": "Custom clothing",
+    "task_id": "86",
+    "task_slug": "custom-clothing",
+    "url": "https://www.insprints.art/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5303",
+    "logo": "https://media.theresanaiforthat.com/icons/tome.svg?height=207",
+    "name": "Tome",
+    "task": "Interactive storytelling",
+    "task_id": "14438",
+    "task_slug": "interactive-storytelling",
+    "url": "https://tome.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10499",
+    "logo": "https://media.theresanaiforthat.com/icons/tarot-master.svg?height=207",
+    "name": "Tarot Master",
+    "task": "Tarot card readings",
+    "task_id": "6518",
+    "task_slug": "tarot-card-readings",
+    "url": "https://tarotmaster.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "27096",
+    "logo": "https://media.theresanaiforthat.com/icons/replyguy.svg?height=207",
+    "name": "ReplyGuy",
+    "task": "Social media replies",
+    "task_id": "408",
+    "task_slug": "social-media-replies",
+    "url": "https://replyguy.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10439",
+    "logo": "https://media.theresanaiforthat.com/icons/osum.png?height=207",
+    "name": "Osum",
+    "task": "Market research",
+    "task_id": "6143",
+    "task_slug": "market-research",
+    "url": "https://osum.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10309",
+    "logo": "https://media.theresanaiforthat.com/icons/beeyond-ai.svg?height=207",
+    "name": "Beeyond AI",
+    "task": "Productivity",
+    "task_id": "13165",
+    "task_slug": "productivity",
+    "url": "https://www.beeyondai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4375",
+    "logo": "https://media.theresanaiforthat.com/icons/seaart.svg?height=207",
+    "name": "SeaArt",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://www.seaart.ai/?ad=USWBC1PAL001"
+  },
+  {
+    "id": "28073",
+    "logo": "https://media.theresanaiforthat.com/icons/bulkcontent.svg?height=207",
+    "name": "BulkContent",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://bulkcontent.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "26752",
+    "logo": "https://media.theresanaiforthat.com/icons/grapha-ai.svg?height=207",
+    "name": "Grapha AI",
+    "task": "Data analysis",
+    "task_id": "2132",
+    "task_slug": "data-analysis",
+    "url": "https://grapha.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "25730",
+    "logo": "https://media.theresanaiforthat.com/icons/texting-wingman.png?height=207",
+    "name": "Texting Wingman",
+    "task": "Online dating chat suggestions",
+    "task_id": "201",
+    "task_slug": "online-dating-chat-suggestions",
+    "url": "https://chat.openai.com/g/g-ToeTlRh6F-texting-wingman?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "18925",
+    "logo": "https://media.theresanaiforthat.com/icons/videopoet-by-google.svg?height=207",
+    "name": "VideoPoet by Google",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://sites.research.google/videopoet/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "16776",
+    "logo": "https://media.theresanaiforthat.com/icons/hitwit.svg?height=207",
+    "name": "HitWit",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://www.hitwit.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "13307",
+    "logo": "https://media.theresanaiforthat.com/icons/impakt-ai-coach.png?height=207",
+    "name": "Impakt AI Coach",
+    "task": "Fitness",
+    "task_id": "13067",
+    "task_slug": "fitness",
+    "url": "https://download.impakt.com/Tfn8/qslnrr4e"
+  },
+  {
+    "id": "10574",
+    "logo": "https://media.theresanaiforthat.com/icons/wavoai.svg?height=207",
+    "name": "WavoAI",
+    "task": "Audio transcription",
+    "task_id": "335",
+    "task_slug": "audio-transcription",
+    "url": "https://wavoai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10525",
+    "logo": "https://media.theresanaiforthat.com/icons/dash-ai.svg?height=207",
+    "name": "Dash AI",
+    "task": "Business management",
+    "task_id": "6510",
+    "task_slug": "business-management",
+    "url": "https://www.dashworks.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10449",
+    "logo": "https://media.theresanaiforthat.com/icons/casablanca.svg?height=207",
+    "name": "Casablanca",
+    "task": "Video call enhancement",
+    "task_id": "14184",
+    "task_slug": "video-call-enhancement",
+    "url": "https://www.casablanca.ai/en/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10438",
+    "logo": "https://media.theresanaiforthat.com/icons/resumebuild.svg?height=207",
+    "name": "ResumeBuild",
+    "task": "Resumes",
+    "task_id": "13066",
+    "task_slug": "resumes",
+    "url": "https://www.resumebuild.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10432",
+    "logo": "https://media.theresanaiforthat.com/icons/make-me-epic.svg?height=207",
+    "name": "Make me Epic",
+    "task": "LinkedIn profile optimization",
+    "task_id": "13818",
+    "task_slug": "linkedin-profile-optimization",
+    "url": "https://makemeepic.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10413",
+    "logo": "https://media.theresanaiforthat.com/icons/video-to-blog.svg?height=207",
+    "name": "Video To Blog",
+    "task": "Video to blogs",
+    "task_id": "13498",
+    "task_slug": "video-to-blogs",
+    "url": "https://www.videotoblog.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10409",
+    "logo": "https://media.theresanaiforthat.com/icons/gemini-by-google.svg?height=207",
+    "name": "Gemini by Google",
+    "task": "Large Language Models",
+    "task_id": "8645",
+    "task_slug": "large-language-models",
+    "url": "https://blog.google/technology/ai/google-gemini-ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10406",
+    "logo": "https://media.theresanaiforthat.com/icons/glambase.png?height=207",
+    "name": "Glambase",
+    "task": "Virtual influencer Management",
+    "task_id": "14171",
+    "task_slug": "virtual-influencer-management",
+    "url": "https://glambase.app/?utm_source=toolss&utm_medium=organic&utm_campaign=organic"
+  },
+  {
+    "id": "10367",
+    "logo": "https://media.theresanaiforthat.com/icons/face-swap-by-remaker.svg?height=207",
+    "name": "Face Swap by Remaker",
+    "task": "Face swapping",
+    "task_id": "144",
+    "task_slug": "face-swapping",
+    "url": "https://remaker.ai/face-swap-free?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10363",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-girlfriend-wtf.svg?height=207",
+    "name": "AI Girlfriend WTF",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://www.aigirlfriend.wtf/ai-girls?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10332",
+    "logo": "https://media.theresanaiforthat.com/icons/studygpt.svg?height=207",
+    "name": "StudyGPT",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://chromewebstore.google.com/detail/studygpt-your-study-copil/fcejkolobdcfbhhakbhajcflakmnhaff?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10308",
+    "logo": "https://media.theresanaiforthat.com/icons/beloga.svg?height=207",
+    "name": "Beloga",
+    "task": "Research",
+    "task_id": "13180",
+    "task_slug": "research",
+    "url": "https://www.beloga.xyz/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10305",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-youtube-summarizer.svg?height=207",
+    "name": "AI YouTube Summarizer",
+    "task": "YouTube summaries",
+    "task_id": "281",
+    "task_slug": "youtube-summaries",
+    "url": "https://www.chaindesk.ai/tools/youtube-summarizer?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10249",
+    "logo": "https://media.theresanaiforthat.com/icons/breadcrumb.svg?height=207",
+    "name": "Breadcrumb",
+    "task": "Dashboards",
+    "task_id": "13418",
+    "task_slug": "dashboards",
+    "url": "https://www.breadcrumb.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10212",
+    "logo": "https://media.theresanaiforthat.com/icons/garden-of-ai.svg?height=207",
+    "name": "Garden of AI",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://www.gardenofai.xyz/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9618",
+    "logo": "https://media.theresanaiforthat.com/icons/dreamgen-story-generator.png?height=207",
+    "name": "DreamGen Story Generator",
+    "task": "Story writing",
+    "task_id": "57",
+    "task_slug": "story-writing",
+    "url": "https://dreamgen.com/story-writing?ref=toolss_story_writing&utm_source=toolss_story_writing"
+  },
+  {
+    "id": "9385",
+    "logo": "https://media.theresanaiforthat.com/icons/aiapply.svg?height=207",
+    "name": "AiApply",
+    "task": "Job search",
+    "task_id": "13280",
+    "task_slug": "job-search",
+    "url": "https://aiapply.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9515",
+    "logo": "https://media.theresanaiforthat.com/icons/alterai.svg?height=207",
+    "name": "AlterAI",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://getalter.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "30556",
+    "logo": "https://media.theresanaiforthat.com/icons/consensus-1704289441.png?height=207",
+    "name": "Consensus",
+    "task": "Academic research",
+    "task_id": "145",
+    "task_slug": "academic-research",
+    "url": "https://chat.openai.com/g/g-bo0FiWLY7-consensus?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10343",
+    "logo": "https://media.theresanaiforthat.com/icons/pixverse.svg?height=207",
+    "name": "PixVerse",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://pixverse.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10110",
+    "logo": "https://media.theresanaiforthat.com/icons/mindmap.svg?height=207",
+    "name": "Mindmap",
+    "task": "Info maps",
+    "task_id": "5763",
+    "task_slug": "info-maps",
+    "url": "https://www.mymap.ai/mindmap/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10099",
+    "logo": "https://media.theresanaiforthat.com/icons/venturekit.svg?height=207",
+    "name": "Venturekit",
+    "task": "Business plans",
+    "task_id": "6412",
+    "task_slug": "business-plans",
+    "url": "https://www.venturekit.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10013",
+    "logo": "https://media.theresanaiforthat.com/icons/magnific.svg?height=207",
+    "name": "Magnific",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://magnific.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9939",
+    "logo": "https://media.theresanaiforthat.com/icons/promptai-app.svg?height=207",
+    "name": "PromptAI App",
+    "task": "Girl images",
+    "task_id": "7268",
+    "task_slug": "girl-images",
+    "url": "https://promptaiapp.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9914",
+    "logo": "https://media.theresanaiforthat.com/icons/capcut-online-creative-suite.svg?height=207",
+    "name": "CapCut Online Creative Suite",
+    "task": "Video editing",
+    "task_id": "30",
+    "task_slug": "video-editing",
+    "url": "https://www.capcut.com/creative-suite?utm_source=invite&utm_medium=referral&utm_campaign=aitoolstaatf"
+  },
+  {
+    "id": "9886",
+    "logo": "https://media.theresanaiforthat.com/icons/knowlee.svg?height=207",
+    "name": "Knowlee",
+    "task": "Agents",
+    "task_id": "13163",
+    "task_slug": "agents",
+    "url": "https://www.knowlee.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9865",
+    "logo": "https://media.theresanaiforthat.com/icons/pulze.svg?height=207",
+    "name": "Pulze",
+    "task": "Large Language Models",
+    "task_id": "8645",
+    "task_slug": "large-language-models",
+    "url": "https://www.pulze.ai?utm_campaign=ThereIsAnAIForThat_Tracking&utm_source=ThereisanAIforthat&utm_medium=ThereisanAIforthat&utm_term=ThereisanAIforthat&utm_content=ThereisanAIforthat"
+  },
+  {
+    "id": "9735",
+    "logo": "https://media.theresanaiforthat.com/icons/mobirise.svg?height=207",
+    "name": "Mobirise",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://mobirise.com/builder/ai-website-builder.html?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9681",
+    "logo": "https://media.theresanaiforthat.com/icons/checklist-generator.svg?height=207",
+    "name": "Checklist Generator",
+    "task": "Checklists",
+    "task_id": "13091",
+    "task_slug": "checklists",
+    "url": "https://checklist-generator.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9656",
+    "logo": "https://media.theresanaiforthat.com/icons/youtube-summarizer-9656.svg?height=207",
+    "name": "YouTube-Summarizer",
+    "task": "YouTube summaries",
+    "task_id": "281",
+    "task_slug": "youtube-summaries",
+    "url": "https://yt.azen.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9621",
+    "logo": "https://media.theresanaiforthat.com/icons/chatterbox-one.svg?height=207",
+    "name": "Chatterbox One",
+    "task": "Onlyfans messages",
+    "task_id": "9011",
+    "task_slug": "onlyfans-messages",
+    "url": "https://chromewebstore.google.com/detail/ldebdiikimghnlbfbiillfdahbedgehd?hl=en&utm_campaign=page&utm_medium=aggregators&utm_source=theresanaiforthat.com"
+  },
+  {
+    "id": "9582",
+    "logo": "https://media.theresanaiforthat.com/icons/feedeo.svg?height=207",
+    "name": "Feedeo",
+    "task": "Interactive videos",
+    "task_id": "13955",
+    "task_slug": "interactive-videos",
+    "url": "https://feedeo.spreading.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9551",
+    "logo": "https://media.theresanaiforthat.com/icons/dubbing-ai.svg?height=207",
+    "name": "Dubbing-AI",
+    "task": "Voice changing",
+    "task_id": "60",
+    "task_slug": "voice-changing",
+    "url": "https://dubbing-ai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9547",
+    "logo": "https://media.theresanaiforthat.com/icons/vidiofy.svg?height=207",
+    "name": "Vidiofy",
+    "task": "Text to Reels",
+    "task_id": "13947",
+    "task_slug": "text-to-reels",
+    "url": "https://www.vidiofy.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9545",
+    "logo": "https://media.theresanaiforthat.com/icons/piktochart.svg?height=207",
+    "name": "Piktochart",
+    "task": "Infographics",
+    "task_id": "13111",
+    "task_slug": "infographics",
+    "url": "https://piktochart.com/generative-ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9414",
+    "logo": "https://media.theresanaiforthat.com/icons/remagineai.svg?height=207",
+    "name": "RemagineAI",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://www.remagineai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9375",
+    "logo": "https://media.theresanaiforthat.com/icons/followfox.svg?height=207",
+    "name": "FollowFox",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://followfox.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9348",
+    "logo": "https://media.theresanaiforthat.com/icons/uxsniff.svg?height=207",
+    "name": "UXSniff",
+    "task": "User experience analysis",
+    "task_id": "6493",
+    "task_slug": "user-experience-analysis",
+    "url": "https://uxsniff.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8997",
+    "logo": "https://media.theresanaiforthat.com/icons/create.png?height=207",
+    "name": "Create",
+    "task": "Apps",
+    "task_id": "13077",
+    "task_slug": "apps",
+    "url": "https://www.create.xyz/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9012",
+    "logo": "https://media.theresanaiforthat.com/icons/agenda-hero.svg?height=207",
+    "name": "Agenda Hero",
+    "task": "Calendar assistant",
+    "task_id": "326",
+    "task_slug": "calendar-assistant",
+    "url": "https://agendahero.com/magic?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10313",
+    "logo": "https://media.theresanaiforthat.com/icons/what-if-app.png?height=207",
+    "name": "What If App",
+    "task": "Face swapping",
+    "task_id": "144",
+    "task_slug": "face-swapping",
+    "url": "https://whatifapp.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9154",
+    "logo": "https://media.theresanaiforthat.com/icons/zerobot.svg?height=207",
+    "name": "Zerobot",
+    "task": "Voice chatting",
+    "task_id": "6256",
+    "task_slug": "voice-chatting",
+    "url": "https://www.zerobot.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8593",
+    "logo": "https://media.theresanaiforthat.com/icons/slidespilot.svg?height=207",
+    "name": "SlidesPilot",
+    "task": "Presentation slides",
+    "task_id": "276",
+    "task_slug": "presentation-slides",
+    "url": "https://www.slidespilot.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9192",
+    "logo": "https://media.theresanaiforthat.com/icons/airial-flights.svg?height=207",
+    "name": "AiRial Flights",
+    "task": "Flight booking",
+    "task_id": "13889",
+    "task_slug": "flight-booking",
+    "url": "https://www.airial.live/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8744",
+    "logo": "https://media.theresanaiforthat.com/icons/illumidesk.svg?height=207",
+    "name": "IllumiDesk",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://info.illumidesk.com/generate-course-with-ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10312",
+    "logo": "https://media.theresanaiforthat.com/icons/saner-ai.png?height=207",
+    "name": "Saner.ai",
+    "task": "Knowledge bases",
+    "task_id": "6353",
+    "task_slug": "knowledge-bases",
+    "url": "https://saner.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9182",
+    "logo": "https://media.theresanaiforthat.com/icons/free-ai-therapist.svg?height=207",
+    "name": "Free AI Therapist",
+    "task": "Therapy",
+    "task_id": "13145",
+    "task_slug": "therapy",
+    "url": "https://freeaitherapist.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9155",
+    "logo": "https://media.theresanaiforthat.com/icons/productscope-ai.svg?height=207",
+    "name": "ProductScope.AI",
+    "task": "Brand growth",
+    "task_id": "13413",
+    "task_slug": "brand-growth",
+    "url": "https://productscope.ai"
+  },
+  {
+    "id": "9100",
+    "logo": "https://media.theresanaiforthat.com/icons/noagi-chat.svg?height=207",
+    "name": "NoAGI Chat",
+    "task": "ChatGPT",
+    "task_id": "13069",
+    "task_slug": "chatgpt",
+    "url": "https://chat.noagi.ai/login?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9098",
+    "logo": "https://media.theresanaiforthat.com/icons/askpot.svg?height=207",
+    "name": "Askpot",
+    "task": "Competition research",
+    "task_id": "13835",
+    "task_slug": "competition-research",
+    "url": "https://askpot.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9067",
+    "logo": "https://media.theresanaiforthat.com/icons/shortgen-video.svg?height=207",
+    "name": "ShortGen Video",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://shortgen.video/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8985",
+    "logo": "https://media.theresanaiforthat.com/icons/elite-ai-writer.svg?height=207",
+    "name": "Elite AI Writer",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://eliteaiwriter.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8905",
+    "logo": "https://media.theresanaiforthat.com/icons/proseable.svg?height=207",
+    "name": "Proseable",
+    "task": "Language learning",
+    "task_id": "596",
+    "task_slug": "language-learning",
+    "url": "https://www.proseable.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8878",
+    "logo": "https://media.theresanaiforthat.com/icons/ytclass.svg?height=207",
+    "name": "YTClass",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://ytclass.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8768",
+    "logo": "https://media.theresanaiforthat.com/icons/aigifs.svg?height=207",
+    "name": "AIGIFs",
+    "task": "GIFs",
+    "task_id": "13184",
+    "task_slug": "gifs",
+    "url": "https://aigifs.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8714",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-undetect.svg?height=207",
+    "name": "AI Undetect",
+    "task": "AI content detection",
+    "task_id": "299",
+    "task_slug": "ai-content-detection",
+    "url": "https://www.aiundetect.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8711",
+    "logo": "https://media.theresanaiforthat.com/icons/magegpt.svg?height=207",
+    "name": "MageGPT",
+    "task": "Web apps",
+    "task_id": "12179",
+    "task_slug": "web-apps",
+    "url": "https://usemage.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8624",
+    "logo": "https://media.theresanaiforthat.com/icons/deep-art-effects.svg?height=207",
+    "name": "Deep Art Effects",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://www.deeparteffects.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8586",
+    "logo": "https://media.theresanaiforthat.com/icons/flushai.svg?height=207",
+    "name": "FlushAI",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://www.flushai.cloud/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8546",
+    "logo": "https://media.theresanaiforthat.com/icons/knowbase.svg?height=207",
+    "name": "Knowbase",
+    "task": "Knowledge bases",
+    "task_id": "6353",
+    "task_slug": "knowledge-bases",
+    "url": "https://www.knowbase.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8523",
+    "logo": "https://media.theresanaiforthat.com/icons/ask-abe.svg?height=207",
+    "name": "Ask Abe",
+    "task": "Legal advice",
+    "task_id": "348",
+    "task_slug": "legal-advice",
+    "url": "https://ask-abe-beta.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8490",
+    "logo": "https://media.theresanaiforthat.com/icons/layer-ai-research-assistant.svg?height=207",
+    "name": "Layer | AI research assistant",
+    "task": "Research",
+    "task_id": "13180",
+    "task_slug": "research",
+    "url": "https://www.layer.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8489",
+    "logo": "https://media.theresanaiforthat.com/icons/summify.svg?height=207",
+    "name": "Summify",
+    "task": "Video summaries",
+    "task_id": "51",
+    "task_slug": "video-summaries",
+    "url": "https://summify.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8436",
+    "logo": "https://media.theresanaiforthat.com/icons/bonfire-ai-powered-concierge-bot.svg?height=207",
+    "name": "Bonfire - AI-Powered Concierge Bot",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://www.justbonfire.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8118",
+    "logo": "https://media.theresanaiforthat.com/icons/stackbear-chatbots.png?height=207",
+    "name": "Stackbear Chatbots",
+    "task": "Custom Chatbot building",
+    "task_id": "17361",
+    "task_slug": "custom-chatbot-building",
+    "url": "https://stackbear.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9489",
+    "logo": "https://media.theresanaiforthat.com/icons/webwave-ai.png?height=207",
+    "name": "WebWave AI",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://webwave.me/ai-website-builder?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8259",
+    "logo": "https://media.theresanaiforthat.com/icons/verbalate.svg?height=207",
+    "name": "Verbalate",
+    "task": "Video translation",
+    "task_id": "5859",
+    "task_slug": "video-translation",
+    "url": "https://verbalate.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8762",
+    "logo": "https://media.theresanaiforthat.com/icons/m1-project.svg?height=207",
+    "name": "M1-Project",
+    "task": "Customer profiles",
+    "task_id": "13713",
+    "task_slug": "customer-profiles",
+    "url": "https://m1-project.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7932",
+    "logo": "https://media.theresanaiforthat.com/icons/magicpost.svg?height=207",
+    "name": "MagicPost",
+    "task": "Linkedin posts",
+    "task_id": "204",
+    "task_slug": "linkedin-posts",
+    "url": "https://magicpost.in/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7957",
+    "logo": "https://media.theresanaiforthat.com/icons/insummary.svg?height=207",
+    "name": "InSummary",
+    "task": "Performance Reviews",
+    "task_id": "235",
+    "task_slug": "performance-reviews",
+    "url": "https://www.insummary.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7949",
+    "logo": "https://media.theresanaiforthat.com/icons/unreal-speech.svg?height=207",
+    "name": "Unreal Speech",
+    "task": "Text to speech",
+    "task_id": "4",
+    "task_slug": "text-to-speech",
+    "url": "https://unrealspeech.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8414",
+    "logo": "https://media.theresanaiforthat.com/icons/createdraft.svg?height=207",
+    "name": "CreateDraft",
+    "task": "Legal documents drafting",
+    "task_id": "13763",
+    "task_slug": "legal-documents-drafting",
+    "url": "https://createdraft.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8257",
+    "logo": "https://media.theresanaiforthat.com/icons/moments.svg?height=207",
+    "name": "Moments",
+    "task": "Relationship management",
+    "task_id": "13738",
+    "task_slug": "relationship-management",
+    "url": "https://scheduledapp.com/moments/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8226",
+    "logo": "https://media.theresanaiforthat.com/icons/grapegpt.svg?height=207",
+    "name": "GrapeGPT",
+    "task": "Wine recommendations",
+    "task_id": "13298",
+    "task_slug": "wine-recommendations",
+    "url": "https://grapegpt.wine/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8224",
+    "logo": "https://media.theresanaiforthat.com/icons/intimate.svg?height=207",
+    "name": "Intimate",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://myintimate.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8175",
+    "logo": "https://media.theresanaiforthat.com/icons/essai-pro.svg?height=207",
+    "name": "Essai.Pro",
+    "task": "Essay writing",
+    "task_id": "240",
+    "task_slug": "essay-writing",
+    "url": "https://essai.pro/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8171",
+    "logo": "https://media.theresanaiforthat.com/icons/founderpal.svg?height=207",
+    "name": "FounderPal",
+    "task": "Marketing strategies",
+    "task_id": "13722",
+    "task_slug": "marketing-strategies",
+    "url": "https://founderpal.ai/marketing-strategy-generator?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7979",
+    "logo": "https://media.theresanaiforthat.com/icons/melon.svg?height=207",
+    "name": "Melon",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://www.meln.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7960",
+    "logo": "https://media.theresanaiforthat.com/icons/free-music-demixer.svg?height=207",
+    "name": "Free Music Demixer",
+    "task": "Music demixing",
+    "task_id": "13669",
+    "task_slug": "music-demixing",
+    "url": "https://freemusicdemixer.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7911",
+    "logo": "https://media.theresanaiforthat.com/icons/findyourtriggers.svg?height=207",
+    "name": "FindYourTriggers",
+    "task": "Journaling",
+    "task_id": "13156",
+    "task_slug": "journaling",
+    "url": "https://findyourtriggers.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7909",
+    "logo": "https://media.theresanaiforthat.com/icons/videodubber.svg?height=207",
+    "name": "VideoDubber",
+    "task": "Video dubbing",
+    "task_id": "12",
+    "task_slug": "video-dubbing",
+    "url": "https://videodubber.ai/?via=theresanaiforthat"
+  },
+  {
+    "id": "7890",
+    "logo": "https://media.theresanaiforthat.com/icons/mathgptpro.svg?height=207",
+    "name": "MathGPTPro",
+    "task": "Math problem solving",
+    "task_id": "6533",
+    "task_slug": "math-problem-solving",
+    "url": "https://mathgptpro.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7775",
+    "logo": "https://media.theresanaiforthat.com/icons/mywaifus.svg?height=207",
+    "name": "MyWaifus",
+    "task": "Waifus",
+    "task_id": "13218",
+    "task_slug": "waifus",
+    "url": "https://mywaifus.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7764",
+    "logo": "https://media.theresanaiforthat.com/icons/infogpt.svg?height=207",
+    "name": "InfoGPT",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://www.infogpt.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7754",
+    "logo": "https://media.theresanaiforthat.com/icons/unreadai.svg?height=207",
+    "name": "UnreadAI",
+    "task": "Personal Assistant",
+    "task_id": "13593",
+    "task_slug": "personal-assistant",
+    "url": "https://getunread.com/?ref=toolss"
+  },
+  {
+    "id": "7702",
+    "logo": "https://media.theresanaiforthat.com/icons/qrx-codes.svg?height=207",
+    "name": "QRX Codes",
+    "task": "QR codes",
+    "task_id": "7231",
+    "task_slug": "qr-codes",
+    "url": "https://qrx.codes/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7700",
+    "logo": "https://media.theresanaiforthat.com/icons/topdesign.svg?height=207",
+    "name": "TopDesign",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://www.topdesign.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7650",
+    "logo": "https://media.theresanaiforthat.com/icons/promptly-generated.svg?height=207",
+    "name": "Promptly Generated",
+    "task": "Prompt engineering",
+    "task_id": "7408",
+    "task_slug": "prompt-engineering",
+    "url": "https://promptlygenerated.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7648",
+    "logo": "https://media.theresanaiforthat.com/icons/flot-ai.svg?height=207",
+    "name": "Flot.ai",
+    "task": "ChatGPT",
+    "task_id": "13069",
+    "task_slug": "chatgpt",
+    "url": "https://flot.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7623",
+    "logo": "https://media.theresanaiforthat.com/icons/editapp.svg?height=207",
+    "name": "EditApp",
+    "task": "Images",
+    "task_id": "13063",
+    "task_slug": "images",
+    "url": "https://editapp.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7430",
+    "logo": "https://media.theresanaiforthat.com/icons/endorsed.png?height=207",
+    "name": "Endorsed",
+    "task": "Resume reviews",
+    "task_id": "11591",
+    "task_slug": "resume-reviews",
+    "url": "https://endorsed.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7542",
+    "logo": "https://media.theresanaiforthat.com/icons/my-spicy-vanilla.svg?height=207",
+    "name": "My Spicy Vanilla",
+    "task": "Date ideas",
+    "task_id": "13584",
+    "task_slug": "date-ideas",
+    "url": "https://myspicyvanilla.com/ai-date-idea-generator/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8353",
+    "logo": "https://media.theresanaiforthat.com/icons/refabric.svg?height=207",
+    "name": "Refabric",
+    "task": "Fashion design",
+    "task_id": "184",
+    "task_slug": "fashion-design",
+    "url": "https://fashionai.refabric.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7541",
+    "logo": "https://media.theresanaiforthat.com/icons/spikes-studio.svg?height=207",
+    "name": "Spikes Studio",
+    "task": "Short videos",
+    "task_id": "6539",
+    "task_slug": "short-videos",
+    "url": "https://spikes.studio/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7537",
+    "logo": "https://media.theresanaiforthat.com/icons/chatwith.svg?height=207",
+    "name": "Chatwith",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://chatwith.tools/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6857",
+    "logo": "https://media.theresanaiforthat.com/icons/junggpt.svg?height=207",
+    "name": "JungGPT",
+    "task": "Therapy",
+    "task_id": "13145",
+    "task_slug": "therapy",
+    "url": "https://jung-gpt.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8557",
+    "logo": "https://media.theresanaiforthat.com/icons/sphinx-mind.svg?height=207",
+    "name": "Sphinx Mind",
+    "task": "Marketing analysis",
+    "task_id": "13788",
+    "task_slug": "marketing-analysis",
+    "url": "https://www.sphinxmind.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7622",
+    "logo": "https://media.theresanaiforthat.com/icons/turboscribe.svg?height=207",
+    "name": "TurboScribe",
+    "task": "Audio/video transcription",
+    "task_id": "14020",
+    "task_slug": "audio-video-transcription",
+    "url": "https://turboscribe.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7464",
+    "logo": "https://media.theresanaiforthat.com/icons/impulse-ai.svg?height=207",
+    "name": "Impulse AI",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://www.impulseai.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7456",
+    "logo": "https://media.theresanaiforthat.com/icons/decision.svg?height=207",
+    "name": "Decision",
+    "task": "Decision making",
+    "task_id": "2117",
+    "task_slug": "decision-making",
+    "url": "https://www.decision.so/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7455",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Vispunk",
+    "task": "Images",
+    "task_id": "13063",
+    "task_slug": "images",
+    "url": "https://vispunk.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7385",
+    "logo": "https://media.theresanaiforthat.com/icons/bloom.svg?height=207",
+    "name": "Bloom",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://bloombot.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7266",
+    "logo": "https://media.theresanaiforthat.com/icons/academic-help.svg?height=207",
+    "name": "Academic Help",
+    "task": "Essay writing",
+    "task_id": "240",
+    "task_slug": "essay-writing",
+    "url": "https://academichelp.net/free-essay-generator/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7190",
+    "logo": "https://media.theresanaiforthat.com/icons/stripchats.svg?height=207",
+    "name": "Stripchats",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://stripchats.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7186",
+    "logo": "https://media.theresanaiforthat.com/icons/textify-by-storia.svg?height=207",
+    "name": "Textify by Storia",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://textify.storia.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7139",
+    "logo": "https://media.theresanaiforthat.com/icons/taskade.svg?height=207",
+    "name": "Taskade",
+    "task": "Task automation",
+    "task_id": "156",
+    "task_slug": "task-automation",
+    "url": "https://www.taskade.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7097",
+    "logo": "https://media.theresanaiforthat.com/icons/writehuman.svg?height=207",
+    "name": "WriteHuman",
+    "task": "Text humanization",
+    "task_id": "13429",
+    "task_slug": "text-humanization",
+    "url": "https://writehuman.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7089",
+    "logo": "https://media.theresanaiforthat.com/icons/pitchpower.svg?height=207",
+    "name": "PitchPower",
+    "task": "Client proposals",
+    "task_id": "13468",
+    "task_slug": "client-proposals",
+    "url": "https://www.pitchpower.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6969",
+    "logo": "https://media.theresanaiforthat.com/icons/talknotes.svg?height=207",
+    "name": "TalkNotes",
+    "task": "Voice memos",
+    "task_id": "13437",
+    "task_slug": "voice-memos",
+    "url": "https://talknotes.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6938",
+    "logo": "https://media.theresanaiforthat.com/icons/picai.svg?height=207",
+    "name": "PicAI ",
+    "task": "Images",
+    "task_id": "13063",
+    "task_slug": "images",
+    "url": "https://apps.apple.com/app/id6450456440?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6927",
+    "logo": "https://media.theresanaiforthat.com/icons/wave-ai-note-taker-transcription-and-summary-tool.png?height=207",
+    "name": "Wave AI Note Taker, Transcription and Summary Tool",
+    "task": "Voice memos",
+    "task_id": "13437",
+    "task_slug": "voice-memos",
+    "url": "https://app.adjust.com/17t30ruc?campaign=December_2023"
+  },
+  {
+    "id": "6918",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Bomml",
+    "task": "Large Language Models",
+    "task_id": "8645",
+    "task_slug": "large-language-models",
+    "url": "https://bomml.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6868",
+    "logo": "https://media.theresanaiforthat.com/icons/email-ai-for-e-commerce-by-1hero.svg?height=207",
+    "name": "Email AI for E-Commerce by 1hero",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://www.1hero.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6825",
+    "logo": "https://media.theresanaiforthat.com/icons/books-by-ai.svg?height=207",
+    "name": "Books by AI",
+    "task": "Book writing",
+    "task_id": "185",
+    "task_slug": "book-writing",
+    "url": "https://books-by-ai.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6768",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-music-generator.svg?height=207",
+    "name": "AI Music Generator",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://ai-music-generator.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6751",
+    "logo": "https://media.theresanaiforthat.com/icons/aigpt.svg?height=207",
+    "name": "AIGPT",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://aigptfree.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6730",
+    "logo": "https://media.theresanaiforthat.com/icons/artbot.svg?height=207",
+    "name": "ArtBot",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://tinybots.net/artbot/create?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6706",
+    "logo": "https://media.theresanaiforthat.com/icons/ix-coach.png?height=207",
+    "name": "IX Coach",
+    "task": "Coaching",
+    "task_id": "13101",
+    "task_slug": "coaching",
+    "url": "https://www.ixcoach.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6690",
+    "logo": "https://media.theresanaiforthat.com/icons/pixai-art.svg?height=207",
+    "name": "PixAI Art",
+    "task": "Anime image generation",
+    "task_id": "289",
+    "task_slug": "anime-image-generation",
+    "url": "https://pixai.art/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7552",
+    "logo": "https://media.theresanaiforthat.com/icons/3daily.svg?height=207",
+    "name": "3DAiLY",
+    "task": "3D characters",
+    "task_id": "11187",
+    "task_slug": "3d-characters",
+    "url": "https://3daily.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7861",
+    "logo": "https://media.theresanaiforthat.com/icons/flowchai.svg?height=207",
+    "name": "FlowChai",
+    "task": "Business management",
+    "task_id": "6510",
+    "task_slug": "business-management",
+    "url": "https://flowch.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7447",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-magicx.svg?height=207",
+    "name": "AI Magicx",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://aimagicx.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7414",
+    "logo": "https://media.theresanaiforthat.com/icons/transcript-lol.svg?height=207",
+    "name": "Transcript LOL",
+    "task": "Audio transcription",
+    "task_id": "335",
+    "task_slug": "audio-transcription",
+    "url": "https://transcript.lol/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6545",
+    "logo": "https://media.theresanaiforthat.com/icons/resumeresponsegpt.svg?height=207",
+    "name": "ResumeResponseGPT",
+    "task": "Job search",
+    "task_id": "13280",
+    "task_slug": "job-search",
+    "url": "https://www.projectcandle.ai/resumeresponsegpt?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6540",
+    "logo": "https://media.theresanaiforthat.com/icons/heylibby.svg?height=207",
+    "name": "HeyLibby",
+    "task": "Customer leads",
+    "task_id": "5749",
+    "task_slug": "customer-leads",
+    "url": "https://heylibby.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6495",
+    "logo": "https://media.theresanaiforthat.com/icons/easyseo-ai.svg?height=207",
+    "name": "easyseo.ai",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://www.easyseo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6491",
+    "logo": "https://media.theresanaiforthat.com/icons/agent4.svg?height=207",
+    "name": "Agent4",
+    "task": "Call answering",
+    "task_id": "13316",
+    "task_slug": "call-answering",
+    "url": "https://agent4.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6344",
+    "logo": "https://media.theresanaiforthat.com/icons/photoeditor.svg?height=207",
+    "name": "Photoeditor",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://photoeditor.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6315",
+    "logo": "https://media.theresanaiforthat.com/icons/tune-chat.svg?height=207",
+    "name": "Tune Chat",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://chat.nbox.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6235",
+    "logo": "https://media.theresanaiforthat.com/icons/beducated.svg?height=207",
+    "name": "Beducated",
+    "task": "Sex education",
+    "task_id": "13251",
+    "task_slug": "sex-education",
+    "url": "https://beducated.com/ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6218",
+    "logo": "https://media.theresanaiforthat.com/icons/proai.svg?height=207",
+    "name": "ProAI",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://thetubepro.com/proai-image-generator/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6212",
+    "logo": "https://media.theresanaiforthat.com/icons/jobwizard.svg?height=207",
+    "name": "JobWizard",
+    "task": "Job applications",
+    "task_id": "6463",
+    "task_slug": "job-applications",
+    "url": "https://jobwizard.earlybird.rocks/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6197",
+    "logo": "https://media.theresanaiforthat.com/icons/finevoice-ai-voice-changer.png?height=207",
+    "name": "FineVoice AI Voice Changer",
+    "task": "Online voice changing",
+    "task_id": "12842",
+    "task_slug": "online-voice-changing",
+    "url": "https://www.fineshare.com/online-voice-changer/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6073",
+    "logo": "https://media.theresanaiforthat.com/icons/giotto.svg?height=207",
+    "name": "Giotto",
+    "task": "Images",
+    "task_id": "13063",
+    "task_slug": "images",
+    "url": "https://giotto.streamlit.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6014",
+    "logo": "https://media.theresanaiforthat.com/icons/coursebox.svg?height=207",
+    "name": "Coursebox",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://www.coursebox.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5963",
+    "logo": "https://media.theresanaiforthat.com/icons/gist-ai.png?height=207",
+    "name": "Gist AI",
+    "task": "Summaries",
+    "task_id": "13062",
+    "task_slug": "summaries",
+    "url": "https://chrome.google.com/webstore/detail/gist-ai/elmpkhkdonhdbkeaigkblbgckcihahoc?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5962",
+    "logo": "https://media.theresanaiforthat.com/icons/roleplai.svg?height=207",
+    "name": "RolePlai",
+    "task": "Chatting",
+    "task_id": "13086",
+    "task_slug": "chatting",
+    "url": "https://roleplai.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5912",
+    "logo": "https://media.theresanaiforthat.com/icons/dressrious.svg?height=207",
+    "name": "Dressrious",
+    "task": "Outfits",
+    "task_id": "13105",
+    "task_slug": "outfits",
+    "url": "https://www.dressrious.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5908",
+    "logo": "https://media.theresanaiforthat.com/icons/olympia.svg?height=207",
+    "name": "Olympia",
+    "task": "Virtual employees",
+    "task_id": "10646",
+    "task_slug": "virtual-employees",
+    "url": "https://olympia.chat?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5883",
+    "logo": "https://media.theresanaiforthat.com/icons/betterpic-ai-headshots.png?height=207",
+    "name": "BetterPic | AI Headshots",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://www.betterpic.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5881",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-headshots.svg?height=207",
+    "name": "AI Headshots",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://campaign.airbrush.io/aiheadshots/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5853",
+    "logo": "https://media.theresanaiforthat.com/icons/hackerman.svg?height=207",
+    "name": "Hackerman",
+    "task": "Learning to code",
+    "task_id": "6056",
+    "task_slug": "learning-to-code",
+    "url": "https://hackerman.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5819",
+    "logo": "https://media.theresanaiforthat.com/icons/quick-creator.svg?height=207",
+    "name": "Quick Creator",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://quickcreator.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "376",
+    "logo": "https://media.theresanaiforthat.com/icons/neural-frames.svg?height=207",
+    "name": "neural frames",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.neuralframes.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5652",
+    "logo": "https://media.theresanaiforthat.com/icons/chaindesk.png?height=207",
+    "name": "Chaindesk",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://www.chaindesk.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4843",
+    "logo": "https://media.theresanaiforthat.com/icons/storybooks.png?height=207",
+    "name": "Storybooks",
+    "task": "Children's stories",
+    "task_id": "68",
+    "task_slug": "children-s-stories",
+    "url": "https://www.storybooks.app/"
+  },
+  {
+    "id": "5400",
+    "logo": "https://media.theresanaiforthat.com/icons/docanalyzer.svg?height=207",
+    "name": "Docanalyzer",
+    "task": "Document Q&A",
+    "task_id": "726",
+    "task_slug": "document-q-a",
+    "url": "https://docanalyzer.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5008",
+    "logo": "https://media.theresanaiforthat.com/icons/flowpoint.svg?height=207",
+    "name": "Flowpoint",
+    "task": "Website analysis",
+    "task_id": "5814",
+    "task_slug": "website-analysis",
+    "url": "https://flowpoint.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7703",
+    "logo": "https://media.theresanaiforthat.com/icons/autodubber.svg?height=207",
+    "name": "AutoDubber",
+    "task": "Video dubbing",
+    "task_id": "12",
+    "task_slug": "video-dubbing",
+    "url": "https://autodubber.neurals.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6093",
+    "logo": "https://media.theresanaiforthat.com/icons/onlybabes-ai.svg?height=207",
+    "name": "OnlyBabes.ai",
+    "task": "Girl images",
+    "task_id": "7268",
+    "task_slug": "girl-images",
+    "url": "https://gumroad.com/a/375818963/kzzqm"
+  },
+  {
+    "id": "5953",
+    "logo": "https://media.theresanaiforthat.com/icons/clonedub.svg?height=207",
+    "name": "CloneDub",
+    "task": "Audio translations",
+    "task_id": "9953",
+    "task_slug": "audio-translations",
+    "url": "https://www.clonedub.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5894",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-girlfriend.svg?height=207",
+    "name": "AI-girlfriend",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://ai-girlfriend.webflow.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5861",
+    "logo": "https://media.theresanaiforthat.com/icons/search-alkemy.svg?height=207",
+    "name": "Search Alkemy",
+    "task": "SEO keywords",
+    "task_id": "321",
+    "task_slug": "seo-keywords",
+    "url": "https://app.searchalkemy.com/keyword-research?section=Free%20KW%20Tool&utm_source=theresanaiforthat"
+  },
+  {
+    "id": "5829",
+    "logo": "https://media.theresanaiforthat.com/icons/tuneflow.svg?height=207",
+    "name": "TuneFlow",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://tuneflow.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5805",
+    "logo": "https://media.theresanaiforthat.com/icons/snapdress.svg?height=207",
+    "name": "SnapDress",
+    "task": "Outfits",
+    "task_id": "13105",
+    "task_slug": "outfits",
+    "url": "https://snapdress.image2image.art/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5677",
+    "logo": "https://media.theresanaiforthat.com/icons/botly.svg?height=207",
+    "name": "Botly",
+    "task": "Onlyfans messages",
+    "task_id": "9011",
+    "task_slug": "onlyfans-messages",
+    "url": "https://getbotly.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5650",
+    "logo": "https://media.theresanaiforthat.com/icons/blogseo.svg?height=207",
+    "name": "BlogSEO",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://www.blogseo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5647",
+    "logo": "https://media.theresanaiforthat.com/icons/coursegen.svg?height=207",
+    "name": "CourseGen",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://www.coursegen.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5582",
+    "logo": "https://media.theresanaiforthat.com/icons/boltai.svg?height=207",
+    "name": "BoltAI",
+    "task": "ChatGPT on Mac",
+    "task_id": "679",
+    "task_slug": "chatgpt-on-mac",
+    "url": "https://boltai.com?ref=toolss"
+  },
+  {
+    "id": "5546",
+    "logo": "https://media.theresanaiforthat.com/icons/artguru.svg?height=207",
+    "name": "Artguru",
+    "task": "Avatars",
+    "task_id": "13049",
+    "task_slug": "avatars",
+    "url": "https://www.artguru.ai/ai-avatar-generator/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5503",
+    "logo": "https://media.theresanaiforthat.com/icons/joi-ai-girlfriend-18.svg?height=207",
+    "name": "Joi, AI Girlfriend (18+)",
+    "task": "Virtual girlfriend",
+    "task_id": "6054",
+    "task_slug": "virtual-girlfriend",
+    "url": "https://joiaigirlfriend.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5482",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-image-wizard.svg?height=207",
+    "name": "AI Image Wizard",
+    "task": "Images",
+    "task_id": "13063",
+    "task_slug": "images",
+    "url": "https://play.google.com/store/apps/details?id=com.itapps.imagegenerator&ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5306",
+    "logo": "https://media.theresanaiforthat.com/icons/kinky-ai.svg?height=207",
+    "name": "Kinky AI",
+    "task": "Companionship",
+    "task_id": "13209",
+    "task_slug": "companionship",
+    "url": "https://t.me/KinkyAiBot?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5244",
+    "logo": "https://media.theresanaiforthat.com/icons/rebeccai.svg?height=207",
+    "name": "RebeccAi",
+    "task": "Business idea evaluation",
+    "task_id": "6889",
+    "task_slug": "business-idea-evaluation",
+    "url": "https://rebecc.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5241",
+    "logo": "https://media.theresanaiforthat.com/icons/bothatch.svg?height=207",
+    "name": "Bothatch",
+    "task": "Chatbots",
+    "task_id": "13072",
+    "task_slug": "chatbots",
+    "url": "https://bothatch.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5092",
+    "logo": "https://media.theresanaiforthat.com/icons/paperclips-copilot.svg?height=207",
+    "name": "Paperclips Copilot",
+    "task": "Flashcards",
+    "task_id": "13116",
+    "task_slug": "flashcards",
+    "url": "https://www.paperclips.app/copilot?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5002",
+    "logo": "https://media.theresanaiforthat.com/icons/seo-writing-ai.svg?height=207",
+    "name": "SEO Writing AI",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://seowriting.ai?fp_ref=theresanaiforthat"
+  },
+  {
+    "id": "5001",
+    "logo": "https://media.theresanaiforthat.com/icons/cluc-io.svg?height=207",
+    "name": "Cluc.io",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://cluc.io?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4940",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-room-styles.svg?height=207",
+    "name": "AI Room Styles",
+    "task": "Interior design",
+    "task_id": "127",
+    "task_slug": "interior-design",
+    "url": "https://www.airoomstyles.com?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5150",
+    "logo": "https://media.theresanaiforthat.com/icons/aiter.png?height=207",
+    "name": "Aiter",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://aiter.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2038",
+    "logo": "https://media.theresanaiforthat.com/icons/rightblogger.svg?height=207",
+    "name": "RightBlogger",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://rightblogger.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3356",
+    "logo": "https://media.theresanaiforthat.com/icons/docuwriter-ai.svg?height=207",
+    "name": "DocuWriter.ai",
+    "task": "Code documentation",
+    "task_id": "1408",
+    "task_slug": "code-documentation",
+    "url": "https://www.docuwriter.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2570",
+    "logo": "https://media.theresanaiforthat.com/icons/meetz.svg?height=207",
+    "name": "Meetz",
+    "task": "Customer leads\n",
+    "task_id": "5749",
+    "task_slug": "customer-leads",
+    "url": "https://www.meetz.ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "13307",
+    "logo": "https://media.theresanaiforthat.com/icons/impakt-ai-coach.png?height=207",
+    "name": "Impakt AI Coach",
+    "task": "Fitness",
+    "task_id": "13067",
+    "task_slug": "fitness",
+    "url": "https://download.impakt.com/Tfn8/qslnrr4e"
+  },
+  {
+    "id": "9939",
+    "logo": "https://media.theresanaiforthat.com/icons/promptai-app.svg?height=207",
+    "name": "PromptAI App",
+    "task": "Girl images",
+    "task_id": "7268",
+    "task_slug": "girl-images",
+    "url": "https://promptaiapp.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9515",
+    "logo": "https://media.theresanaiforthat.com/icons/alterai.svg?height=207",
+    "name": "AlterAI",
+    "task": "Professional avatars",
+    "task_id": "227",
+    "task_slug": "professional-avatars",
+    "url": "https://getalter.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7623",
+    "logo": "https://media.theresanaiforthat.com/icons/editapp.svg?height=207",
+    "name": "EditApp",
+    "task": "Images",
+    "task_id": "13063",
+    "task_slug": "images",
+    "url": "https://editapp.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5358",
+    "logo": "https://media.theresanaiforthat.com/icons/promptchan.svg?height=207",
+    "name": "Promptchan",
+    "task": "Girl images",
+    "task_id": "7268",
+    "task_slug": "girl-images",
+    "url": "https://promptchan.ai/m/3IgkVQJooKbVaHOPuLDBBe4fx4f2"
+  },
+  {
+    "id": "4172",
+    "logo": "https://media.theresanaiforthat.com/icons/plus-ai.svg?height=207",
+    "name": "Plus AI",
+    "task": "Presentation slides",
+    "task_id": "276",
+    "task_slug": "presentation-slides",
+    "url": "https://workspace.google.com/u/0/marketplace/app/plus_ai/214277172452?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3842",
+    "logo": "https://media.theresanaiforthat.com/icons/stratup-ai.svg?height=207",
+    "name": "Stratup.ai",
+    "task": "Startup ideas",
+    "task_id": "82",
+    "task_slug": "startup-ideas",
+    "url": "https://stratup.ai/?via=toolss"
+  },
+  {
+    "id": "3684",
+    "logo": "https://media.theresanaiforthat.com/icons/onlywaifus.svg?height=207",
+    "name": "OnlyWaifus",
+    "task": "Waifus",
+    "task_id": "13218",
+    "task_slug": "waifus",
+    "url": "https://www.onlywaifus.ai?fpr=toolss"
+  },
+  {
+    "id": "3403",
+    "logo": "https://media.theresanaiforthat.com/icons/gptexcel.svg?height=207",
+    "name": "GPTExcel",
+    "task": "Excel formulas",
+    "task_id": "16",
+    "task_slug": "excel-formulas",
+    "url": "https://gptexcel.uk/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3355",
+    "logo": "https://media.theresanaiforthat.com/icons/godmode.svg?height=207",
+    "name": "Godmode",
+    "task": "AutoGPT",
+    "task_id": "13154",
+    "task_slug": "autogpt",
+    "url": "https://godmode.space/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3218",
+    "logo": "https://media.theresanaiforthat.com/icons/postperfect-1681205069.png?height=207",
+    "name": "PostPerfect",
+    "task": "Social media posts",
+    "task_id": "74",
+    "task_slug": "social-media-posts",
+    "url": "https://play.google.com/store/apps/details?id=com.appanie.auto.social.media.posts.post&ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3188",
+    "logo": "https://media.theresanaiforthat.com/icons/agentgpt.svg?height=207",
+    "name": "Agentgpt",
+    "task": "AutoGPT",
+    "task_id": "13154",
+    "task_slug": "autogpt",
+    "url": "https://agentgpt.reworkd.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3185",
+    "logo": "https://media.theresanaiforthat.com/icons/uimagic.svg?height=207",
+    "name": "UiMagic",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://www.uimagic.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3162",
+    "logo": "https://media.theresanaiforthat.com/icons/text-to-video-ai.svg?height=207",
+    "name": "Text to Video AI",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://text-to-video.vercel.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3122",
+    "logo": "https://media.theresanaiforthat.com/icons/job-hunt-mode.svg?height=207",
+    "name": "Job Hunt Mode",
+    "task": "Career development",
+    "task_id": "13500",
+    "task_slug": "career-development",
+    "url": "https://jobhuntmode.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2858",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "GPT Prompt Tuner",
+    "task": "ChatGPT prompts",
+    "task_id": "5889",
+    "task_slug": "chatgpt-prompts",
+    "url": "https://gptprompttuner.com?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2820",
+    "logo": "https://media.theresanaiforthat.com/icons/learningstudioai.svg?height=207",
+    "name": "LearningStudioAI",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://learningstudioai.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "2188",
+    "logo": "https://media.theresanaiforthat.com/icons/venturusai.svg?height=207",
+    "name": "VenturusAI",
+    "task": "Startup ideas",
+    "task_id": "82",
+    "task_slug": "startup-ideas",
+    "url": "https://venturusai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1676",
+    "logo": "https://media.theresanaiforthat.com/icons/chaingpt.svg?height=207",
+    "name": "ChainGPT",
+    "task": "Crypto trading",
+    "task_id": "202",
+    "task_slug": "crypto-trading",
+    "url": "https://www.chaingpt.org/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1646",
+    "logo": "https://media.theresanaiforthat.com/icons/photo-ai.svg?height=207",
+    "name": "Photo AI",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://photoai.io/?via=theresanaiforthat"
+  },
+  {
+    "id": "1303",
+    "logo": "https://media.theresanaiforthat.com/icons/scisummary.svg?height=207",
+    "name": "Scisummary",
+    "task": "Scientific article summaries",
+    "task_id": "370",
+    "task_slug": "scientific-article-summaries",
+    "url": "https://scisummary.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1161",
+    "logo": "https://media.theresanaiforthat.com/icons/magicslides.svg?height=207",
+    "name": "MagicSlides",
+    "task": "Presentation slides",
+    "task_id": "276",
+    "task_slug": "presentation-slides",
+    "url": "https://www.magicslides.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "670",
+    "logo": "https://media.theresanaiforthat.com/icons/codewp.png?height=207",
+    "name": "CodeWP",
+    "task": "Coding",
+    "task_id": "13045",
+    "task_slug": "coding",
+    "url": "https://codewp.ai/?cwpref=theresanaiforthat"
+  },
+  {
+    "id": "587",
+    "logo": "https://media.theresanaiforthat.com/icons/echowin.png?height=207",
+    "name": "echowin",
+    "task": "Call answering",
+    "task_id": "13316",
+    "task_slug": "call-answering",
+    "url": "https://echo.win/?utm_campaign=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6253",
+    "logo": "https://media.theresanaiforthat.com/icons/typebar.png?height=207",
+    "name": "Typebar",
+    "task": "Tweeting",
+    "task_id": "13055",
+    "task_slug": "tweeting",
+    "url": "https://typebar.app"
+  },
+  {
+    "id": "591",
+    "logo": "https://media.theresanaiforthat.com/icons/durable-ai-site-builder.svg?height=207",
+    "name": "Durable AI Site Builder",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://durable.co/ai-website-builder?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1785",
+    "logo": "https://media.theresanaiforthat.com/icons/taplio.svg?height=207",
+    "name": "Taplio",
+    "task": "Linkedin posts",
+    "task_id": "204",
+    "task_slug": "linkedin-posts",
+    "url": "https://taplio.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4635",
+    "logo": "https://media.theresanaiforthat.com/icons/keywordsearch.svg?height=207",
+    "name": "KeywordSearch",
+    "task": "YouTube keyword search",
+    "task_id": "6391",
+    "task_slug": "youtube-keyword-search",
+    "url": "https://www.keywordsearch.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "700",
+    "logo": "https://media.theresanaiforthat.com/icons/caktus.svg?height=207",
+    "name": "Caktus",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://www.caktus.ai/caktus_student?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1960",
+    "logo": "https://media.theresanaiforthat.com/icons/myreport.svg?height=207",
+    "name": "MyReport",
+    "task": "Business reports",
+    "task_id": "248",
+    "task_slug": "business-reports",
+    "url": "https://myreport.alaba.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3650",
+    "logo": "https://media.theresanaiforthat.com/icons/audioread-com.svg?height=207",
+    "name": "Audioread.com",
+    "task": "Text to speech",
+    "task_id": "4",
+    "task_slug": "text-to-speech",
+    "url": "https://audioread.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2784",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-course-creator.svg?height=207",
+    "name": "AI Course Creator",
+    "task": "Online courses",
+    "task_id": "612",
+    "task_slug": "online-courses",
+    "url": "https://minicoursegenerator.com/ai-assistant/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2415",
+    "logo": "https://media.theresanaiforthat.com/icons/kiwi-video.svg?height=207",
+    "name": "Kiwi Video",
+    "task": "Video summaries",
+    "task_id": "51",
+    "task_slug": "video-summaries",
+    "url": "https://kiwi.video/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1869",
+    "logo": "https://media.theresanaiforthat.com/icons/logoai.svg?height=207",
+    "name": "LogoAi",
+    "task": "Logo design",
+    "task_id": "80",
+    "task_slug": "logo-design",
+    "url": "https://www.logoai.com/?coupon=theresanaiforthat"
+  },
+  {
+    "id": "1837",
+    "logo": "https://media.theresanaiforthat.com/icons/finecam.svg?height=207",
+    "name": "FineCam",
+    "task": "Video editing",
+    "task_id": "30",
+    "task_slug": "video-editing",
+    "url": "https://www.fineshare.com/finecam/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1709",
+    "logo": "https://media.theresanaiforthat.com/icons/pirr.svg?height=207",
+    "name": "Pirr",
+    "task": "Erotic stories",
+    "task_id": "14096",
+    "task_slug": "erotic-stories",
+    "url": "https://www.pirr.me/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1416",
+    "logo": "https://media.theresanaiforthat.com/icons/mytales.svg?height=207",
+    "name": "Mytales",
+    "task": "Story writing",
+    "task_id": "57",
+    "task_slug": "story-writing",
+    "url": "https://mytales.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1333",
+    "logo": "https://media.theresanaiforthat.com/icons/kaiber.svg?height=207",
+    "name": "Kaiber",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://kaiber.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1067",
+    "logo": "https://media.theresanaiforthat.com/icons/quickvid.svg?height=207",
+    "name": "QuickVid",
+    "task": "YouTube shorts",
+    "task_id": "319",
+    "task_slug": "youtube-shorts",
+    "url": "https://www.quickvid.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "939",
+    "logo": "https://media.theresanaiforthat.com/icons/eightify.svg?height=207",
+    "name": "Eightify",
+    "task": "YouTube summaries",
+    "task_id": "281",
+    "task_slug": "youtube-summaries",
+    "url": "https://www.eightify.app/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "589",
+    "logo": "https://media.theresanaiforthat.com/icons/easy-peasy-ai.svg?height=207",
+    "name": "Easy-Peasy.AI",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://easy-peasy.ai/?via=theresanaiforthat"
+  },
+  {
+    "id": "578",
+    "logo": "https://media.theresanaiforthat.com/icons/elicit.svg?height=207",
+    "name": "Elicit",
+    "task": "Academic research",
+    "task_id": "145",
+    "task_slug": "academic-research",
+    "url": "https://elicit.org/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "564",
+    "logo": "https://media.theresanaiforthat.com/icons/examcram.svg?height=207",
+    "name": "ExamCram",
+    "task": "Exam preparation",
+    "task_id": "1507",
+    "task_slug": "exam-preparation",
+    "url": "https://apps.apple.com/us/app/examcram-ai-for-students/id1595934993?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "532",
+    "logo": "https://media.theresanaiforthat.com/icons/generated-photos.svg?height=207",
+    "name": "Generated Photos",
+    "task": "Whole body image generation",
+    "task_id": "35",
+    "task_slug": "whole-body-image-generation",
+    "url": "https://generated.photos/humans?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "401",
+    "logo": "https://media.theresanaiforthat.com/icons/midjourney.svg?height=207",
+    "name": "Midjourney",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://www.midjourney.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "280",
+    "logo": "https://media.theresanaiforthat.com/icons/programming-helper.svg?height=207",
+    "name": "Programming Helper",
+    "task": "Coding",
+    "task_id": "13045",
+    "task_slug": "coding",
+    "url": "https://www.programming-helper.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "245",
+    "logo": "https://media.theresanaiforthat.com/icons/remover-app.svg?height=207",
+    "name": "Remover.app",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://remover.zmo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "209",
+    "logo": "https://media.theresanaiforthat.com/icons/scholarcy.svg?height=207",
+    "name": "Scholarcy",
+    "task": "Academic research",
+    "task_id": "145",
+    "task_slug": "academic-research",
+    "url": "https://www.scholarcy.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "208",
+    "logo": "https://media.theresanaiforthat.com/icons/scispace.svg?height=207",
+    "name": "Scispace",
+    "task": "Academic research",
+    "task_id": "145",
+    "task_slug": "academic-research",
+    "url": "https://typeset.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "148",
+    "logo": "https://media.theresanaiforthat.com/icons/stockimg-ai.svg?height=207",
+    "name": "Stockimg AI",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://stockimg.ai/#?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "84",
+    "logo": "https://media.theresanaiforthat.com/icons/tutorai.svg?height=207",
+    "name": "TutorAI",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://www.tutorai.me/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "43",
+    "logo": "https://media.theresanaiforthat.com/icons/splash.svg?height=207",
+    "name": "Splash",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://www.splashmusic.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "3421",
+    "logo": "https://media.theresanaiforthat.com/icons/paperpal.svg?height=207",
+    "name": "PaperPal",
+    "task": "Academic writing",
+    "task_id": "1474",
+    "task_slug": "academic-writing",
+    "url": "https://paperpal.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2969",
+    "logo": "https://media.theresanaiforthat.com/icons/browse-ai.svg?height=207",
+    "name": "Browse AI",
+    "task": "Webscraping",
+    "task_id": "13148",
+    "task_slug": "webscraping",
+    "url": "https://browse.ai/?via=theresanaiforthat"
+  },
+  {
+    "id": "2625",
+    "logo": "https://media.theresanaiforthat.com/icons/deepmotion.svg?height=207",
+    "name": "Deepmotion",
+    "task": "3D animations",
+    "task_id": "5831",
+    "task_slug": "3d-animations",
+    "url": "https://www.deepmotion.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2396",
+    "logo": "https://media.theresanaiforthat.com/icons/football-ai.svg?height=207",
+    "name": "Football AI",
+    "task": "Football predictions",
+    "task_id": "5792",
+    "task_slug": "football-predictions",
+    "url": "https://play.google.com/store/apps/details?id=com.footballscore.mobile&ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1722",
+    "logo": "https://media.theresanaiforthat.com/icons/vizologi.svg?height=207",
+    "name": "Vizologi",
+    "task": "Business intelligence",
+    "task_id": "344",
+    "task_slug": "business-intelligence",
+    "url": "https://vizologi.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1360",
+    "logo": "https://media.theresanaiforthat.com/icons/cleanup-pictures.svg?height=207",
+    "name": "Cleanup pictures",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://cleanup.pictures/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1025",
+    "logo": "https://media.theresanaiforthat.com/icons/adcreative.svg?height=207",
+    "name": "AdCreative",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://free-trial.adcreative.ai/theresanaiforthat"
+  },
+  {
+    "id": "642",
+    "logo": "https://media.theresanaiforthat.com/icons/d-id.svg?height=207",
+    "name": "D-ID",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.d-id.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "630",
+    "logo": "https://media.theresanaiforthat.com/icons/deep-nostalgia.svg?height=207",
+    "name": "Deep Nostalgia",
+    "task": "Image animations",
+    "task_id": "81",
+    "task_slug": "image-animations",
+    "url": "https://www.myheritage.ro/deep-nostalgia?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "526",
+    "logo": "https://media.theresanaiforthat.com/icons/getresponse.svg?height=207",
+    "name": "GetResponse",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://www.getresponse.com?a=cJw3gAtMqE&c=theresanaiforthat"
+  },
+  {
+    "id": "407",
+    "logo": "https://media.theresanaiforthat.com/icons/makeit-ai.svg?height=207",
+    "name": "Makeit.ai",
+    "task": "Architectural planning",
+    "task_id": "22",
+    "task_slug": "architectural-planning",
+    "url": "https://www.maket.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "391",
+    "logo": "https://media.theresanaiforthat.com/icons/mutable-ai.svg?height=207",
+    "name": "Mutable.ai",
+    "task": "Coding",
+    "task_id": "13045",
+    "task_slug": "coding",
+    "url": "https://mutable.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "355",
+    "logo": "https://media.theresanaiforthat.com/icons/opus.svg?height=207",
+    "name": "Opus",
+    "task": "3D animations",
+    "task_id": "5831",
+    "task_slug": "3d-animations",
+    "url": "https://opus.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "346",
+    "logo": "https://media.theresanaiforthat.com/icons/paraphraser.svg?height=207",
+    "name": "Paraphraser",
+    "task": "Paraphrasing",
+    "task_id": "13076",
+    "task_slug": "paraphrasing",
+    "url": "https://paraphrasetool.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "130",
+    "logo": "https://media.theresanaiforthat.com/icons/supercreator-ai.svg?height=207",
+    "name": "Supercreator AI",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://app.supercreator.ai/invite?ref=theresanaiforthat&sc_ref=theresanaiforthat"
+  },
+  {
+    "id": "55",
+    "logo": "https://media.theresanaiforthat.com/icons/vidboard-ai.svg?height=207",
+    "name": "Vidboard AI",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://vidboard.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "54",
+    "logo": "https://media.theresanaiforthat.com/icons/vidyo.svg?height=207",
+    "name": "Vidyo",
+    "task": "Short videos",
+    "task_id": "6539",
+    "task_slug": "short-videos",
+    "url": "https://vidyo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "22",
+    "logo": "https://media.theresanaiforthat.com/icons/fliki.svg?height=207",
+    "name": "Fliki",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://fliki.ai/?via=theresanaiforthat"
+  },
+  {
+    "id": "20",
+    "logo": "https://media.theresanaiforthat.com/icons/compose-ai.svg?height=207",
+    "name": "Compose AI",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://www.compose.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "18",
+    "logo": "https://media.theresanaiforthat.com/icons/sudowrite.svg?height=207",
+    "name": "Sudowrite",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://www.sudowrite.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "17",
+    "logo": "https://media.theresanaiforthat.com/icons/rytr.svg?height=207",
+    "name": "Rytr",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://rytr.me/?via=theresanaiforthat"
+  },
+  {
+    "id": "14",
+    "logo": "https://media.theresanaiforthat.com/icons/hypotenuse-ai.svg?height=207",
+    "name": "Hypotenuse.ai",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://hypotenuse.ai?via=theresanaiforthat"
+  },
+  {
+    "id": "13",
+    "logo": "https://media.theresanaiforthat.com/icons/bertha-ai.svg?height=207",
+    "name": "Bertha.ai",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://bertha.ai/?ref=12157"
+  },
+  {
+    "id": "12",
+    "logo": "https://media.theresanaiforthat.com/icons/frase-io.svg?height=207",
+    "name": "Frase.io",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://www.frase.io/tools/?via=theresanaiforthat"
+  },
+  {
+    "id": "332",
+    "logo": "https://media.theresanaiforthat.com/icons/pfpmaker.svg?height=207",
+    "name": "Pfpmaker",
+    "task": "Profile pictures",
+    "task_id": "79",
+    "task_slug": "profile-pictures",
+    "url": "https://pfpmaker.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2885",
+    "logo": "https://media.theresanaiforthat.com/icons/semanticscholar.svg?height=207",
+    "name": "Semanticscholar",
+    "task": "Academic research",
+    "task_id": "145",
+    "task_slug": "academic-research",
+    "url": "https://www.semanticscholar.org/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2182",
+    "logo": "https://media.theresanaiforthat.com/icons/chatgpt-for-translators.svg?height=207",
+    "name": "ChatGPT for Translators",
+    "task": "Text translation",
+    "task_id": "6",
+    "task_slug": "text-translation",
+    "url": "https://pro.wordscope.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2077",
+    "logo": "https://media.theresanaiforthat.com/icons/10web.svg?height=207",
+    "name": "10Web",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://10web.io/?_from=theresanaiforthat"
+  },
+  {
+    "id": "2062",
+    "logo": "https://media.theresanaiforthat.com/icons/unscreen.svg?height=207",
+    "name": "Unscreen",
+    "task": "Background removal",
+    "task_id": "14071",
+    "task_slug": "background-removal",
+    "url": "https://www.unscreen.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1851",
+    "logo": "https://media.theresanaiforthat.com/icons/luminar-ai.svg?height=207",
+    "name": "Luminar AI",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://skylum.evyy.net/9gVzy0"
+  },
+  {
+    "id": "1495",
+    "logo": "https://media.theresanaiforthat.com/icons/tradytics.svg?height=207",
+    "name": "Tradytics",
+    "task": "Trading",
+    "task_id": "13109",
+    "task_slug": "trading",
+    "url": "https://tradytics.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1258",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Calligrapher",
+    "task": "Handwriting",
+    "task_id": "13102",
+    "task_slug": "handwriting",
+    "url": "https://www.calligrapher.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1142",
+    "logo": "https://media.theresanaiforthat.com/icons/mubert.svg?height=207",
+    "name": "Mubert",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://mubert.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "1116",
+    "logo": "https://media.theresanaiforthat.com/icons/synthesizer-v.svg?height=207",
+    "name": "Synthesizer V",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://dreamtonics.com/en/synthesizerv/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1106",
+    "logo": "https://media.theresanaiforthat.com/icons/audo-ai.svg?height=207",
+    "name": "Audo AI",
+    "task": "Background noise reduction",
+    "task_id": "711",
+    "task_slug": "background-noise-reduction",
+    "url": "https://audo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1082",
+    "logo": "https://media.theresanaiforthat.com/icons/moises-app.svg?height=207",
+    "name": "Moises App",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://moises.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1043",
+    "logo": "https://media.theresanaiforthat.com/icons/inksprout-video.svg?height=207",
+    "name": "Inksprout Video",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://inksprout.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1032",
+    "logo": "https://media.theresanaiforthat.com/icons/sourceai.svg?height=207",
+    "name": "SourceAI",
+    "task": "Coding",
+    "task_id": "13045",
+    "task_slug": "coding",
+    "url": "https://sourceai.dev/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "667",
+    "logo": "https://media.theresanaiforthat.com/icons/colossyan.svg?height=207",
+    "name": "Colossyan",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.colossyan.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "659",
+    "logo": "https://media.theresanaiforthat.com/icons/copy-ai.svg?height=207",
+    "name": "Copy.ai",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://www.copy.ai/?via=theresanaiforthat"
+  },
+  {
+    "id": "622",
+    "logo": "https://media.theresanaiforthat.com/icons/designs-ai.svg?height=207",
+    "name": "Designs AI",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://designs.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "235",
+    "logo": "https://media.theresanaiforthat.com/icons/resume-worded.svg?height=207",
+    "name": "Resume Worded",
+    "task": "Resumes",
+    "task_id": "13066",
+    "task_slug": "resumes",
+    "url": "https://resumeworded.com/index.php?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "140",
+    "logo": "https://media.theresanaiforthat.com/icons/sudowrite.svg?height=207",
+    "name": "Sudowrite",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://www.sudowrite.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "97",
+    "logo": "https://media.theresanaiforthat.com/icons/tldr-this.svg?height=207",
+    "name": "TLDR This",
+    "task": "Summaries",
+    "task_id": "13062",
+    "task_slug": "summaries",
+    "url": "https://tldrthis.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "49",
+    "logo": "https://media.theresanaiforthat.com/icons/gigapixel-ai.svg?height=207",
+    "name": "Gigapixel AI",
+    "task": "Image upscaling",
+    "task_id": "28",
+    "task_slug": "image-upscaling",
+    "url": "https://www.topazlabs.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "47",
+    "logo": "https://media.theresanaiforthat.com/icons/astria-ai.svg?height=207",
+    "name": "Astria.ai",
+    "task": "Image to image",
+    "task_id": "27",
+    "task_slug": "image-to-image",
+    "url": "https://www.astria.ai?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "27",
+    "logo": "https://media.theresanaiforthat.com/icons/colossyan.svg?height=207",
+    "name": "Colossyan",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.colossyan.com/?via=theresanaiforthat"
+  },
+  {
+    "id": "9",
+    "logo": "https://media.theresanaiforthat.com/icons/jasper-ai.svg?height=207",
+    "name": "Jasper.ai",
+    "task": "Content generation",
+    "task_id": "662",
+    "task_slug": "content-generation",
+    "url": "https://www.jasper.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4405",
+    "logo": "https://media.theresanaiforthat.com/icons/wizdom.svg?height=207",
+    "name": "Wizdom",
+    "task": "Data analysis",
+    "task_id": "2132",
+    "task_slug": "data-analysis",
+    "url": "https://www.wizdom.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2040",
+    "logo": "https://media.theresanaiforthat.com/icons/otter-ai.svg?height=207",
+    "name": "Otter.ai",
+    "task": "Meeting summaries",
+    "task_id": "120",
+    "task_slug": "meeting-summaries",
+    "url": "https://otterai.sjv.io/c/4147834/1063514/13661?utm_term=1113693"
+  },
+  {
+    "id": "1767",
+    "logo": "https://media.theresanaiforthat.com/icons/hookgen.svg?height=207",
+    "name": "HookGen",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://hookgen.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1688",
+    "logo": "https://media.theresanaiforthat.com/icons/namecheap-free-logo-maker.svg?height=207",
+    "name": "Namecheap Free Logo Maker",
+    "task": "Logo design",
+    "task_id": "80",
+    "task_slug": "logo-design",
+    "url": "https://www.namecheap.com/logo-maker/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1231",
+    "logo": "https://media.theresanaiforthat.com/icons/donotpay.svg?height=207",
+    "name": "Donotpay",
+    "task": "Legal advice",
+    "task_id": "348",
+    "task_slug": "legal-advice",
+    "url": "https://donotpay.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1226",
+    "logo": "https://media.theresanaiforthat.com/icons/generative-engine.svg?height=207",
+    "name": "Generative_engine",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://experiments.runwayml.com/generative_engine/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "994",
+    "logo": "https://media.theresanaiforthat.com/icons/grammarly.svg?height=207",
+    "name": "Grammarly",
+    "task": "Grammar checking",
+    "task_id": "278",
+    "task_slug": "grammar-checking",
+    "url": "https://www.grammarly.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "831",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-dungeon.svg?height=207",
+    "name": "AI Dungeon",
+    "task": "Game creation",
+    "task_id": "11",
+    "task_slug": "game-creation",
+    "url": "https://play.aidungeon.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "824",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-lyrics-generator.svg?height=207",
+    "name": "AI Lyrics Generator",
+    "task": "Music lyrics",
+    "task_id": "231",
+    "task_slug": "music-lyrics",
+    "url": "https://theselyricsdonotexist.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "762",
+    "logo": "https://media.theresanaiforthat.com/icons/artbreeder.svg?height=207",
+    "name": "Artbreeder",
+    "task": "Image collage creation",
+    "task_id": "14",
+    "task_slug": "image-collage-creation",
+    "url": "https://www.artbreeder.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "708",
+    "logo": "https://media.theresanaiforthat.com/icons/boomy.svg?height=207",
+    "name": "Boomy",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://boomy.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "588",
+    "logo": "https://media.theresanaiforthat.com/icons/ebsynth.svg?height=207",
+    "name": "Ebsynth",
+    "task": "Image animations",
+    "task_id": "81",
+    "task_slug": "image-animations",
+    "url": "https://ebsynth.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "488",
+    "logo": "https://media.theresanaiforthat.com/icons/hour-one.svg?height=207",
+    "name": "Hour One",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://hourone.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "424",
+    "logo": "https://media.theresanaiforthat.com/icons/looka.svg?height=207",
+    "name": "Looka",
+    "task": "Logo design",
+    "task_id": "80",
+    "task_slug": "logo-design",
+    "url": "https://looka.grsm.io/cbup89wrr0me"
+  },
+  {
+    "id": "406",
+    "logo": "https://media.theresanaiforthat.com/icons/mapwith-ai.svg?height=207",
+    "name": "Mapwith.ai",
+    "task": "Maps",
+    "task_id": "13070",
+    "task_slug": "maps",
+    "url": "https://mapwith.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "395",
+    "logo": "https://media.theresanaiforthat.com/icons/movio.svg?height=207",
+    "name": "Movio",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.movio.la/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "393",
+    "logo": "https://media.theresanaiforthat.com/icons/musenet.svg?height=207",
+    "name": "Musenet ",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://openai.com/blog/musenet/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "362",
+    "logo": "https://media.theresanaiforthat.com/icons/nsfw-js.svg?height=207",
+    "name": "NSFW JS",
+    "task": "NSFW image detection",
+    "task_id": "226",
+    "task_slug": "nsfw-image-detection",
+    "url": "https://nsfwjs.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "241",
+    "logo": "https://media.theresanaiforthat.com/icons/replica.svg?height=207",
+    "name": "Replica",
+    "task": "Voice acting",
+    "task_id": "23",
+    "task_slug": "voice-acting",
+    "url": "https://replicastudios.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "222",
+    "logo": "https://media.theresanaiforthat.com/icons/rosebud.svg?height=207",
+    "name": "Rosebud",
+    "task": "Game creation",
+    "task_id": "11",
+    "task_slug": "game-creation",
+    "url": "https://www.rosebud.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "156",
+    "logo": "https://media.theresanaiforthat.com/icons/starbyface.svg?height=207",
+    "name": "StarByFace",
+    "task": "Celebrity lookalikes",
+    "task_id": "26",
+    "task_slug": "celebrity-lookalikes",
+    "url": "https://starbyface.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "122",
+    "logo": "https://media.theresanaiforthat.com/icons/synthesia.svg?height=207",
+    "name": "Synthesia",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.synthesia.io/?via=theresanaiforthat"
+  },
+  {
+    "id": "100",
+    "logo": "https://media.theresanaiforthat.com/icons/thispersondoesnotexist.svg?height=207",
+    "name": "Thispersondoesnotexist",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://thispersondoesnotexist.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "36",
+    "logo": "https://media.theresanaiforthat.com/icons/poly-ai.svg?height=207",
+    "name": "Poly AI",
+    "task": "Voice assistants",
+    "task_id": "3116",
+    "task_slug": "voice-assistants",
+    "url": "https://poly.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "10529",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "InterviewHelper",
+    "task": "Job interviews",
+    "task_id": "125",
+    "task_slug": "job-interviews",
+    "url": "https://interviewhelpers.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9065",
+    "logo": "https://media.theresanaiforthat.com/icons/veritone.svg?height=207",
+    "name": "Veritone",
+    "task": "Task automation",
+    "task_id": "156",
+    "task_slug": "task-automation",
+    "url": "https://www.veritone.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9063",
+    "logo": "https://media.theresanaiforthat.com/icons/highspot.svg?height=207",
+    "name": "Highspot",
+    "task": "Sales role play",
+    "task_id": "7590",
+    "task_slug": "sales-role-play",
+    "url": "https://highspot.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9062",
+    "logo": "https://media.theresanaiforthat.com/icons/interactions.svg?height=207",
+    "name": "Interactions",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://interactions.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9058",
+    "logo": "https://media.theresanaiforthat.com/icons/alphasense.svg?height=207",
+    "name": "AlphaSense",
+    "task": "Market research",
+    "task_id": "6143",
+    "task_slug": "market-research",
+    "url": "https://www.alpha-sense.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8246",
+    "logo": "https://media.theresanaiforthat.com/icons/edgetier.svg?height=207",
+    "name": "EdgeTier",
+    "task": "Customer engagement",
+    "task_id": "9954",
+    "task_slug": "customer-engagement",
+    "url": "https://www.edgetier.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "8100",
+    "logo": "https://media.theresanaiforthat.com/icons/imagga.svg?height=207",
+    "name": "Imagga",
+    "task": "Image recognition",
+    "task_id": "285",
+    "task_slug": "image-recognition",
+    "url": "https://imagga.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "7732",
+    "logo": "https://media.theresanaiforthat.com/icons/rivetai.svg?height=207",
+    "name": "RivetAI",
+    "task": "Movie pre-production",
+    "task_id": "13627",
+    "task_slug": "movie-pre-production",
+    "url": "https://www.rivetai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6052",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "Magic Sketchpad",
+    "task": "Drawing",
+    "task_id": "13065",
+    "task_slug": "drawing",
+    "url": "https://magic-sketchpad.glitch.me/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "4727",
+    "logo": "https://media.theresanaiforthat.com/icons/what-font-is.svg?height=207",
+    "name": "What font is",
+    "task": "Font finder",
+    "task_id": "6418",
+    "task_slug": "font-finder",
+    "url": "https://www.whatfontis.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2874",
+    "logo": "https://media.theresanaiforthat.com/icons/digitalgenius.png?height=207",
+    "name": "DigitalGenius",
+    "task": "Customer support",
+    "task_id": "89",
+    "task_slug": "customer-support",
+    "url": "https://digitalgenius.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2066",
+    "logo": "https://media.theresanaiforthat.com/icons/gliastudio.svg?height=207",
+    "name": "GliaStudio",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://www.gliacloud.com/en/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1444",
+    "logo": "https://media.theresanaiforthat.com/icons/nlsql.svg?height=207",
+    "name": "NLSQL",
+    "task": "SQL queries",
+    "task_id": "164",
+    "task_slug": "sql-queries",
+    "url": "https://nlsql.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1168",
+    "logo": "https://media.theresanaiforthat.com/icons/b12-io.svg?height=207",
+    "name": "B12.io",
+    "task": "Website building",
+    "task_id": "50",
+    "task_slug": "website-building",
+    "url": "https://www.awin1.com/cread.php?awinmid=31619&awinaffid=1331123&ued=https%3A%2F%2Fwww.b12.io%2F"
+  },
+  {
+    "id": "1135",
+    "logo": "https://media.theresanaiforthat.com/icons/wolframalpha.svg?height=207",
+    "name": "Wolframalpha",
+    "task": "Q&A",
+    "task_id": "225",
+    "task_slug": "q-a",
+    "url": "https://www.wolframalpha.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "756",
+    "logo": "https://media.theresanaiforthat.com/icons/articleforge.svg?height=207",
+    "name": "ArticleForge",
+    "task": "SEO content",
+    "task_id": "10",
+    "task_slug": "seo-content",
+    "url": "https://www.articleforge.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "640",
+    "logo": "https://media.theresanaiforthat.com/icons/dadabots.svg?height=207",
+    "name": "Dadabots",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://dadabots.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "441",
+    "logo": "https://media.theresanaiforthat.com/icons/krisp.svg?height=207",
+    "name": "Krisp",
+    "task": "Background removal",
+    "task_id": "14071",
+    "task_slug": "background-removal",
+    "url": "https://krisp.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "427",
+    "logo": "https://media.theresanaiforthat.com/icons/lobe-ai.svg?height=207",
+    "name": "Lobe AI",
+    "task": "AI model training",
+    "task_id": "638",
+    "task_slug": "ai-model-training",
+    "url": "https://www.lobe.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "385",
+    "logo": "https://media.theresanaiforthat.com/icons/namelix.svg?height=207",
+    "name": "Namelix",
+    "task": "Business names",
+    "task_id": "83",
+    "task_slug": "business-names",
+    "url": "https://namelix.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "382",
+    "logo": "https://media.theresanaiforthat.com/icons/naturalreader.svg?height=207",
+    "name": "NaturalReader",
+    "task": "Text to speech",
+    "task_id": "4",
+    "task_slug": "text-to-speech",
+    "url": "https://www.naturalreaders.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "246",
+    "logo": "https://media.theresanaiforthat.com/icons/remove-bg.svg?height=207",
+    "name": "Remove.bg",
+    "task": "Background removal",
+    "task_id": "14071",
+    "task_slug": "background-removal",
+    "url": "https://www.remove.bg/r/Jjwuo2eXwUHx8bmdQhwMsVLL"
+  },
+  {
+    "id": "121",
+    "logo": "https://media.theresanaiforthat.com/icons/tabnine.svg?height=207",
+    "name": "Tabnine",
+    "task": "Coding",
+    "task_id": "13045",
+    "task_slug": "coding",
+    "url": "https://www.tabnine.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "118",
+    "logo": "https://media.theresanaiforthat.com/icons/talk-to-books.svg?height=207",
+    "name": "Talk to Books",
+    "task": "Q&A from books",
+    "task_id": "239",
+    "task_slug": "q-a-from-books",
+    "url": "https://books.google.com/talktobooks/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "39755",
+    "logo": "https://media.theresanaiforthat.com/icons/kavout.svg?height=207",
+    "name": "Kavout",
+    "task": "Investment research",
+    "task_id": "13377",
+    "task_slug": "investment-research",
+    "url": "https://www.kavout.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "22356",
+    "logo": "https://media.theresanaiforthat.com/icons/paperrater.svg?height=207",
+    "name": "PaperRater",
+    "task": "Grammar checking",
+    "task_id": "278",
+    "task_slug": "grammar-checking",
+    "url": "https://www.paperrater.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9620",
+    "logo": "https://media.theresanaiforthat.com/icons/amazon-comprehend.svg?height=207",
+    "name": "Amazon Comprehend",
+    "task": "Document analysis",
+    "task_id": "13721",
+    "task_slug": "document-analysis",
+    "url": "https://aws.amazon.com/comprehend/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9064",
+    "logo": "https://media.theresanaiforthat.com/icons/beyond.svg?height=207",
+    "name": "Beyond",
+    "task": "Business intelligence",
+    "task_id": "344",
+    "task_slug": "business-intelligence",
+    "url": "https://www.beyond.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "6312",
+    "logo": "https://media.theresanaiforthat.com/icons/acobot.svg?height=207",
+    "name": "Acobot",
+    "task": "Sales",
+    "task_id": "13096",
+    "task_slug": "sales",
+    "url": "https://acobot.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2913",
+    "logo": "https://media.theresanaiforthat.com/icons/khroma.svg?height=207",
+    "name": "Khroma",
+    "task": "Color palette generation",
+    "task_id": "405",
+    "task_slug": "color-palette-generation",
+    "url": "https://www.khroma.co/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2234",
+    "logo": "https://media.theresanaiforthat.com/icons/aiva-1667413038.png?height=207",
+    "name": "Aiva",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://www.aiva.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2074",
+    "logo": "https://media.theresanaiforthat.com/icons/fronty.svg?height=207",
+    "name": "Fronty",
+    "task": "Image to HTML",
+    "task_id": "966",
+    "task_slug": "image-to-html",
+    "url": "https://fronty.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1993",
+    "logo": "https://media.theresanaiforthat.com/icons/canirank.svg?height=207",
+    "name": "Canirank",
+    "task": "SEO Ranking",
+    "task_id": "517",
+    "task_slug": "seo-ranking",
+    "url": "https://www.canirank.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1886",
+    "logo": "https://media.theresanaiforthat.com/icons/faceapp.svg?height=207",
+    "name": "FaceApp",
+    "task": "Image editing",
+    "task_id": "102",
+    "task_slug": "image-editing",
+    "url": "https://www.faceapp.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1691",
+    "logo": "https://media.theresanaiforthat.com/icons/logo-rank-1671898882.png?height=207",
+    "name": "Logo Rank",
+    "task": "Logo design",
+    "task_id": "80",
+    "task_slug": "logo-design",
+    "url": "https://brandmark.io/color-wheel/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1324",
+    "logo": "https://media.theresanaiforthat.com/icons/teachable-machine.svg?height=207",
+    "name": "Teachable Machine",
+    "task": "Model generation",
+    "task_id": "42",
+    "task_slug": "model-generation",
+    "url": "https://teachablemachine.withgoogle.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1139",
+    "logo": "https://media.theresanaiforthat.com/icons/socratic.svg?height=207",
+    "name": "Socratic",
+    "task": "Learning",
+    "task_id": "13080",
+    "task_slug": "learning",
+    "url": "https://socratic.org/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1070",
+    "logo": "https://media.theresanaiforthat.com/icons/lumen5.svg?height=207",
+    "name": "Lumen5",
+    "task": "Video generation",
+    "task_id": "13",
+    "task_slug": "video-generation",
+    "url": "https://lumen5.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "744",
+    "logo": "https://media.theresanaiforthat.com/icons/assemblyai.svg?height=207",
+    "name": "Assemblyai",
+    "task": "Audio transcription",
+    "task_id": "335",
+    "task_slug": "audio-transcription",
+    "url": "https://www.assemblyai.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "739",
+    "logo": "https://media.theresanaiforthat.com/icons/auto-draw.svg?height=207",
+    "name": "Auto Draw",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://www.autodraw.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "719",
+    "logo": "https://media.theresanaiforthat.com/icons/bigjpg.svg?height=207",
+    "name": "BigJpg",
+    "task": "Image upscaling",
+    "task_id": "28",
+    "task_slug": "image-upscaling",
+    "url": "https://bigjpg.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "627",
+    "logo": "https://media.theresanaiforthat.com/icons/deepl.svg?height=207",
+    "name": "DeepL",
+    "task": "Text translation",
+    "task_id": "6",
+    "task_slug": "text-translation",
+    "url": "https://www.deepl.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "566",
+    "logo": "https://media.theresanaiforthat.com/icons/everypixel.svg?height=207",
+    "name": "Everypixel",
+    "task": "Stock image search engine",
+    "task_id": "85",
+    "task_slug": "stock-image-search-engine",
+    "url": "https://www.everypixel.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "473",
+    "logo": "https://media.theresanaiforthat.com/icons/infinite-drum-machine.svg?height=207",
+    "name": "Infinite Drum Machine",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://experiments.withgoogle.com/ai/drum-machine/view/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "433",
+    "logo": "https://media.theresanaiforthat.com/icons/letsenhance.svg?height=207",
+    "name": "Letsenhance",
+    "task": "Image upscaling",
+    "task_id": "28",
+    "task_slug": "image-upscaling",
+    "url": "https://letsenhance.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "392",
+    "logo": "https://media.theresanaiforthat.com/icons/musico.svg?height=207",
+    "name": "Musico",
+    "task": "Music creation",
+    "task_id": "24",
+    "task_slug": "music-creation",
+    "url": "https://www.musi-co.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "302",
+    "logo": "https://media.theresanaiforthat.com/icons/play-ht.svg?height=207",
+    "name": "Play.ht",
+    "task": "Text to speech",
+    "task_id": "4",
+    "task_slug": "text-to-speech",
+    "url": "https://www.play.ht/?via=theresanaiforthat"
+  },
+  {
+    "id": "71",
+    "logo": "https://media.theresanaiforthat.com/icons/uizard.svg?height=207",
+    "name": "Uizard",
+    "task": "Prototyping",
+    "task_id": "13050",
+    "task_slug": "prototyping",
+    "url": "https://uizard.io/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9061",
+    "logo": "https://media.theresanaiforthat.com/icons/riskified.svg?height=207",
+    "name": "Riskified",
+    "task": "Fraud detection",
+    "task_id": "6320",
+    "task_slug": "fraud-detection",
+    "url": "https://www.riskified.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "9060",
+    "logo": "https://media.theresanaiforthat.com/icons/datarobot.svg?height=207",
+    "name": "DataRobot",
+    "task": "Business intelligence",
+    "task_id": "344",
+    "task_slug": "business-intelligence",
+    "url": "https://www.datarobot.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "5497",
+    "logo": "https://media.theresanaiforthat.com/icons/conversica.svg?height=207",
+    "name": "Conversica",
+    "task": "Sales",
+    "task_id": "13096",
+    "task_slug": "sales",
+    "url": "https://www.conversica.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2895",
+    "logo": "https://media.theresanaiforthat.com/icons/fontjoy.svg?height=207",
+    "name": "Fontjoy",
+    "task": "Font pairing",
+    "task_id": "5898",
+    "task_slug": "font-pairing",
+    "url": "https://fontjoy.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2880",
+    "logo": "https://media.theresanaiforthat.com/icons/wallet-ai.svg?height=207",
+    "name": "Wallet AI",
+    "task": "Financial advice",
+    "task_id": "334",
+    "task_slug": "financial-advice",
+    "url": "https://wallet.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "2495",
+    "logo": "https://media.theresanaiforthat.com/icons/einstein-gpt.svg?height=207",
+    "name": "Einstein GPT",
+    "task": "Task automation",
+    "task_id": "156",
+    "task_slug": "task-automation",
+    "url": "https://www.salesforce.com/products/einstein/overview/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "506",
+    "logo": "https://media.theresanaiforthat.com/icons/h2o-ai.svg?height=207",
+    "name": "H2O AI",
+    "task": "Model generation",
+    "task_id": "42",
+    "task_slug": "model-generation",
+    "url": "https://h2o.ai/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "1737",
+    "logo": "https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207",
+    "name": "DeepBeat",
+    "task": "Music lyrics",
+    "task_id": "231",
+    "task_slug": "music-lyrics",
+    "url": "https://deepbeat.org/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  },
+  {
+    "id": "797",
+    "logo": "https://media.theresanaiforthat.com/icons/ai-writer.svg?height=207",
+    "name": "AI-Writer",
+    "task": "Writing",
+    "task_id": "13048",
+    "task_slug": "writing",
+    "url": "https://ai-writer.com?via=theresanaiforthat"
+  },
+  {
+    "id": "629",
+    "logo": "https://media.theresanaiforthat.com/icons/deepdreamgenerator.svg?height=207",
+    "name": "Deepdreamgenerator",
+    "task": "Image generation",
+    "task_id": "32",
+    "task_slug": "image-generation",
+    "url": "https://deepdreamgenerator.com/?ref=toolss&utm_source=toolss&utm_medium=referral"
+  }
+]
