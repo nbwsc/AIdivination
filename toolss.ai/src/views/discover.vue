@@ -13,7 +13,7 @@
         </h2>
         <div class="text-xl mt-8"> AI tools list are updated daily</div>
         <el-input class="searchinput" v-model="search" placeholder="Search for tools" @change="onSearch"></el-input>
-        <div class="flex flex-wrap justify-center m-auto">
+        <div class="flex flex-wrap justify-center m-auto max-w-screen-2xl">
             <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :search="search" :key="tool.id"></toolcard>
         </div>
         <el-button v-if="!search" type="text" @click="loadMore">
