@@ -208,8 +208,9 @@
                     easily "unsubscribe" to these communications. You may also notify us that you do not wish to receive
                     further communications by contacting us at <a
                         class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                        aria-label="Send an email to privacy@toolss.ai" href="mailto:privacy@toolss.ai"><span
-                            class="styles_inner__BrPN4">privacy@toolss.ai</span></a>. Please note that, in connection
+                        aria-label="Send an email to privacy@www.toolss.ai" href="mailto:privacy@www.toolss.ai"><span
+                            class="styles_inner__BrPN4">privacy@www.toolss.ai</span></a>. Please note that, in
+                    connection
                     with
                     your use of certain Services, including the Platform, we will still need to send you certain
                     notifications that relate directly to your use of the Services, such as technical notices, updates,
@@ -218,8 +219,8 @@
                 <li><strong>Change Your Information.</strong> You may change or update your information with us at any
                     time. To change or update your information, please contact us at <a
                         class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                        aria-label="Send an email to support@toolss.ai" href="mailto:support@toolss.ai"><span
-                            class="styles_inner__BrPN4">support@toolss.ai</span></a>, or contact your primary Toolss
+                        aria-label="Send an email to support@www.toolss.ai" href="mailto:support@www.toolss.ai"><span
+                            class="styles_inner__BrPN4">support@www.toolss.ai</span></a>, or contact your primary Toolss
                     support
                     representative. However, if your information has been provided to us by your employer or other
                     company for which we have provisioned your account, updates to certain information on your account
@@ -227,8 +228,9 @@
                 <li><strong>Delete Your Information.</strong> You may request that we delete your information at any
                     time, subject to certain exceptions as discussed below. You may request to have your information
                     deleted by contacting us by email at <a class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                        aria-label="Send an email to privacy@toolss.ai" href="mailto:privacy@toolss.ai"><span
-                            class="styles_inner__BrPN4">privacy@toolss.ai</span></a>. We will comply with your request
+                        aria-label="Send an email to privacy@www.toolss.ai" href="mailto:privacy@www.toolss.ai"><span
+                            class="styles_inner__BrPN4">privacy@www.toolss.ai</span></a>. We will comply with your
+                    request
                     within a reasonable period of time; however, in certain circumstances, we may not be able or
                     required to delete all of your information. For example, if we have provisioned a user account for
                     you and you intend to continue to use portions of the Services requiring access through said
@@ -273,8 +275,9 @@
                 <li><strong>Right to Know Requests.</strong> If you are a California resident, you may request that we
                     disclose information to you pursuant to your right to know, by contacting us by email at <a
                         class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                        aria-label="Send an email to privacy@toolss.ai" href="mailto:privacy@toolss.ai"><span
-                            class="styles_inner__BrPN4">privacy@toolss.ai</span></a> or by telephone at (617) 544-7866.
+                        aria-label="Send an email to privacy@www.toolss.ai" href="mailto:privacy@www.toolss.ai"><span
+                            class="styles_inner__BrPN4">privacy@www.toolss.ai</span></a> or by telephone at (617)
+                    544-7866.
                     We
                     will verify your request by asking you to provide at least two pieces of personal information (e.g.,
                     full name and email address) as reasonably necessary to properly identify you. Upon receipt of a
@@ -292,8 +295,9 @@
                 stored; (2) the right to receive a copy of your information that we process; and (3) the right to ask
                 that we provide your data in an easily readable format to another company. EEA residents may contact us
                 online by email at <a class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                    aria-label="Send an email to privacy@toolss.ai" href="mailto:privacy@toolss.ai"><span
-                        class="styles_inner__BrPN4">privacy@toolss.ai</span></a> to request such information or data.
+                    aria-label="Send an email to privacy@www.toolss.ai" href="mailto:privacy@www.toolss.ai"><span
+                        class="styles_inner__BrPN4">privacy@www.toolss.ai</span></a> to request such information or
+                data.
             </p>
             <h2>Other Important Privacy Information</h2>
             <h3>Toolss Acting as a Data Processor</h3>
@@ -310,8 +314,8 @@
                 provided us with personal information, we will take steps to delete such information. If you become
                 aware that a child has provided us with personal information, please contact us at <a
                     class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                    aria-label="Send an email to privacy@toolss.ai" href="mailto:privacy@toolss.ai"><span
-                        class="styles_inner__BrPN4">privacy@toolss.ai</span></a>.</p>
+                    aria-label="Send an email to privacy@www.toolss.ai" href="mailto:privacy@www.toolss.ai"><span
+                        class="styles_inner__BrPN4">privacy@www.toolss.ai</span></a>.</p>
             <h3>Changes to our Privacy Notice</h3>
             <p>We may change this Privacy Notice from time to time. We will post any Privacy Notice changes on this
                 page, with a revised date at the top of this page. If the changes are significant, we will provide a
@@ -324,8 +328,8 @@
             <h2>Contact</h2>
             <p>If you have any questions or concerns regarding this Privacy Notice, please email us at <a
                     class="styles_callToAction__RN6Db styles_linkInline__DSRx7"
-                    aria-label="Send an email to privacy@toolss.ai" href="mailto:privacy@toolss.ai"><span
-                        class="styles_inner__BrPN4">privacy@toolss.ai</span></a>.</p>
+                    aria-label="Send an email to privacy@www.toolss.ai" href="mailto:privacy@www.toolss.ai"><span
+                        class="styles_inner__BrPN4">privacy@www.toolss.ai</span></a>.</p>
         </div>
     </div>
 </template>

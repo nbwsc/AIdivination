@@ -23,8 +23,8 @@
         </el-button>
 
         <div class="text-sm mt-16 mb-16">
-            <a class="cursor-pointer underline" href="mailto:support@toolss.ai">
-                EMAIL US：support@toolss.ai
+            <a class="cursor-pointer underline" href="mailto:support@www.toolss.ai">
+                EMAIL US：support@www.toolss.ai
             </a>
             <div>
                 <RouterLink class="text-lm " to="/terms">Terms of Service </RouterLink>
@@ -34,7 +34,7 @@
                 <RouterLink class="text-lm " to="/privacy"> Privacy Policy</RouterLink>
             </div>
             <div>
-                Copyright © 2024 Toolss.ai & All rights reserved.
+                Copyright © 2024 www.toolss.ai & All rights reserved.
             </div>
         </div>
     </div>
