@@ -11,7 +11,7 @@
             </span>
             categories in the best AI tools directory.
         </h2>
-        <div class="text-xl mt-8"> AI tools list are updated daily</div>
+        <div class="text-xl mt-8"> Daily update of AI tool list</div>
         <el-input class="searchinput" v-model="search" placeholder="Search for tools" @change="onSearch"></el-input>
         <div class="flex flex-wrap justify-center m-auto max-w-screen-2xl">
             <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :search="search" :key="tool.id"></toolcard>
@@ -62,7 +62,7 @@ function onSearch() {
 }
 
 onMounted(async () => {
-    const response = await fetch("/tools.json");
+    const response = await fetch("https://www.toolss.ai/tools.json");
     const json = await response.json();
     newDate = json[0].uploadAt
     allTools = json.map(e => e.uploadAt ? { ...e, isNew: true } : e)
