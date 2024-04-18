@@ -62,10 +62,31 @@ function onSearch() {
 }
 
 onMounted(async () => {
-    const response = await fetch("https://www.toolss.ai/tools.json");
-    const json = await response.json();
+    let json
+    try {
+        const response = await fetch("https://www.toolss.ai/tools.json");
+        json = await response.json();
+    } catch (e) {
+        json =
+            [
+                {
+                    "logo": "https://media.theresanaiforthat.com/icons/mymemo.svg?height=207",
+                    "name": "MyMemo",
+                    "task": "Knowledge management",
+                    "url": "https://www.mymemo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral",
+                    "uploadAt": "2024-04-18",
+                    "desc": "MyMemo is an AI-powered platform that helps you organize, analyze, and retrieve your personal digital knowledge effortlessly."
+                }
+            ]
+    }
     newDate = json[0].uploadAt
-    allTools = json.map(e => e.uploadAt ? { ...e, isNew: true } : e)
+    allTools = json.map(tool => {
+        if (tool.uploadAt === newDate) {
+            tool.isNew = true
+        }
+        return tool
+    })
+
     const localCount = window.localStorage.getItem('aicount')
     if (localCount) {
         aicount.value = +localCount

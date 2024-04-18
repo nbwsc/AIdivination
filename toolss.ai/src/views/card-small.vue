@@ -1,16 +1,16 @@
 <template>
     <el-card class="w-80 card" shadow="hover" :body-style="{ padding: '20px' }">
-        <div class="flex relative">
-
-            <img class="w-16 mr-4 cursor-pointer"
-                :src="tool.logo || `https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}`" alt="">
-            <div class="w-48">
-                <div class="text-sm h-8 cursor-pointer" @click="goto(tool)" v-html="namehtml"></div>
-                <el-tag class="text-xs" type="info" effect="dark" v-html="taskhtml"></el-tag>
+        <el-tooltip :content="tool.desc" placement="top" effect="dark">
+            <div class="flex relative">
+                <img class="w-16 mr-4 cursor-pointer"
+                    :src="tool.logo || `https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}`" alt="">
+                <div class="w-48">
+                    <div class="text-sm h-8 cursor-pointer" @click="goto(tool)" v-html="namehtml"></div>
+                    <el-tag class="text-xs" type="info" effect="dark" v-html="taskhtml"></el-tag>
+                </div>
+                <div class="newflag" v-if="tool.isNew">New</div>
             </div>
-            <div class="newflag" v-if="tool.isNew">New</div>
-
-        </div>
+        </el-tooltip>
     </el-card>
 </template>
 
