@@ -13,6 +13,11 @@
         </h2>
         <div class="text-xl mt-8"> Daily update of AI tool list</div>
         <el-input class="searchinput" v-model="search" placeholder="Search for tools" @change="onSearch"></el-input>
+        <div>
+            <span class="text-xl">Try these filters: </span>
+            <el-tag class="m-2" type="danger" v-for="rf in recommandFilter " :key="rf" @click="search = rf">{{ rf }}</el-tag>
+
+        </div>
         <div class="flex flex-wrap justify-center m-auto max-w-screen-2xl">
             <toolcard class="m-8" v-for="tool in toolsToShow" :tool="tool" :search="search" :key="tool.id"></toolcard>
         </div>
@@ -51,6 +56,7 @@ let newDate = ''
 watch(search, () => {
     onSearch()
 })
+const recommandFilter = ['Image', 'Video', 'Chat', 'Writing', 'Content']
 
 let showLimit = 20
 function onSearch() {
