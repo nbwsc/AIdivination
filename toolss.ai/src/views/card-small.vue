@@ -9,6 +9,7 @@
                     <el-tag class="text-xs" type="info" effect="dark" v-html="taskhtml"></el-tag>
                 </div>
                 <div class="newflag" v-if="tool.isNew">New</div>
+                <div class="newflag" v-if="tool.sponsored">👍</div>
             </div>
         </el-tooltip>
     </el-card>

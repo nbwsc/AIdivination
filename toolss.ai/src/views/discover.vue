@@ -76,15 +76,38 @@ onMounted(async () => {
                     "url": "https://www.mymemo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral",
                     "uploadAt": "2024-04-18",
                     "desc": "MyMemo is an AI-powered platform that helps you organize, analyze, and retrieve your personal digital knowledge effortlessly."
-                }
+                },
+                {
+                    "logo": "https://media.theresanaiforthat.com/icons/mymemo.svg?height=207",
+                    "name": "MyMemoSS",
+                    "task": "Knowledge management",
+                    "url": "https://www.mymemo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral",
+                    "sponsored": true,
+                    "desc": "MyMemo is an AI-powered platform that helps you organize, analyze, and retrieve your personal digital knowledge effortlessly."
+                },
+                {
+                    "logo": "https://media.theresanaiforthat.com/icons/mymemo.svg?height=207",
+                    "name": "MyMemoxx",
+                    "task": "Knowledge management",
+                    "url": "https://www.mymemo.ai/?ref=toolss&utm_source=toolss&utm_medium=referral",
+                    "desc": "MyMemo is an AI-powered platform that helps you organize, analyze, and retrieve your personal digital knowledge effortlessly."
+                },
+
             ]
     }
     newDate = json[0].uploadAt
     allTools = json.map(tool => {
         if (tool.uploadAt === newDate) {
             tool.isNew = true
+            tool.sort = 1
+        } else if (tool.sponsored) {
+            tool.sort = 2
+        } else {
+            tool.sort = 3
         }
         return tool
+    }).sort((a, b) => {
+        return a.sort - b.sort
     })
 
     const localCount = window.localStorage.getItem('aicount')
