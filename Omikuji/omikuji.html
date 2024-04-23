@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+    <title>Omikuji</title>
+    <!-- add css style here -->
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .panel {
+        width: 100%;
+        height: 100vh;
+        background: url(https://i.pinimg.com/736x/81/80/01/818001beb647906ba98fedf17489b1b6.jpg);
+        background-position: center;
+      }
+      #enterbtn {
+        width: 200px;
+        height: 60px;
+        text-align: center;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #0008;
+        border: 0;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 10px;
+        font-size: 18px;
+        line-height: 60px;
+      }
+      #box {
+        background: url(https://github.com/y-taka-23/elm-omikuji/blob/master/img/box.png);
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 定义一个摇动阈值
+      var shakeThreshold = 500;
+      // 三个方向上次的值
+      var lastX, lastY, lastZ;
+      // 上一次摇动的时间
+      var lastTime = 0;
+
+      // 用户摇一摇的功能
+      function shakeFunction() {
+        var system = navigator.userAgent.toLowerCase();
+        if (system.indexOf("like mac os x") > 0) {
+          var reg = /os [\d._]*/gi;
+          var info = system.match(reg);
+          var version = (info + "")
+            .replace(/[^0-9|_.]/gi, "")
+            .replace(/_/gi, ".");
+          var list = version.split(".");
+          // 对IOS 13.3以后的版本处理
+          if (list[0] > 12) {
+            if (
+              typeof DeviceMotionEvent !== "undefined" &&
+              typeof DeviceMotionEvent.requestPermission === "function"
+            ) {
+              window.DeviceOrientationEvent.requestPermission().then(
+                (state) => {
+                  if (state === "granted") {
+                    if (window.DeviceMotionEvent) {
+                      console.log("granted");
+                      window.addEventListener(
+                        "devicemotion",
+                        shakeFunctionHandler
+                      );
+                    } else {
+                      console.log("手机不支持陀螺仪功能");
+                    }
+                  } else if (state === "denied") {
+                    console.log("denied");
+                  } else if (state === "prompt") {
+                    console.log("prompt");
+                  }
+                }
+              );
+            }
+          } else {
+            // 监听传感器运动事件
+            if (window.DeviceMotionEvent) {
+              window.addEventListener("devicemotion", shakeFunctionHandler);
+            } else {
+              alert("手机不支持陀螺仪功能");
+            }
+          }
+        } else {
+          window.addEventListener("devicemotion", shakeFunctionHandler);
+        }
+        console.log("start listening");
+      }
+
+      // 运动传感器的处理
+      function shakeFunctionHandler(e) {
+        var currentTime = Date.now();
+
+        // 每100毫秒判断一次位置
+        if (currentTime - lastTime > 100) {
+          // 获取重力加速度
+          var acceleration = e.accelerationIncludingGravity;
+          var x = acceleration.x;
+          var y = acceleration.y;
+          var z = acceleration.z;
+          var differenceTime = currentTime - lastTime;
+          var speed =
+            (Math.abs(x + y + z - lastX - lastY - lastZ) / differenceTime) *
+            10000;
+
+          // 前后三个向的差值的绝对值和时间比率超过了预设的阈值
+          if (speed > shakeThreshold) {
+            alert("手机开始摇起来了");
+          }
+
+          lastX = x;
+          lastY = y;
+          lastZ = z;
+          lastTime = currentTime;
+        }
+      }
+      function onEnterBtnClick() {
+        shakeFunction();
+        document.querySelector("#enterbtn").dis;
+      }
+
+      window.onload = () => {
+        document
+          .querySelector("#enterbtn")
+          .addEventListener("click", onEnterBtnClick, false);
+      };
+    </script>
+    <div class="panel">
+      <div id="enterbtn">浅草寺への入場</div>
+      <img
+        id="box"
+        src="https://github.com/y-taka-23/elm-omikuji/blob/master/img/box.png?raw=true"
+        alt=""
+      />
+    </div>
+  </body>
+</html>
