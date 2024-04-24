@@ -1,4 +1,9 @@
 <template>
+  <div class=" container bg" v-if="state === 0">
+    <div class="tips">
+      少しエラーが発生しました。問題をチェックしてから再度入力してください。
+    </div>
+  </div>
   <div class=" container bg" v-if="state === 1">
     <el-button class="btn" type="primary" size="default" @click="onEnterClicked">
       浅草寺への入場
@@ -6,7 +11,13 @@
   </div>
   <div v-if="state === 2" class="container bg2">
     <div class="tips" @click="showResult">
-      サインを押すか、携帯電話を振って占いをする
+      3回タップか、携帯をシャカシャカして、おみくじ引きましょう！
+      <br />
+      あと
+      <span style="font-size:32px;font-weight: bold;">
+        {{ shakeCount }}
+      </span>
+      回チャンス！思い切りタップして、運試ししましょう！
       <img class="box" src="https://tabio.com/jp/wp-content/uploads/2020/12/omikuji_shake.gif" alt="">
     </div>
   </div>
@@ -35,29 +46,58 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
-// import Shake from 'shake.js'
+
 const state = ref(1)
 const imgside = ref(true)
-const kuji = {
-  index: '七十二',
-  level: "吉",
-  img1: 'https://github.com/fumiama/senso-ji-omikuji/blob/main/72_0.jpg?raw=true',
-  img2: 'https://github.com/fumiama/senso-ji-omikuji/blob/main/72_1.jpg?raw=true',
-  poem: '戶內防重厄\n花菓見分枝\n嚴霜纔過後\n方可始相宜',
-  desc: "家中恐怕有災禍到來。但是，為了防止發生，要小心吧。枝幹各自分開是說家庭不合。因為 這個緣故全部􏰀不和睦吧。相互地悔改壞的地方，然後戰勝這的試煉。如果這樣做的話，似 乎會以好事發生。因為家裡和睦，好事似乎越變越多。 願望:後來會實現吧。疾病:會拖長吧。遺失物:變成遲遲才能找到吧。盼望的人:遲遲才 出現吧。蓋新居、搬家:還算好吧。旅行:沒有特別的阻礙吧。結婚、交往:雖然還算好， 但最後變得更好吧。"
-}
-onMounted(() => {
+const kuji = ref({
+  index: '',
+  level: '',
+  img1: '',
+  img2: '',
+})
+
+onMounted(async () => {
   // get id from url
   const url = new URL(window.location.href)
   const id = url.searchParams.get('id')
-  console.log(id)
+  if (!id) {
+    state.value = 0
+  }
+  const { data } = await axios.get(`https://sunost.com/lineapi/getKujiById?id=${id}`)
+  kuji.value = {
+    index: data.randomIndexTxt,
+    level: data.kuji.type,
+    img1: `https://github.com/fumiama/senso-ji-omikuji/blob/main/${data.kuji.id}_0.jpg?raw=true`,
+    img2: `https://github.com/fumiama/senso-ji-omikuji/blob/main/${data.kuji.id}_1.jpg?raw=true`,
+  }
+  setTimeout(() => {
+    const imgurl = [
+      'https://tabio.com/jp/wp-content/uploads/2020/12/omikuji_shake.gif',
+      'https://farm8.staticflickr.com/7222/13489562835_4476a20a22_c.jpg',
+      'https://i.pinimg.com/736x/71/ab/d3/71abd359106176cd5028680fc29f8d2f--japanese-furniture-drawers.jpg',
+      kuji.value.img1,
+      kuji.value.img2,
+    ]
+    imgurl.forEach(img => {
+      let image = new Image()
+      image.src = img
+    })
+  }, 1);
 })
+
 function onEnterClicked() {
   shakeFunction()
   state.value = 2
 }
+
+let shakeCount = ref(3)
+
 function showResult() {
-  state.value = 3
+  if (shakeCount.value-- === 1) {
+    state.value = 3
+    stopListening()
+    axios.get(`https://sunost.com/lineapi/onKujiChecked?id=${id}`)
+  }
 }
 
 // 定义一个摇动阈值
@@ -81,10 +121,8 @@ function shakeFunction() {
         window.DeviceOrientationEvent.requestPermission().then(state => {
           if (state === "granted") {
             if (window.DeviceMotionEvent) {
-              console.log("granted")
               window.addEventListener('devicemotion', shakeFunctionHandler);
             } else {
-              console.log('手机不支持陀螺仪功能');
             }
           } else if (state === "denied") {
             console.log("denied")
@@ -130,9 +168,9 @@ function shakeFunctionHandler(e) {
 
     // 前后三个向的差值的绝对值和时间比率超过了预设的阈值
     if (speed > shakeThreshold) {
-
-      alert('手机开始摇起来了');
-
+      console.log('shaked');
+      state.value = 3;
+      stopListening()
     };
 
     lastX = x;
@@ -140,6 +178,10 @@ function shakeFunctionHandler(e) {
     lastZ = z;
     lastTime = currentTime;
   }
+}
+
+function stopListening() {
+  window.removeEventListener('devicemotion', shakeFunctionHandler);
 }
 </script>
 <style scoped>
@@ -229,10 +271,9 @@ function shakeFunctionHandler(e) {
 }
 
 .kujiresult {
-  position: absolute;
   animation: riseToHalfScreen2 1.8s ease-in-out forwards;
-  width: 300px;
-  left: 50px;
+  width: 80%;
+  margin: 0px auto;
 }
 
 @keyframes riseToHalfScreen2 {
