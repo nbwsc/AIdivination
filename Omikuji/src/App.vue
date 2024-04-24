@@ -55,15 +55,15 @@ const kuji = ref({
   img1: '',
   img2: '',
 })
-
+let kujiId
 onMounted(async () => {
   // get id from url
   const url = new URL(window.location.href)
-  const id = url.searchParams.get('id')
-  if (!id) {
+  kujiId = url.searchParams.get('id')
+  if (!kujiId) {
     state.value = 0
   }
-  const { data } = await axios.get(`https://sunost.com/lineapi/getKujiById?id=${id}`)
+  const { data } = await axios.get(`https://sunost.com/lineapi/getKujiById?id=${kujiId}`)
   kuji.value = {
     index: data.randomIndexTxt,
     level: data.kuji.type,
@@ -96,7 +96,7 @@ function showResult() {
   if (shakeCount.value-- === 1) {
     state.value = 3
     stopListening()
-    axios.get(`https://sunost.com/lineapi/onKujiChecked?id=${id}`)
+    axios.get(`https://sunost.com/lineapi/onKujiChecked?id=${kujiId}`)
   }
 }
 
