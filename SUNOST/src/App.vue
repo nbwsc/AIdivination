@@ -42,9 +42,15 @@
   </header>
   <RouterView @needLogin="onNeedLogin" @playclick="onPlayClicked" class="panel" />
   <div class="player" :class="{ isshow: isShowPlayer }">
-    <div class="cursor-pointer text-xs ml-8 showbtn underline" @click="isShowPlayer = !isShowPlayer">
-      {{ isShowPlayer ? 'Hide' : 'Show' }}
+    <div class=" text-xs ml-8  flex toolbar">
+      <div class="colorwhite underline cursor-pointer showbtn" v-if="playing.src" @click="download">
+        Download
+      </div>
+      <div class="cursor-pointer underline showbtn " @click="isShowPlayer = !isShowPlayer">
+        {{ isShowPlayer ? 'Hide' : 'Show' }}
+      </div>
     </div>
+
     <AudioPlayer ref="audioPlayerx" :option="playing" @play="onPlay" @pause="onEnded" @ended="onEnded" />
   </div>
   <el-dialog :close-on-press-escape="false" :close-on-click-modal="false" class="dialog" title="Login"
@@ -176,22 +182,23 @@ export default {
       } else {
         this.showLogin = true
       }
+    },
+
+    download() {
+      fetch(this.playing.src)
+        .then(response => response.blob())
+        .then(blob => {
+          const link = document.createElement("a");
+          link.href = URL.createObjectURL(blob);
+          link.download = this.playing.title;
+          link.click();
+        })
+        .catch(console.error);
     }
   }
 }
-// const playlist = ref([])
-// // const audioPlayerE = window.audioPlayer
-// const title = ref('')
-// function handleBeforePlay(next) {
-//   // title.value = audioPlayer.audioList[audioPlayer.currentPlayIndex].title;
-//   next(); // Start play
-// }
-// function onPlay(ost) {
-//   console.log('onplay', ost)
-//   title.value = ost.title;
-//   playlist.value = [ost.audio_url];
-//   // audioPlayerE.play();
-// }
+
+
 </script>
 <style>
 .navbar {
@@ -272,10 +279,7 @@ export default {
 }
 
 .showbtn {
-  position: absolute;
-  right: 40px;
-  color: #c5c5c5;
-  top: 10px;
+  width: 120px;
 }
 
 .showbtn:hover {
@@ -299,5 +303,18 @@ export default {
   .pcnav {
     display: none;
   }
+}
+
+.toolbar {
+  color: #c5c5c5;
+  position: absolute;
+  right: 0;
+  width: 200px;
+  float: right;
+}
+
+.audio__player-play-cont {
+  width: 108px;
+  margin: 0 auto;
 }
 </style>

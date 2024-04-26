@@ -1,25 +1,34 @@
 <template>
     <el-card class="w-1/5 min-w-12 m-6 cursor-pointer card" shadow="hover" :body-style="{ padding: '20px' }">
-        <div @click="$emit('playclick', ost)">
-            <span class="text-sm">{{ ost.title }}</span>
+        <div @click="$emit('playclick', ost)" class="text-sm h-8 truncate">
+            {{ ost.title }}
         </div>
         <div @click="$emit('playclick', ost)">
             <img class="w-full cover" :src="ost.image_url" alt="">
             <div class="text-xs mt-2 h-12 overflow-hidden">{{ ost.tags }}</div>
             <div class="text-xs"> {{ $filters.format(ost.createTime) }}</div>
-            <el-icon>
-                <Headset class="text-sm" />
-                <span class="ml-2 text-sm">
-                    {{ ost.playCount }}
-                </span>
-            </el-icon>
+            <div class="flex justify-center">
+                <div class="flex items-center">
+                    <el-icon>
+                        <Headset class="text-sm" />
+                    </el-icon>
+                    <div class="ml-2 text-sm">
+                        {{ ost.playCount }}
+                    </div>
+                </div>
+                <!-- <div class="flex items-center">
+                    <el-icon>
+                        <Star class="text-sm" />
+                    </el-icon>
+                    <div class="ml-2 text-sm">{{ ost.starCount }}</div>
+                </div> -->
+            </div>
         </div>
-
         <div class="text-2xl pt-24 mask" v-if="ost.state !== 'success'">{{ ost.state }}</div>
     </el-card>
 </template>
 <script setup>
-import { Headset } from '@element-plus/icons-vue'
+import { Headset, Star } from '@element-plus/icons-vue'
 defineProps({
     ost: Object
 })
