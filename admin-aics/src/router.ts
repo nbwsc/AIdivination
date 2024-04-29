@@ -12,6 +12,18 @@ const router = createRouter({
       path: "/console",
       name: "console",
       component: () => import("./views/console.vue"),
+      children: [
+        {
+          path: "",
+          name: "",
+          component: () => import("./views/console/page1.vue"),
+        },
+        {
+          path: "page2",
+          name: "page2",
+          component: () => import("./views/console/page2.vue"),
+        },
+      ],
     },
     {
       path: "/login",

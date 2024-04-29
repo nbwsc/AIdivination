@@ -9,34 +9,30 @@
       <nav class="pcnav">
         <RouterLink class="text-lm underline navitem" to="/">首页</RouterLink>
         <RouterLink class="text-lm underline navitem" to="/console">控制台</RouterLink>
-        <el-tooltip v-if="account._id" :content="'Credit: ' + account.sunoScore" placement="top" effect="dark">
-          <a class="text-lm navitem" @click="onLoginClicked">{{ this.account.username }}</a>
+        <el-tooltip v-if="account._id" content="Click to Logout" placement="top" effect="dark">
+          <a class="text-lm navitem" @click="onLoginClicked">{{ this.account.name }}</a>
         </el-tooltip>
-        <a v-else class="text-lm navitem" @click="onLoginClicked">登陆/注册</a>
+        <RouterLink v-else class="text-lm underline navitem" to="/login">登陆</RouterLink>
+
       </nav>
     </div>
   </header>
-  <RouterView class="viewpanel" @needLogin="onNeedLogin" @playclick="onPlayClicked" />
+  <RouterView class="viewpanel" @needLogin="onNeedLogin" @onLogin="onLogin" />
 </template>
 <script>
-// import AudioPlayer from "@liripeng/vue-audio-player";
 import axios from 'axios';
-import AudioPlayer from 'vue3-audio-player'
-import Login from './views/login.vue'
 import { getToken, removeToken } from './auth';
 import { ElMessageBox } from 'element-plus';
 
-import 'vue3-audio-player/dist/style.css'
+
 
 export default {
   components: {
-    AudioPlayer, Login
   },
 
   data() {
     return {
       title: '',
-      showLogin: false,
       account: {}
     }
   },
@@ -44,7 +40,6 @@ export default {
   created() {
     const token = getToken()
     if (token) {
-      this.showLogin = false
       axios.defaults.headers.common['x-token'] = token
       this.info()
     }
@@ -58,9 +53,12 @@ export default {
 
   methods: {
     async info() {
-      const r = await axios.get('/account/info')
+      const token = getToken()
+      const r = await axios.get('/aics/admininfo?token=' + token)
       if (r.data.code === 0) {
         this.account = r.data.data.account
+        this.$store.commit('setCompany', this.account)
+        this.$store.commit('setLogin', true)
       } else {
         ElMessage.error(r.data.msg)
         removeToken()
@@ -73,7 +71,6 @@ export default {
     },
 
     onLogin() {
-      this.showLogin = false
       setTimeout(() => {
         this.info()
       }, 1);
@@ -82,7 +79,6 @@ export default {
     onLoginClicked() {
       if (this.account._id) {
         // goto my page
-        this.showLogin = false
         ElMessageBox.confirm('Are you sure to logout?', 'Logout', {
           confirmButtonText: 'OK',
           cancelButtonText: 'Cancel',
@@ -92,7 +88,6 @@ export default {
           removeToken()
         })
       } else {
-        this.showLogin = true
       }
     }
   }

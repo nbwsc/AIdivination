@@ -34,7 +34,7 @@
       おめでとうございます、「{{ kuji.level }}」のサインを引きましたね。スクリーンショットを保存して、LineとBotに戻ってチャットを続けてください。彼はあなたのためにさらなる解釈と深いコミュニケーションを提供します
       <br>
       <br>
-      PS: 画像をクリックすると裏側が見られますよ。
+      PS: 画像をクリックすると裏面をめぐりますよ。
       <div class="kujiresult" @click="imgside = !imgside">
         <img class="kujiimg" v-show="imgside" :src="kuji.img1" alt="">
         <img class="kujiimg" v-show="!imgside" :src="kuji.img2" alt="">

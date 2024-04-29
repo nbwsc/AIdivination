@@ -1,5 +1,5 @@
 import Cookies from "js-cookie";
-
+import axios from "axios";
 const TokenKey = "APP-Token";
 
 export function getToken() {
@@ -7,6 +7,9 @@ export function getToken() {
 }
 
 export function setToken(token) {
+  if (token) {
+    axios.defaults.headers.common["x-token"] = token;
+  }
   return Cookies.set(TokenKey, token, { expires: 7 });
 }
 

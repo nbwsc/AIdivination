@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import { createStore } from 'vuex'
+import { createStore } from "vuex";
 
 import moment from "moment";
 import App from "./App.vue";
@@ -10,8 +10,8 @@ import "element-plus/theme-chalk/el-message-box.css";
 import "element-plus/theme-chalk/el-message.css";
 import "./style.css";
 moment.locale("zh-cn");
-axios.defaults.baseURL = "https://leapcapital.cn/aiapi";
-// axios.defaults.baseURL = 'http://localhost:9000'
+// axios.defaults.baseURL = "https://leapcapital.cn/aiapi";
+axios.defaults.baseURL = "http://localhost:9000";
 
 // vuex
 const store = createStore({
@@ -19,17 +19,17 @@ const store = createStore({
     return {
       company: {},
       isLogin: false,
-    }
+    };
   },
   mutations: {
     setCompany(state, company) {
-      state.company = company
+      state.company = company;
     },
     setLogin(state, isLogin) {
-      state.isLogin = isLogin
-    }
-  }
-})
+      state.isLogin = isLogin;
+    },
+  },
+});
 
 const app = createApp(App);
 
