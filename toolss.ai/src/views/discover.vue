@@ -15,7 +15,8 @@
         <el-input class="searchinput" v-model="search" placeholder="Search for tools" @change="onSearch"></el-input>
         <div>
             <span class="text-xl">Try these filters: </span>
-            <el-tag class="m-2" type="danger" v-for="rf in recommandFilter " :key="rf" @click="search = rf">{{ rf }}</el-tag>
+            <el-tag class="m-2" type="danger" v-for="rf in recommandFilter " :key="rf" @click="search = rf">{{ rf
+                }}</el-tag>
 
         </div>
         <div class="flex flex-wrap justify-center m-auto max-w-screen-2xl">
@@ -63,10 +64,12 @@ function onSearch() {
     showLimit = 20
     toolsToShow.value = allTools.filter(tool => tool.name.toLowerCase().includes(search.value.toLowerCase()) || tool.task.toLowerCase().includes(search.value.toLowerCase())).slice(0, showLimit)
 }
+
 onMounted(async () => {
     let json
     try {
-        const response = await fetch("https://www.toolss.ai/tools.json");
+        const datetime = new Date().toISOString().split('T')[0]
+        const response = await fetch("https://www.toolss.ai/tools.json?v=" + datetime);
         json = await response.json();
     } catch (e) {
         json = [{
