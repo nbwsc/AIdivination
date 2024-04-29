@@ -314,7 +314,6 @@ export default {
 }
 
 .audio__player-play-cont {
-  width: 108px;
   margin: 0 auto;
 }
 </style>
