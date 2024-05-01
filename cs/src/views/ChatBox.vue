@@ -43,7 +43,7 @@ onMounted(async () => {
 })
 
 async function getHistory() {
-    const r = await axios.post('aics/getChatHistory', {
+    const r = await axios.post('aics/client/getChatHistory', {
         uuid, companyId: companyInfo._id
     })
     history.value = r.data.data.map(e => { e.createdAt = now(e.createdAt); return e })
@@ -54,7 +54,7 @@ async function getHistory() {
 }
 
 async function checkAccessKey() {
-    const r = await axios.post('aics/checkAccessKey', {
+    const r = await axios.post('aics/client/checkAccessKey', {
         accessKey, uuid
     })
     if (r.data.code === 0) {
@@ -94,7 +94,7 @@ async function sendMessage() {
     const chat = message.value
     message.value = ''
     pushHistory(chat, 'User')
-    const r = await axios.post('/aics/chat', {
+    const r = await axios.post('/aics/client/chat', {
         uuid,
         companyId: companyInfo._id,
         chat
