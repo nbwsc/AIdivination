@@ -1,7 +1,7 @@
 <template>
   <div class=" container bg" v-if="state === 0">
     <div class="tips">
-      少しエラーが発生しました。問題をチェックしてから再度入力してください。
+      エラーが発生しました。問題をチェックしてから再度入力してください。
     </div>
   </div>
   <div class=" container bg" v-if="state === 1">
@@ -11,19 +11,19 @@
   </div>
   <div v-if="state === 2" class="container bg2">
     <div class="tips" @click="showResult">
-      3回タップか、携帯をシャカシャカして、おみくじ引きましょう！
+      御神籤箱を3回タップするか、携帯をシャカシャカ降って、おみくじを引きましょう！
       <br />
       あと
       <span style="font-size:32px;font-weight: bold;">
         {{ shakeCount }}
       </span>
-      回チャンス！思い切りタップして、運試ししましょう！
+      回チャンス！おみくじで運試しを！
       <img class="box" src="https://tabio.com/jp/wp-content/uploads/2020/12/omikuji_shake.gif" alt="">
     </div>
   </div>
   <div v-if="state === 3" class="container bg3">
     <div class="tips" @click="state = 4">
-      あなたの抽選で72番目の札を引き当てました。詳細を確認するために、下の文をクリックしてください。
+      72番目のみくじ棒を引き当てました。みくじ棒をタップし、みくじ箋の内容を確認しましょう。
       <div class="kujiindex">
         {{ kuji.index }}
       </div>
@@ -31,10 +31,10 @@
   </div>
   <div v-if="state === 4" class="container bg3">
     <div class="tips">
-      おめでとうございます、「{{ kuji.level }}」のサインを引きましたね。スクリーンショットを保存して、LineとBotに戻ってチャットを続けてください。彼はあなたのためにさらなる解釈と深いコミュニケーションを提供します
+      おめでとうございます。「{{ kuji.level }}」を引きました。スマホ画面を保存し、Lineに戻ってBotとチャットを続けてください。Botはあなたにあった、お告げを読み解くコツと運勢アップのカギを教えます。
       <br>
       <br>
-      PS: 画像をクリックすると裏面をめぐりますよ。
+      PS: みくじ箋をタップすると裏側をめぐります。
       <div class="kujiresult" @click="imgside = !imgside">
         <img class="kujiimg" v-show="imgside" :src="kuji.img1" alt="">
         <img class="kujiimg" v-show="!imgside" :src="kuji.img2" alt="">
