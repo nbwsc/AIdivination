@@ -97,6 +97,7 @@ function showResult() {
     state.value = 3
     stopListening()
     axios.get(`https://sunost.com/lineapi/onKujiChecked?id=${kujiId}`)
+
   }
 }
 
@@ -169,8 +170,7 @@ function shakeFunctionHandler(e) {
     // 前后三个向的差值的绝对值和时间比率超过了预设的阈值
     if (speed > shakeThreshold) {
       console.log('shaked');
-      state.value = 3;
-      stopListening()
+      showResult()
     };
 
     lastX = x;
