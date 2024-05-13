@@ -98,6 +98,9 @@ function moveBottom() {
 
 async function sendMessage() {
     const chat = message.value
+    if (!chat) {
+        return
+    }
     message.value = ''
     pushHistory(chat, 'User')
     const r = await axios.post('/aics/client/chat', {
