@@ -53,6 +53,11 @@ async function getHistory() {
     moveBottom()
 }
 
+async function init() {
+    await getHistory()
+    setInterval(getHistory, 1000 * 5)
+}
+
 async function checkAccessKey() {
     const r = await axios.post('aics/client/checkAccessKey', {
         accessKey, uuid
@@ -60,7 +65,8 @@ async function checkAccessKey() {
     if (r.data.code === 0) {
         disabledApp.value = false
         companyInfo = r.data.data
-        await getHistory()
+        // await getHistory()
+        await init()
     } else {
         disabledApp.value = true
         ElMessage({
