@@ -46,10 +46,15 @@ async function getHistory() {
     const r = await axios.post('aics/client/getChatHistory', {
         uuid, companyId: companyInfo._id
     })
-    history.value = r.data.data.map(e => { e.createdAt = now(e.createdAt); return e })
-    if (!history.value.length) {
+    if (!r.data.data.length) {
         pushHistory('你好，我是你的专属客服，有什么可以帮助你的吗？', 'BOT')
+        return
     }
+    const hasNewMsg = r.data.data.length > history.value.length
+    if (!hasNewMsg) {
+        return
+    }
+    history.value = r.data.data.map(e => { e.createdAt = now(e.createdAt); return e })
     moveBottom()
 }
 
