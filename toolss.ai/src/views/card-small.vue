@@ -17,6 +17,7 @@
 
 <script setup>
 import { ref, onMounted, computed } from 'vue'
+import { encodeName } from '../utils'
 const props = defineProps({
     'tool': { type: Object },
     'search': {
@@ -52,7 +53,7 @@ const taskhtml = computed(() => {
 
 
 function goto(tool) {
-    window.open(tool.url, '_blank')
+    window.open(`/app/${encodeName(tool.name)}`, '_blank')
 }
 </script>
 <style>

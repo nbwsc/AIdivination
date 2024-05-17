@@ -48,7 +48,6 @@
 <script setup>
 import { ref, computed, onMounted, watch } from 'vue'
 import toolcard from './card-small.vue';
-
 const toolsToShow = ref([])
 const search = ref('')
 const aicount = ref(435)

@@ -15,7 +15,9 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 defineProps(['tool'])
+const router = useRouter()
 
 // const tool = {
 //     id: "42367",
@@ -27,7 +29,8 @@ defineProps(['tool'])
 // }
 
 function goto(tool) {
-    window.open(tool.url, '_blank')
+    console.log(tool)
+    // router.push({ name: 'app', params: { appname: tool.name } })
 }
 </script>
 <style>

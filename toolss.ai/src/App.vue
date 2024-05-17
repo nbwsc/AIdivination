@@ -49,12 +49,12 @@ export default {
     }
   },
   created() {
-    const token = getToken()
-    if (token) {
-      this.showLogin = false
-      axios.defaults.headers.common['x-token'] = token
-      this.info()
-    }
+    // const token = getToken()
+    // if (token) {
+    //   this.showLogin = false
+    //   axios.defaults.headers.common['x-token'] = token
+    // this.info()
+    // }
   },
   computed: {
     SignInTXT() {
