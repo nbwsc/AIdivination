@@ -9,7 +9,7 @@ async function main() {
 
   const items = json.data.map((tool) => {
     return `<url>
-    <loc>https://www.toolss.ai/tools/${tool.name}</loc>
+    <loc>https://www.toolss.ai/tools/${encodeURIComponent(tool.name.toLowerCase())}</loc>
     <lastmod>${date}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

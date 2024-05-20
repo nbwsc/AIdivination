@@ -3,9 +3,13 @@
         <el-tooltip :content="tool.desc" placement="top" effect="dark">
             <div class="flex relative">
                 <img class="w-16 mr-4 cursor-pointer"
-                    :src="tool.logo || `https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}`" alt="">
+                    :src="!tool.logo || tool.logo === 'https://media.theresanaiforthat.com/assets/favicon-large.svg?height=207' ? `https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}` : tool.logo"
+                    :title="tool.name" :alt="tool.name"
+                    :onerror="`this.onerror=null;this.src='https://dummyimage.com/300x300/656b72/ffffff.jpg&text=${tool.name}';`">
                 <div class="w-48">
-                    <div class="text-sm h-8 cursor-pointer" @click="goto(tool)" v-html="namehtml"></div>
+                    <a :href="`/app/${encodeName(tool.name)}`" target="_blank" rel="noopener noreferrer">
+                        <div class="text-sm h-8 cursor-pointer" v-html="namehtml"></div>
+                    </a>
                     <el-tag class="text-xs" type="info" effect="dark" v-html="taskhtml"></el-tag>
                 </div>
                 <div class="newflag" v-if="tool.isNew">New</div>
@@ -25,6 +29,7 @@ const props = defineProps({
         default: ''
     }
 })
+
 
 onMounted(() => {
     console.log(props.search)
