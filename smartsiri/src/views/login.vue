@@ -1,19 +1,18 @@
 <template>
-    <div class="container">
+    <div class="login">
         <div class="loginform">
             <div class="clearfix">
-                <img src="@/assets/smartsiri-logo.png" alt="">
-
+                <img class="logo" src="@/assets/smartsiri-logo.png" alt="">
             </div>
             <form class="mt-4" @submit.prevent="login">
                 <el-input v-model="phoneNumber" :disabled="!!code" maxlength="11" type="text" placeholder="请输入手机号"
                     size="large" clearable></el-input>
-                <el-row class="mt-4" :gutter="0">
+                <el-row class="mt-4" :gutter="20">
                     <el-col :span="8" :offset="0">
-                        <el-button style="height: 44px;" :disabled="!!code" type="primary" size="large"
+                        <el-button style="height: 42px;" :disabled="!!code" type="primary" size="large"
                             @click="getSMScode">{{ smstxt
                             }}</el-button></el-col>
-                    <el-col :span="14" :offset="1">
+                    <el-col :span="14" :offset="2">
                         <el-input v-model="smscode" placeholder="填写验证码" size="large" clearable>
                         </el-input></el-col>
                 </el-row>
@@ -155,14 +154,17 @@ export default {
 };
 </script>
 <style scoped>
-.container {
-    position: absolute;
+.login {
     top: 0;
     left: 0;
     background-color: #000000;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
     background-size: cover;
+}
+
+.logo {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .loginform {
@@ -171,7 +173,6 @@ export default {
     left: 5%;
     width: 90%;
     padding: 0;
-    background-color: #ffffff33;
     border-radius: 8px;
 }
 </style>

@@ -8,11 +8,17 @@ body {
     Liberation Mono, Courier New, monospace;
   /* font-family: Inter var, ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji; */
 }
-
+#app {
+  max-width: 720px;
+  margin: 0 auto;
+}
 :root {
   --el-color-primary: rgb(63, 28, 158);
 }
 
+img {
+  width: 100%;
+}
 .el-button {
   color: var(--el-color-primary);
 }
