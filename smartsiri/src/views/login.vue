@@ -132,7 +132,7 @@ export default {
                 });
             }
             axios({
-                url: "https://www.leapcapital.cn/api/public/getSmsCode",
+                url: "https://smartsiri.online/api/public/getSmsCode",
                 method: "POST",
                 data: { telphone: this.phoneNumber },
             }).then((data) => {
