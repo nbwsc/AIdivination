@@ -1,0 +1,34 @@
+import { createRouter, createWebHashHistory } from "vue-router";
+
+const router = createRouter({
+  history: createWebHashHistory(import.meta.env.BASE_URL),
+  routes: [
+    {
+      path: "/",
+      name: "login",
+      component: () => import("./views/login.vue"),
+    },
+    {
+      path: "/me",
+      name: "me",
+      component: () => import("./views/me.vue"),
+    },
+    {
+      path: "/download",
+      name: "download",
+      component: () => import("./views/download.vue"),
+    },
+    {
+      path: "/instruction",
+      name: "instruction",
+      component: () => import("./views/instruction.vue"),
+    },
+    {
+      path: "/member",
+      name: "member",
+      component: () => import("./views/member.vue"),
+    },
+  ],
+});
+
+export default router;
