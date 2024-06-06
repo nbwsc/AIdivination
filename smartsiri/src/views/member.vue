@@ -5,7 +5,7 @@
         <div class="mt-2">
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
                 <div style="color:#aaa"> 体验会员
-                    <el-tag type="warning" size="normal" effect="plain">
+                    <el-tag type="warning" effect="plain">
                         首次注册免费赠送
                     </el-tag>
                 </div>
@@ -16,7 +16,7 @@
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
                 <div style="color:blue"> 基础会员
-                    <el-tag type="warning" size="normal" effect="plain">
+                    <el-tag type="warning" effect="plain">
                         9.9元/月
                     </el-tag>
                 </div>
@@ -27,7 +27,7 @@
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
                 <div style="color:purple"> 中级会员
-                    <el-tag type="warning" size="normal" effect="plain">
+                    <el-tag type="warning" effect="plain">
                         19.9元/月
                     </el-tag>
                 </div>
@@ -38,7 +38,7 @@
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
                 <div style="color:gold"> 高级会员
-                    <el-tag type="warning" size="normal" effect="plain">
+                    <el-tag type="warning" effect="plain">
                         39.9元/月
                     </el-tag>
                 </div>
@@ -49,7 +49,7 @@
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
                 <div style="color:red"> 至尊会员
-                    <el-tag type="warning" size="normal" effect="plain">
+                    <el-tag type="warning" effect="plain">
                         99.9元/月
                     </el-tag>
                 </div>

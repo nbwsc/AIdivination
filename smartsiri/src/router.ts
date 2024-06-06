@@ -28,6 +28,7 @@ const router = createRouter({
       name: "member",
       component: () => import("./views/member.vue"),
     },
+    { path: "/:pathMatch(.*)*", redirect: "/" },
   ],
 });
 

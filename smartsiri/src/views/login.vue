@@ -10,15 +10,18 @@
                     size="large" clearable></el-input>
                 <el-row class="mt-4" :gutter="0">
                     <el-col :span="8" :offset="0">
-                        <el-button style="height: 40px;" :disabled="!!code" type="primary" size="large"
+                        <el-button style="height: 44px;" :disabled="!!code" type="primary" size="large"
                             @click="getSMScode">{{ smstxt
                             }}</el-button></el-col>
-                    <el-col :span="16" :offset="0">
+                    <el-col :span="14" :offset="1">
                         <el-input v-model="smscode" placeholder="填写验证码" size="large" clearable>
                         </el-input></el-col>
                 </el-row>
 
                 <el-button class="mt-4" style="width: 100%" type="success" size="large" @click="login">登录</el-button>
+                <br>
+                <el-button class="mt-4" style="width: 100%" type="warning" size="large"
+                    @click="gotomodel">免费下载模型</el-button>
             </form>
         </div>
     </div>
@@ -56,27 +59,12 @@ export default {
     },
     methods: {
         login() {
-            // test
-            // window.userinfo = {
-            //     "_id": "6660c316906f1d8865963617",
-            //     "phone": "16619910574",
-            //     "accesskey": "4734ac57-9818-403f-9ea3-4b940546bbe7",
-            //     "expiredAt": "2024-06-12T19:57:10.475Z",
-            //     "level": 0,
-            //     "modelCredit": [
-            //         5,
-            //         2
-            //     ],
-            //     "createdAt": "2024-06-05T19:57:10.477Z"
-            // }
-            // this.$router.push("/me");
             if (!this.phoneNumber) {
                 return ElMessage({
                     message: "请填写手机号",
                     type: "info",
                 });
             }
-            // check password == YYYYMMDD
             if (!this.smscode) {
                 return ElMessage({
                     message: "请填写验证码",
@@ -108,7 +96,6 @@ export default {
                             JSON.stringify(data.data.data._id)
                         );
                         window.userinfo = data.data.data;
-                        console.log(window.userinfo)
                         // this.$emit("login");
                         this.$router.push("/me");
                     })
@@ -125,6 +112,12 @@ export default {
                     type: "info",
                 });
             }
+        },
+
+        gotomodel() {
+            this.$router.push({
+                path: "/models",
+            });
         },
         getSMScode() {
             // check phoneNumber

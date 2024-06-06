@@ -5,7 +5,7 @@
         </div>
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('大聪明')">
             <div style="color:#555"> 大聪明
-                <el-tag type="warning" size="normal" effect="plain">
+                <el-tag type="warning" effect="plain">
                     文本模型
                 </el-tag>
             </div>
@@ -13,13 +13,13 @@
                 <li>基础款文字模型，可以聊天，无联网功能</li>
                 <li>应用：基础聊天，基础问答</li>
             </div>
-            <el-button class="mt-4" type="success" size="default" @click="download('大聪明')">前往下载</el-button>
+            <el-button class="mt-4" type="success" @click="download('大聪明')">前往下载</el-button>
 
         </el-card>
 
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('冲浪健将')">
             <div style="color:#555"> 冲浪健将
-                <el-tag type="warning" size="normal" effect="plain">
+                <el-tag type="warning" effect="plain">
                     文本模型
                 </el-tag>
             </div>
@@ -27,11 +27,11 @@
                 <li>升级款文字模型，可以聊天+联网搜索信息</li>
                 <li>应用：基础聊天，基础问答</li>
             </div>
-            <el-button class="mt-4" type="success" size="default" @click="download('冲浪健将')">前往下载</el-button>
+            <el-button class="mt-4" type="success" @click="download('冲浪健将')">前往下载</el-button>
         </el-card>
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('长眼睛')">
             <div style="color:#555"> 长眼睛
-                <el-tag type="warning" size="normal" effect="plain">
+                <el-tag type="warning" effect="plain">
                     图片模型
                 </el-tag>
             </div>
@@ -39,11 +39,11 @@
                 <li>可以使用摄像头拍照能力进行聊天</li>
                 <li>应用：搜索最新新闻/天气/资讯和更多网络信息</li>
             </div>
-            <el-button class="mt-4" type="success" size="default" @click="download('长眼睛')">前往下载</el-button>
+            <el-button class="mt-4" type="success" @click="download('长眼睛')">前往下载</el-button>
         </el-card>
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('解读屏幕')">
             <div style="color:#555"> 解读屏幕
-                <el-tag type="warning" size="normal" effect="plain">
+                <el-tag type="warning" effect="plain">
                     图片模型
                 </el-tag>
             </div>
@@ -51,7 +51,7 @@
                 <li>可以获取屏幕上的信息和分析能力</li>
                 <li>应用：辅助做题、新闻资讯翻译、辅助游戏等</li>
             </div>
-            <el-button class="mt-4" type="success" size="default">前往下载</el-button>
+            <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
     </div>
 </template>
