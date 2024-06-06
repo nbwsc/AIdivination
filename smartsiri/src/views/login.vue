@@ -3,16 +3,15 @@
         <div class="loginform">
             <div class="clearfix">
                 <img src="@/assets/smartsiri-logo.png" alt="">
-                <h1 class="text-white text-xl mt-2 text-center">SmartSiri</h1>
-                <h2 class="text-white text-m mt-4 text-center">无需安装APP</h2>
-                <h2 class="text-white text-m mt-2 text-center">让你的Siri重长🧠和👀</h2>
+
             </div>
             <form class="mt-4" @submit.prevent="login">
                 <el-input v-model="phoneNumber" :disabled="!!code" maxlength="11" type="text" placeholder="请输入手机号"
                     size="large" clearable></el-input>
-                <el-row class="mt-4"  :gutter="0" >
+                <el-row class="mt-4" :gutter="0">
                     <el-col :span="8" :offset="0">
-                        <el-button :disabled="!!code" type="primary" size="large" @click="getSMScode">{{ smstxt
+                        <el-button style="height: 40px;" :disabled="!!code" type="primary" size="large"
+                            @click="getSMScode">{{ smstxt
                             }}</el-button></el-col>
                     <el-col :span="16" :offset="0">
                         <el-input v-model="smscode" placeholder="填写验证码" size="large" clearable>
@@ -42,8 +41,9 @@ export default {
     created() {
         const ls = +window.localStorage.getItem("smartsirilogints");
         const now = new Date().getTime();
-        if (ls >= now - 3600000) {
-            this.$emit("login");
+        if (ls >= now - 36000000) {// 10h内免登录
+            this.$router.push("/me");
+            // this.$emit("login");
         }
     },
     computed: {
@@ -57,20 +57,19 @@ export default {
     methods: {
         login() {
             // test
-            window.userinfo = {
-                "_id": "6660c316906f1d8865963617",
-                "phone": "16619910574",
-                "accesskey": "4734ac57-9818-403f-9ea3-4b940546bbe7",
-                "expiredAt": "2024-06-12T19:57:10.475Z",
-                "level": 0,
-                "modelCredit": [
-                    5,
-                    2
-                ],
-                "createdAt": "2024-06-05T19:57:10.477Z"
-            }
-            this.$router.push("/me");
-            console.log(window.userinfo)
+            // window.userinfo = {
+            //     "_id": "6660c316906f1d8865963617",
+            //     "phone": "16619910574",
+            //     "accesskey": "4734ac57-9818-403f-9ea3-4b940546bbe7",
+            //     "expiredAt": "2024-06-12T19:57:10.475Z",
+            //     "level": 0,
+            //     "modelCredit": [
+            //         5,
+            //         2
+            //     ],
+            //     "createdAt": "2024-06-05T19:57:10.477Z"
+            // }
+            // this.$router.push("/me");
             if (!this.phoneNumber) {
                 return ElMessage({
                     message: "请填写手机号",

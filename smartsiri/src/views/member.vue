@@ -11,7 +11,7 @@
                 </div>
                 <div class="mt-2">
                     <li> 首次注册系统赠送</li>
-                    <li> 可使用文本模型：3次，图片模型2次</li>
+                    <li> 可使用文本模型：3次，图片模型：2次</li>
                 </div>
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="mt-2">
                     <li> 可使用文字版大聪明 + 联网版冲浪手 + 长眼睛Siri + 读屏幕</li>
-                    <li> 可使用文本模型：80次，图片模型30次</li>
+                    <li> 可使用文本模型：80次，图片模型：30次</li>
                 </div>
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
@@ -55,7 +55,7 @@
                 </div>
                 <div class="mt-2">
                     <li> 可使用所有模型 + 可定制知识库 </li>
-                    <li> 可使用文本模型：9999次，图片模型299次</li>
+                    <li> 可使用文本模型：999次，图片模型：299次</li>
                 </div>
             </el-card>
         </div>

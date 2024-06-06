@@ -19,9 +19,9 @@ const router = createRouter({
       component: () => import("./views/download.vue"),
     },
     {
-      path: "/instruction",
-      name: "instruction",
-      component: () => import("./views/instruction.vue"),
+      path: "/models",
+      name: "models",
+      component: () => import("./views/models.vue"),
     },
     {
       path: "/member",
