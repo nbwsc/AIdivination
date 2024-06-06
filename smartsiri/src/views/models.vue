@@ -74,16 +74,16 @@
 const download = (name) => {
     switch (name) {
         case "大聪明":
-            window.open('https://www.icloud.com/shortcuts/97ebc87e0649411ca7e27c3df68577f1')
+            window.open('https://www.icloud.com/shortcuts/368601de6ac94690bd2c8aabc65c7fcd')
             return
         case "冲浪健将":
-            window.open('https://www.icloud.com/shortcuts/2e58efc68fd74df2a508dfb1f98285a4')
+            window.open('https://www.icloud.com/shortcuts/69e6ee2fed234bfca39876012b36ba7b')
             return
         case "解读屏幕":
-            window.open('https://www.icloud.com/shortcuts/8faf657698624a68bddfeeae97643899')
+            window.open('https://www.icloud.com/shortcuts/a9ce1259bb4d4c208cba18d6fbdf6a93')
             return;
         case "长眼睛":
-            window.open('https://www.icloud.com/shortcuts/065efbfc9ca94bfbb8e444d175bdaade')
+            window.open('https://www.icloud.com/shortcuts/4b714cb99f814869903a3c6d5ede40b8')
             return
     }
 };
