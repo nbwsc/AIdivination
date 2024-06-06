@@ -6,5 +6,7 @@
 </script>
 <style>
 .panel {
+  max-width: 720px;
+  margin: 0 auto;
 }
 </style>
