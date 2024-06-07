@@ -114,9 +114,7 @@ export default {
         },
 
         gotomodel() {
-            this.$router.push({
-                path: "/models",
-            });
+            this.$router.push("/models");
         },
         getSMScode() {
             // check phoneNumber

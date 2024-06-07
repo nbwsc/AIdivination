@@ -8,7 +8,8 @@ import "element-plus/theme-chalk/el-message-box.css";
 import "element-plus/theme-chalk/el-message.css";
 import "./style.css";
 moment.locale("zh-cn");
-axios.defaults.baseURL = "https://smartsiri.online/aiapi";
+axios.defaults.baseURL = "http://siri.leapcapital.cn/aiapi";
+// axios.defaults.baseURL = "https://smartsiri.online/aiapi";
 // axios.defaults.baseURL = 'http://localhost:9000'
 
 const app = createApp(App);
