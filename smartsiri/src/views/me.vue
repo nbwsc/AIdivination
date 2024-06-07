@@ -128,8 +128,33 @@ onMounted(() => {
 
 })
 const copyAK = () => {
-    navigator.clipboard.writeText(userinfo.value.accesskey)
-    ElMessage('已复制AccessKey到剪贴板')
+    if (navigator.clipboard && window.isSecureContext) {
+        // navigator clipboard 向剪贴板写文本
+        navigator.clipboard.writeText(userinfo.value.accesskey)
+        ElMessage('已复制AccessKey到剪贴板')
+        //   message.success('已复制')
+    } else {
+        // 创建text area
+        let textArea = document.createElement("textarea");
+        textArea.value = userinfo.value.accesskey;
+        // 使text area不在viewport，同时设置不可见
+        textArea.style.position = "absolute";
+        textArea.style.opacity = 0;
+        textArea.style.left = "-999999px";
+        textArea.style.top = "-999999px";
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        new Promise((res, rej) => {
+            // 执行复制命令并移除文本框
+            document.execCommand('copy') ? res() : rej();
+            textArea.remove();
+            ElMessage('已复制AccessKey到剪贴板!')
+            // message.success('已复制')
+        });
+    }
+    // navigator.clipboard.writeText(userinfo.value.accesskey)
+    // ElMessage('已复制AccessKey到剪贴板')
 }
 
 const checkCard = () => {
