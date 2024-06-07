@@ -78,7 +78,7 @@ export default {
             }
             if (this.smscode == this.code) {
                 axios({
-                    url: "/smartsiri/signin",
+                    url: "/aiapi/smartsiri/signin",
                     method: "POST",
                     data: { phone: this.phoneNumber, smscode: this.code },
                 })
@@ -130,7 +130,7 @@ export default {
                 });
             }
             axios({
-                url: "http://siri.leapcapital.cn/api/public/getSmsCode",
+                url: "/api/public/getSmsCode",
                 method: "POST",
                 data: { telphone: this.phoneNumber },
             }).then((data) => {

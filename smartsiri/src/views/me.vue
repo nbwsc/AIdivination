@@ -117,7 +117,7 @@ onMounted(() => {
         userinfo.value = window.userinfo
     } else if (userId) {
         axios({
-            url: "/smartsiri/info",
+            url: "/aiapi/smartsiri/info",
             method: "POST",
             data: { userId },
         })
@@ -137,7 +137,7 @@ const checkCard = () => {
         return ElMessage('请输入卡号')
     }
     axios({
-        url: "/smartsiri/checkCard",
+        url: "/aiapi/smartsiri/checkCard",
         method: "POST",
         data: { userId, card: card.value },
     })
