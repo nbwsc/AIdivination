@@ -73,17 +73,17 @@
 <script setup>
 const download = (name) => {
     switch (name) {
-        case "大聪明":
-            window.open('https://www.icloud.com/shortcuts/368601de6ac94690bd2c8aabc65c7fcd')
+        case "大聪明": // v1.1
+            window.open('https://www.icloud.com/shortcuts/61eabcd8e44648e784512edce6ecdf9c')
             return
-        case "冲浪健将":
-            window.open('https://www.icloud.com/shortcuts/69e6ee2fed234bfca39876012b36ba7b')
+        case "冲浪健将":// v1.1
+            window.open('https://www.icloud.com/shortcuts/d6431ffa215b48e49785487dc0a4733d')
             return
-        case "解读屏幕":
-            window.open('https://www.icloud.com/shortcuts/a9ce1259bb4d4c208cba18d6fbdf6a93')
+        case "解读屏幕": // v1.1
+            window.open('https://www.icloud.com/shortcuts/b7d1ed9ce41547c09c8eddad1e4828a2')
             return;
-        case "长眼睛":
-            window.open('https://www.icloud.com/shortcuts/4b714cb99f814869903a3c6d5ede40b8')
+        case "长眼睛": // v1.1
+            window.open('https://www.icloud.com/shortcuts/3187a5fafd8e4c419ace15ccb22b9f1c')
             return
     }
 };
