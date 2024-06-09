@@ -51,7 +51,7 @@
             </div>
             <div class="mt-4">
                 <li>可以使用摄像头拍照能力进行聊天</li>
-                <li>应用：搜索最新新闻/天气/资讯和更多网络信息</li>
+                <li>应用：识别物体，解读报告，翻译文稿，教育</li>
             </div>
             <el-button class="mt-4" type="success" @click="download('长眼睛')">前往下载</el-button>
         </el-card>
@@ -67,17 +67,24 @@
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
+        <el-card class="mt-4" shadow="always" :body-style="{ padding: '20px' }" @click="gotoEnModel">
+            <div>
+                <span>英文版模型请点此处下载</span>
+            </div>
+            Click here to download the English Shortcuts
+        </el-card>
+
     </div>
 </template>
 
 <script setup>
 const download = (name) => {
     switch (name) {
-        case "大聪明": // v1.1
-            window.open('https://www.icloud.com/shortcuts/61eabcd8e44648e784512edce6ecdf9c')
+        case "大聪明": // v1.2
+            window.open('https://www.icloud.com/shortcuts/d574496204734eb4901ba2e1439b3595')
             return
-        case "冲浪健将":// v1.1
-            window.open('https://www.icloud.com/shortcuts/d6431ffa215b48e49785487dc0a4733d')
+        case "冲浪健将":// v1.2
+            window.open('https://www.icloud.com/shortcuts/0cc4c7c3735c4b16bc5a97693cbe2797')
             return
         case "解读屏幕": // v1.1
             window.open('https://www.icloud.com/shortcuts/b7d1ed9ce41547c09c8eddad1e4828a2')
@@ -87,6 +94,9 @@ const download = (name) => {
             return
     }
 };
+const gotoEnModel = () => {
+    this.$router.push("/models_en");
+}
 </script>
 <style scoped>
 li {
