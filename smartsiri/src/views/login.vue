@@ -22,6 +22,14 @@
                 <el-button class="mt-4" style="width: 100%" type="warning" size="large"
                     @click="gotomodel">免费下载模型</el-button>
             </form>
+            <div class="mt-8 text-white">
+                <img class="w-32 m-auto" src="@/assets/qrcode.jpg" alt="myqrcode">
+                <div class="w-full mt-2 text-xs text-center">产品内测中</div>
+                <div class="w-full mt-2 text-xs text-center">
+                    微信扫描二维码或搜索 “smartsiri2024” 添加客服进内测群
+                </div>
+                <div class="text-slate-300 text-xs" @click="copy('smartsiri2024')">点击复制微信号</div>
+            </div>
         </div>
     </div>
 </template>
@@ -43,7 +51,7 @@ export default {
     created() {
         const ls = +window.localStorage.getItem("smartsirilogints");
         const now = new Date().getTime();
-        if (ls >= now - 36000000) {// 10h内免登录
+        if (ls >= now - 360000000) {// 100h内免登录
             this.$router.push("/me");
             // this.$emit("login");
         }
@@ -57,6 +65,9 @@ export default {
         },
     },
     methods: {
+        copy: (txt) => {
+            window.copyToClikpboard(txt)
+        },
         login() {
             if (!this.phoneNumber) {
                 return ElMessage({

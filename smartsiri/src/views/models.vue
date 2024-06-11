@@ -4,16 +4,11 @@
             SmartSiri 模型下载
         </div>
         <div>
-            <div class="mt-2 text-l">使用方法：</div>
-            <li>点击下列模型中进行快捷方式安装</li>
-            <li>将
-                <a class="link underline" href="/me">
-                    会员管理页
+            <div class="mt-2 text-l">如何使用？
+                <a href="/#/me" class="link">
+                    点此查看
                 </a>
-                中复制 AccessKey
-            </li>
-            <li>进入快捷指令，编辑下载到的模型</li>
-            <li>将 AccessKey 粘贴覆盖到模型的“文本”中</li>
+            </div>
         </div>
         <div class="mt-2 text-l">模型列表：</div>
 
@@ -38,46 +33,49 @@
                 </el-tag>
             </div>
             <div class="mt-4">
-                <li>升级款文字模型，可以聊天+联网搜索信息</li>
-                <li>应用：基础聊天，基础问答</li>
+                <li>升级款文字模型，会上网的大聪明</li>
+                <li>应用：联网搜索，智能问答</li>
             </div>
             <el-button class="mt-4" type="success" @click="download('冲浪健将')">前往下载</el-button>
         </el-card>
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('长眼睛')">
             <div style="color:#555"> 长眼睛
                 <el-tag type="warning" effect="plain">
-                    图片模型
+                    视觉模型
                 </el-tag>
             </div>
             <div class="mt-4">
-                <li>可以使用摄像头拍照能力进行聊天</li>
-                <li>应用：识别物体，解读报告，翻译文稿，教育</li>
+                <li>可以使用后置摄像头拍照进行对话</li>
+                <li>应用：识别物体，解读报告，翻译文稿，辅助解题等</li>
             </div>
             <el-button class="mt-4" type="success" @click="download('长眼睛')">前往下载</el-button>
         </el-card>
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('解读屏幕')">
             <div style="color:#555"> 解读屏幕
                 <el-tag type="warning" effect="plain">
-                    图片模型
+                    视觉模型
                 </el-tag>
             </div>
             <div class="mt-4">
-                <li>可以获取屏幕上的信息和分析能力</li>
-                <li>应用：辅助做题、新闻资讯翻译、辅助游戏等</li>
+                <li>可以获取当前屏幕上的信息和分析能力</li>
+                <li>应用：辅助做题、文章翻译、辅助游戏等</li>
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
-        <el-card class="mt-4" shadow="always" :body-style="{ padding: '20px' }" @click="gotoEnModel">
+        <el-card class="mt-4" shadow="always" :body-style="{ padding: '20px' }" @click.native="gotoEnModel">
             <div>
-                <span>英文版模型请点此处下载</span>
+                <span>英文版模型</span>
             </div>
-            Click here to download the English Shortcuts
+            Click here to download the English Models
         </el-card>
+
+        <qrcode />
 
     </div>
 </template>
 
 <script setup>
+import qrcode from './qrcode.vue'
 const download = (name) => {
     switch (name) {
         case "大聪明": // v1.2
@@ -95,12 +93,17 @@ const download = (name) => {
     }
 };
 const gotoEnModel = () => {
-    this.$router.push("/models_en");
+    window.open('/#/models_en')
+    // this.$router.push("/models_en");
 }
 </script>
 <style scoped>
 li {
     font-size: 0.7rem;
     color: #aaa;
+}
+
+.el-tag {
+    float: right;
 }
 </style>

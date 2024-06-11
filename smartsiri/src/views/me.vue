@@ -1,6 +1,6 @@
 <template>
     <div class="p-4">
-        <h1 class="text-2xl m-auto">SmartSiri 会员管理</h1>
+        <h1 class="text-2xl m-auto">SmartSiri 个人管理</h1>
 
         <div class="mt-4">
             手机号：
@@ -8,14 +8,7 @@
                 {{ userinfo.phone }}
             </span>
         </div>
-        <div>AccessKey</div>
-        <pre><code>
-{{ userinfo.accesskey }}
-        </code></pre>
-        <el-icon class="link underline" @click="copyAK" style="font-size: 1.5rem;">
-            <CopyDocument />
-        </el-icon>
-        <span class="link underline" @click="copyAK">点击复制</span>
+
 
         <div class="mt-4">
             会员类型：
@@ -42,38 +35,31 @@
                 {{ userinfo.modelCredit[1] }}轮
             </span>
         </div>
-
-        <div class="text-l underline link mt-">
-            <a href="/#/models">模型介绍/模型下载</a>
+        <div class="mt-8">
+            AccessKey
+            <el-icon class="link underline" @click="copyAK" style="font-size: 1rem;">
+                <CopyDocument />
+            </el-icon>
         </div>
+        <pre><code>{{ userinfo.accesskey }}</code></pre>
 
-        <div class="mt-4">
-            <div class="text-xl">
-                充值流程：
-            </div>
-            <div class="text-l ">
-                1. 前往 <a class="underline link text-xl mt-2" href="http://aa.nsjiasu.com/links/52BC32A5">购买会员卡</a>
-            </div>
-
-            <div class="text-l ">
-                2. 选择会员类型并支付获得卡号（注：这里仅需要卡号）
-            </div>
-            <div class="text-l ">
-                3. 将卡号复制并返回本页面粘贴输入卡号，点击充值
-            </div>
+        <div class="mt-4">如何使用？</div>
+        <div class="link underline mt-2" @click="copyAK">1. 点击复制AccessKey</div>
+        <div class="link underline mt-2">
+            <a href="/#/models">2. 下载你想要的模型</a>
         </div>
+        <div class=" mt-2">3. 安装模型，根据提示粘贴 AccessKey</div>
+        <div class="mt-2">4. 可以将指令换成你喜欢的名字（可选）</div>
+        <div class="mt-2">5. 使用 hey siri 唤醒，说出指令名字：比如“长眼睛模式”，在提示语音后输入你想问的问题并且拍照，然后耐心等待服务器返回即可。</div>
 
-
-        <div class="text-xl mt-6">
-            <el-input v-model="card" placeholder="输入卡号" size="normal" clearable></el-input>
-            <div class="text-2xl mt-2 underline link" @click="checkCard">充值</div>
-        </div>
+        <qrcode />
     </div>
 </template>
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { ElMessage } from "element-plus";
 import { CopyDocument } from '@element-plus/icons-vue'
+import qrcode from './qrcode.vue'
 import axios from 'axios';
 const gotoCharge = () => {
     window.location.href = 'https://aa.nsjiasu.com/links/52BC32A5'
@@ -105,6 +91,7 @@ const expiredTxt = computed(() => {
         return '已过期'
     }
 })
+
 onMounted(() => {
     const ls = +window.localStorage.getItem("smartsirilogints");
     const now = new Date().getTime();
@@ -125,36 +112,9 @@ onMounted(() => {
                 userinfo.value = data.data.data
             })
     }
-
 })
 const copyAK = () => {
-    if (navigator.clipboard && window.isSecureContext) {
-        // navigator clipboard 向剪贴板写文本
-        navigator.clipboard.writeText(userinfo.value.accesskey)
-        ElMessage('已复制AccessKey到剪贴板')
-        //   message.success('已复制')
-    } else {
-        // 创建text area
-        let textArea = document.createElement("textarea");
-        textArea.value = userinfo.value.accesskey;
-        // 使text area不在viewport，同时设置不可见
-        textArea.style.position = "absolute";
-        textArea.style.opacity = 0;
-        textArea.style.left = "-999999px";
-        textArea.style.top = "-999999px";
-        document.body.appendChild(textArea);
-        textArea.focus();
-        textArea.select();
-        new Promise((res, rej) => {
-            // 执行复制命令并移除文本框
-            document.execCommand('copy') ? res() : rej();
-            textArea.remove();
-            ElMessage('已复制AccessKey到剪贴板!')
-            // message.success('已复制')
-        });
-    }
-    // navigator.clipboard.writeText(userinfo.value.accesskey)
-    // ElMessage('已复制AccessKey到剪贴板')
+    window.copyToClikpboard(userinfo.value.accesskey)
 }
 
 const checkCard = () => {

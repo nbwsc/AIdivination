@@ -71,7 +71,7 @@
             <div>
                 <span>中文版模型请点此处下载</span>
             </div>
-            Click here to download the Chinese Shortcuts
+            Click here to download the Chinese Models
         </el-card>
     </div>
 </template>
@@ -101,5 +101,9 @@ const gotocnModel = () => {
 li {
     font-size: 0.7rem;
     color: #aaa;
+}
+
+.el-tag {
+    float: right;
 }
 </style>

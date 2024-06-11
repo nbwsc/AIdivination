@@ -23,3 +23,30 @@ app.config.globalProperties.$filters = {
     return moment(t).format("YYYY-MM-DD HH:mm");
   },
 };
+
+window.copyToClikpboard = (text) => {
+  if (navigator.clipboard && window.isSecureContext) {
+    // navigator clipboard 向剪贴板写文本
+    navigator.clipboard.writeText(text);
+    ElMessage("已复制到剪贴板");
+    //   message.success('已复制')
+  } else {
+    // 创建text area
+    let textArea = document.createElement("textarea");
+    textArea.value = text;
+    // 使text area不在viewport，同时设置不可见
+    textArea.style.position = "absolute";
+    textArea.style.opacity = 0;
+    textArea.style.left = "-999999px";
+    textArea.style.top = "-999999px";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    new Promise((res, rej) => {
+      // 执行复制命令并移除文本框
+      document.execCommand("copy") ? res() : rej();
+      textArea.remove();
+      ElMessage("已复制到剪贴板!");
+    });
+  }
+};
