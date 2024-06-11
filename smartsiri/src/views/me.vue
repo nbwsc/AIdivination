@@ -4,7 +4,7 @@
 
         <div class="mt-4">
             手机号：
-            <span class="link" href="/#/member">
+            <span class="link">
                 {{ userinfo.phone }}
             </span>
         </div>
@@ -12,10 +12,9 @@
 
         <div class="mt-4">
             会员类型：
-            <a class="link" href="/#/member">
+            <a class="link" @click="gotoCharge">
                 {{ memberName }}
             </a>
-            <a class="text-l underline link mt-2" href="/#/member"> 会员介绍 </a>
         </div>
         <div class="text-l">
             到期时间：
@@ -62,7 +61,8 @@ import { CopyDocument } from '@element-plus/icons-vue'
 import qrcode from './qrcode.vue'
 import axios from 'axios';
 const gotoCharge = () => {
-    window.location.href = 'https://aa.nsjiasu.com/links/52BC32A5'
+    ElMessage('产品内测中，请添加客服为微信好友：smartsiri2024。申请请注明：siri')
+    // window.location.href = 'https://aa.nsjiasu.com/links/52BC32A5'
 }
 const card = ref('')
 let userId = ''
@@ -155,8 +155,6 @@ pre {
     overflow: hidden;
 }
 
-
-
 code {
     font-family: Monaco, monospace;
     font-size: 1rem;
@@ -167,8 +165,6 @@ code {
     letter-spacing: -0.05em;
     word-break: normal;
 }
-
-
 
 pre code {
     border: none;

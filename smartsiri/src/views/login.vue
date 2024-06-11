@@ -16,15 +16,12 @@
                         <el-input v-model="smscode" placeholder="填写验证码" size="large" clearable>
                         </el-input></el-col>
                 </el-row>
-
                 <el-button class="mt-4" style="width: 100%" type="success" size="large" @click="login">登录</el-button>
                 <br>
                 <el-button class="mt-4" style="width: 100%" type="warning" size="large"
                     @click="gotomodel">免费下载模型</el-button>
                 <qrcode />
             </form>
-
-
         </div>
     </div>
 </template>

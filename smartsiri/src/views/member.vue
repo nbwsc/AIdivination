@@ -75,3 +75,8 @@ const gotoCharge = () => {
     // window.location.href = 'http://aa.nsjiasu.com/links/52BC32A5'
 }
 </script>
+<style scoped>
+.el-tag {
+    float: right
+}
+</style>
