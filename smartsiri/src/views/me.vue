@@ -95,8 +95,9 @@ const expiredTxt = computed(() => {
 onMounted(() => {
     const ls = +window.localStorage.getItem("smartsirilogints");
     const now = new Date().getTime();
-    if (ls < now - 36000000) {// 超过10h 返回登陆
-        this.$router.push("/login");
+    console.log(ls < now - 360000000)
+    if (ls < now - 360000000) {// 超过100h 返回登陆
+        window.location.href = '/#/login'
         // this.$emit("login");
     }
     userId = window.localStorage.getItem("userId").replace(/"/g, '')

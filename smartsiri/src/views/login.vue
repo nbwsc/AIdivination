@@ -21,8 +21,9 @@
                 <br>
                 <el-button class="mt-4" style="width: 100%" type="warning" size="large"
                     @click="gotomodel">免费下载模型</el-button>
+                <qrcode />
             </form>
-            <qrcode />
+
 
         </div>
     </div>
@@ -43,6 +44,7 @@ export default {
         };
     },
     components: {
+        qrcode
     },
     created() {
         const ls = +window.localStorage.getItem("smartsirilogints");
