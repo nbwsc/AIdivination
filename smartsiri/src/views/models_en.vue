@@ -94,7 +94,8 @@ const download = (name) => {
     }
 };
 const gotocnModel = () => {
-    this.$router.push("/models");
+    window.open('/#/models')
+    // this.$router.push("/models");
 }
 </script>
 <style scoped>
