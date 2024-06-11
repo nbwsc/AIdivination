@@ -22,20 +22,16 @@
                 <el-button class="mt-4" style="width: 100%" type="warning" size="large"
                     @click="gotomodel">免费下载模型</el-button>
             </form>
-            <div class="mt-8 text-white">
-                <img class="w-32 m-auto" src="@/assets/qrcode.jpg" alt="myqrcode">
-                <div class="w-full mt-2 text-xs text-center">产品内测中</div>
-                <div class="w-full mt-2 text-xs text-center">
-                    微信扫描二维码或搜索 “smartsiri2024” 添加客服进内测群
-                </div>
-                <div class="text-slate-300 text-xs" @click="copy('smartsiri2024')">点击复制微信号</div>
-            </div>
+            <qrcode />
+
         </div>
     </div>
 </template>
 <script>
 import axios from "axios";
 import { ElMessage } from "element-plus";
+import qrcode from './qrcode.vue'
+
 export default {
     name: "LoginPage",
     data() {
