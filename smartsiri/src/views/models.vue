@@ -88,7 +88,7 @@ const download = (name) => {
             window.open('https://www.icloud.com/shortcuts/b7d1ed9ce41547c09c8eddad1e4828a2')
             return;
         case "长眼睛": // v1.1
-            window.open('https://www.icloud.com/shortcuts/3187a5fafd8e4c419ace15ccb22b9f1c')
+            window.open('https://www.icloud.com/shortcuts/466fa1e7db8b40c694b026c415a7e0b5')
             return
     }
 };
