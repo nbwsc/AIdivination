@@ -23,7 +23,7 @@ const copy = (txt) => {
 async function testpay() {
     const memberType = 8
     const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
-    console.log(r.data)
-    boostPay(r.data)
+    console.log(r.data.data)
+    boostPay(r.data.data)
 }
 </script>
