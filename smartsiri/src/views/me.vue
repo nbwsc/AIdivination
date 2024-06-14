@@ -48,8 +48,8 @@
 
         <div class="mt-4">如何使用？</div>
         <div class="link underline mt-2" @click="copyAK">1. 点击复制AccessKey</div>
-        <div class="link underline mt-2">
-            <a href="/#/models">2. 下载你想要的模型</a>
+        <div class="link underline mt-2" @click="gotoModels">
+            2. 下载你想要的模型
         </div>
         <div class=" mt-2">3. 安装模型，根据提示粘贴 AccessKey</div>
         <div class="mt-2">4. 可以将指令换成你喜欢的名字（可选）</div>
@@ -105,7 +105,8 @@ onMounted(() => {
     const now = new Date().getTime();
     console.log(ls < now - 360000000)
     if (ls < now - 360000000) {// 超过100h 返回登陆
-        window.location.href = '/#/login'
+        // window.location.href = '/#/login'
+        router.push('/login')
         // this.$emit("login");
     }
     userId = window.localStorage.getItem("userId").replace(/"/g, '')
@@ -125,6 +126,9 @@ onMounted(() => {
 })
 const copyAK = () => {
     window.copyToClikpboard(userinfo.value.accesskey)
+}
+const gotoModels = () => {
+    router.push('/member')
 }
 
 const checkCard = () => {
