@@ -67,9 +67,13 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import { ElMessage } from "element-plus";
+import { useRouter } from 'vue-router';
 import qrcode from './qrcode.vue'
 import axios from 'axios'
 import { boostPay } from '../wechat'
+
+const router = useRouter()
+
 const gotoCharge = async (memberType) => {
     const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid, userId: window.userinfo._id } })
     boostPay(r.data.data).then(() => {
@@ -77,7 +81,7 @@ const gotoCharge = async (memberType) => {
             message: "支付成功",
             type: "success",
         });
-        window.open('/#/me')
+        router.push('/me')
     })
 }
 // new window.VConsole();
