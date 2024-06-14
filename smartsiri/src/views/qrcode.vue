@@ -21,9 +21,12 @@ const copy = (txt) => {
     window.copyToClikpboard(txt)
 }
 async function testpay() {
-    const memberType = 8
+    const memberType = 1
     const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
-    console.log(r.data.data)
-    boostPay(r.data.data)
+    boostPay(r.data.data).then((res) => {
+        alert('done')
+    }).catch(e => {
+        alert(e)
+    })
 }
 </script>

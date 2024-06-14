@@ -1,10 +1,14 @@
 function onBridgeReady(prepay) {
-  WeixinJSBridge.invoke("getBrandWCPayRequest", prepay, function (res) {
-    if (res.err_msg == "get_brand_wcpay_request:ok") {
-      console.log("ok");
-    } else {
-      console.log("error");
-    }
+  return new Promise((resolve, reject) => {
+    WeixinJSBridge.invoke("getBrandWCPayRequest", prepay, function (res) {
+      if (res.err_msg === "get_brand_wcpay_request:ok") {
+        console.log("ok");
+        resolve(res);
+      } else {
+        console.log("error");
+        reject(res);
+      }
+    });
   });
 }
 
@@ -20,15 +24,25 @@ function onBridgeReady(prepay) {
 }} prepay
  */
 export async function boostPay(prepay) {
-  if (typeof WeixinJSBridge == "undefined") {
-    if (document.addEventListener) {
-      document.addEventListener("WeixinJSBridgeReady", onBridgeReady, false);
-    } else if (document.attachEvent) {
-      document.attachEvent("WeixinJSBridgeReady", onBridgeReady);
-      document.attachEvent("onWeixinJSBridgeReady", onBridgeReady);
-    }
+  if (typeof WeixinJSBridge === "undefined") {
+    return new Promise((resolve, reject) => {
+      function onBridgeReadyWrapper() {
+        onBridgeReady(prepay).then(resolve).catch(reject);
+      }
+
+      if (document.addEventListener) {
+        document.addEventListener(
+          "WeixinJSBridgeReady",
+          onBridgeReadyWrapper,
+          false
+        );
+      } else if (document.attachEvent) {
+        document.attachEvent("WeixinJSBridgeReady", onBridgeReadyWrapper);
+        document.attachEvent("onWeixinJSBridgeReady", onBridgeReadyWrapper);
+      }
+    });
   } else {
-    onBridgeReady(prepay);
+    return onBridgeReady(prepay);
   }
 }
 

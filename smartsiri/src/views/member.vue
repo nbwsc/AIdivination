@@ -70,11 +70,9 @@ import { ref, computed, onMounted } from 'vue'
 import { ElMessage } from "element-plus";
 import qrcode from './qrcode.vue'
 import axios from 'axios'
-const gotoCharge = (memberType) => {
-    const r = axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
-
-    // ElMessage('产品内测中，请添加客服为微信好友：smartsiri2024。申请请注明：siri')
-    // window.location.href = 'http://aa.nsjiasu.com/links/52BC32A5'
+const gotoCharge = async (memberType) => {
+    const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
+    boostPay(r.data.data)
 }
 </script>
 <style scoped>
