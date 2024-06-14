@@ -2,10 +2,8 @@ function onBridgeReady(prepay) {
   return new Promise((resolve, reject) => {
     WeixinJSBridge.invoke("getBrandWCPayRequest", prepay, function (res) {
       if (res.err_msg === "get_brand_wcpay_request:ok") {
-        console.log("ok");
         resolve(res);
       } else {
-        console.log("error");
         reject(res);
       }
     });

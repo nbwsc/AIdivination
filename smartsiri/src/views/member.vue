@@ -72,8 +72,15 @@ import qrcode from './qrcode.vue'
 import axios from 'axios'
 const gotoCharge = async (memberType) => {
     const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
-    boostPay(r.data.data)
+    boostPay(r.data.data).then(() => {
+        ElMessage({
+            message: "支付成功",
+            type: "success",
+        });
+    })
 }
+new window.VConsole();
+
 </script>
 <style scoped>
 .el-tag {

@@ -21,6 +21,7 @@
             <span class="link" :class="{ 'color-red': expiredTxt === '已过期' }" @click="gotoCharge">
                 {{ expiredTxt }}
             </span>
+            <span v-if="expiredTxt !== '已过期'" @click="gotoCharge" class="link underline"> > 点我续费</span>
         </div>
         <div class="mt-4 text-l">
             文本模型对话余额：
@@ -33,6 +34,9 @@
             <span class="link " @click="gotoCharge">
                 {{ userinfo.modelCredit[1] }}轮
             </span>
+        </div>
+        <div>
+            <span @click="gotoCharge" class="link underline"> > 点我充值</span>
         </div>
         <div class="mt-8">
             AccessKey
@@ -60,8 +64,12 @@ import { ElMessage } from "element-plus";
 import { CopyDocument } from '@element-plus/icons-vue'
 import qrcode from './qrcode.vue'
 import axios from 'axios';
+import { useRouter } from 'vue-router';
+const router = useRouter()
+
 const gotoCharge = () => {
-    ElMessage('产品内测中，请添加客服为微信好友：smartsiri2024。申请请注明：siri')
+    router.push('/member')
+    // ElMessage('产品内测中，请添加客服为微信好友：smartsiri2024。申请请注明：siri')
     // window.location.href = 'https://aa.nsjiasu.com/links/52BC32A5'
 }
 const card = ref('')
