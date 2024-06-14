@@ -20,8 +20,8 @@ onMounted(async () => {
   const code = getParameterByName("code")
   const state = getParameterByName("state")
 
+  const encodeurl = encodeURIComponent('http://siri.leapcapital.cn')
   if (!code) {
-    const encodeurl = encodeURIComponent(window.location.href)
     window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx861818ac575d28e1&redirect_uri=${encodeurl}&response_type=code&scope=snsapi_base&state=${state}#wechat_redirect`
     return
   }
@@ -33,10 +33,12 @@ onMounted(async () => {
   })
 
   if (r.data.errcode) {
-    ElMessage({
-      message: r.data.errmsg,
-      type: "error",
-    });
+    window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx861818ac575d28e1&redirect_uri=${encodeurl}&response_type=code&scope=snsapi_base&state=${state}#wechat_redirect`
+
+    // ElMessage({
+    //   message: r.data.errmsg,
+    //   type: "error",
+    // });
     return
   }
   window.wechatuserinfo = r.data
