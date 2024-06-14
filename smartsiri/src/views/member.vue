@@ -4,7 +4,7 @@
         <h1 class="text-xl mt-4"> SmartSiri 会员介绍</h1>
 
         <div class="mt-2">
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(1)">
                 <div style="color:#aaa"> 体验会员
                     <el-tag type="warning" effect="plain">
                         首次注册免费赠送
@@ -15,7 +15,7 @@
                     <li> 文本模型：20次，图片模型：10次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(2)">
                 <div style="color:blue"> 基础会员
                     <el-tag type="warning" effect="plain">
                         9.9元/月
@@ -26,7 +26,7 @@
                     <li> 文本模型：30次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(3)">
                 <div style="color:purple"> 中级会员
                     <el-tag type="warning" effect="plain">
                         19.9元/月
@@ -37,7 +37,7 @@
                     <li> 文本模型：50次，图片模型：20次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(4)">
                 <div style="color:gold"> 高级会员
                     <el-tag type="warning" effect="plain">
                         39.9元/月
@@ -69,9 +69,11 @@
 import { ref, computed, onMounted } from 'vue'
 import { ElMessage } from "element-plus";
 import qrcode from './qrcode.vue'
+import axios from 'axios'
+const gotoCharge = (memberType) => {
+    const r = axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
 
-const gotoCharge = () => {
-    ElMessage('产品内测中，请添加客服为微信好友：smartsiri2024。申请请注明：siri')
+    // ElMessage('产品内测中，请添加客服为微信好友：smartsiri2024。申请请注明：siri')
     // window.location.href = 'http://aa.nsjiasu.com/links/52BC32A5'
 }
 </script>
