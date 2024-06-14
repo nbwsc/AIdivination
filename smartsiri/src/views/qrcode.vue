@@ -14,17 +14,19 @@
     </div>
 </template>
 <script setup>
+import axios from 'axios'
 import { CopyDocument } from '@element-plus/icons-vue'
+import { boostPay } from '../wechat.js'
 const copy = (txt) => {
     window.copyToClikpboard(txt)
 }
 async function testpay() {
-    // const memberType = 9
-    // const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
-    // boostPay(r.data.data).then((res) => {
-    //     alert('done')
-    // }).catch(e => {
-    //     alert(e.toString())
-    // })
+    const memberType = 9
+    const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid } })
+    boostPay(r.data.data).then((res) => {
+        alert('done')
+    }).catch(e => {
+        alert(e.toString())
+    })
 }
 </script>

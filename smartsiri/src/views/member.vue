@@ -80,7 +80,7 @@ const gotoCharge = async (memberType) => {
         });
     })
 }
-new window.VConsole();
+// new window.VConsole();
 
 </script>
 <style scoped>
