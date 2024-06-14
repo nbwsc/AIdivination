@@ -119,6 +119,7 @@ onMounted(() => {
         })
             .then((data) => {
                 userinfo.value = data.data.data
+                window.userinfo = data.data.data
             })
     }
 })
