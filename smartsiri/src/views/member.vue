@@ -4,7 +4,7 @@
         <h1 class="text-xl mt-4"> SmartSiri 会员介绍</h1>
 
         <div class="mt-2">
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(1)">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }">
                 <div style="color:#aaa"> 体验会员
                     <el-tag type="warning" effect="plain">
                         首次注册免费赠送
@@ -15,7 +15,7 @@
                     <li> 文本模型：20次，图片模型：10次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(2)">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(1)">
                 <div style="color:blue"> 基础会员
                     <el-tag type="warning" effect="plain">
                         9.9元/月
@@ -26,7 +26,7 @@
                     <li> 文本模型：30次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(3)">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(2)">
                 <div style="color:purple"> 中级会员
                     <el-tag type="warning" effect="plain">
                         19.9元/月
@@ -37,7 +37,7 @@
                     <li> 文本模型：50次，图片模型：20次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(4)">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(3)">
                 <div style="color:gold"> 高级会员
                     <el-tag type="warning" effect="plain">
                         39.9元/月
@@ -48,7 +48,7 @@
                     <li> 文本模型：200次，图片模型：60次</li>
                 </div>
             </el-card>
-            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge">
+            <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(4)">
                 <div style="color:red"> 至尊会员
                     <el-tag type="warning" effect="plain">
                         59.9元/月
@@ -59,7 +59,6 @@
                     <li> 文本模型：999次，图片模型：299次</li>
                 </div>
             </el-card>
-
             <qrcode />
 
         </div>
@@ -78,9 +77,10 @@ const gotoCharge = async (memberType) => {
             message: "支付成功",
             type: "success",
         });
+        window.open('/#/me')
     })
 }
-new window.VConsole();
+// new window.VConsole();
 
 </script>
 <style scoped>
