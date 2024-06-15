@@ -22,8 +22,8 @@
                     </el-tag>
                 </div>
                 <div class="mt-2">
-                    <li> 文本模型：60次</li>
-                    <li> 图片模型：20次</li>
+                    <li> 仅文字版模型</li>
+                    <li> 文本模型：30次</li>
                 </div>
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(2)">
@@ -33,8 +33,8 @@
                     </el-tag>
                 </div>
                 <div class="mt-2">
-                    <li> 文本模型：100次</li>
-                    <li> 图片模型：40次</li>
+                    <li> 文本模型和图片模型</li>
+                    <li> 文本模型：50次，图片模型：20次</li>
                 </div>
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(3)">
@@ -44,8 +44,8 @@
                     </el-tag>
                 </div>
                 <div class="mt-2">
-                    <li> 文本模型：400次</li>
-                    <li> 图片模型：120次</li>
+                    <li> 文本模型和图片模型</li>
+                    <li> 文本模型：200次，图片模型：60次</li>
                 </div>
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(4)">
@@ -55,6 +55,7 @@
                     </el-tag>
                 </div>
                 <div class="mt-2">
+                    <li> 所有模型 + 可定制知识库（暂未上线） </li>
                     <li> 文本模型：999次，图片模型：299次</li>
                 </div>
             </el-card>
