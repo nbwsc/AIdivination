@@ -128,7 +128,7 @@ const copyAK = () => {
     window.copyToClikpboard(userinfo.value.accesskey)
 }
 const gotoModels = () => {
-    router.push('/member')
+    router.push('/models')
 }
 
 const checkCard = () => {

@@ -82,10 +82,10 @@ const download = (name) => {
             window.open('https://www.icloud.com/shortcuts/d574496204734eb4901ba2e1439b3595')
             return
         case "冲浪健将":// v1.3
-            window.open('https://www.icloud.com/shortcuts/48ec7a661784412db57556f4d97609fd')
+            // window.open('https://www.icloud.com/shortcuts/48ec7a661784412db57556f4d97609fd')
             
             // v1.2
-            // window.open('https://www.icloud.com/shortcuts/0cc4c7c3735c4b16bc5a97693cbe2797')
+            window.open('https://www.icloud.com/shortcuts/0cc4c7c3735c4b16bc5a97693cbe2797')
             return
         case "解读屏幕": // v1.1
             window.open('https://www.icloud.com/shortcuts/b7d1ed9ce41547c09c8eddad1e4828a2')
