@@ -21,7 +21,7 @@
             <span class="link" :class="{ 'color-red': expiredTxt === '已过期' }" @click="gotoCharge">
                 {{ expiredTxt }}
             </span>
-            <span v-if="expiredTxt !== '已过期'" @click="gotoCharge" class="link underline"> > 点我续费</span>
+            <span v-if="expiredTxt === '已过期'" @click="gotoCharge" class="link underline"> > 点我续费</span>
         </div>
         <div class="mt-4 text-l">
             文本模型对话余额：
