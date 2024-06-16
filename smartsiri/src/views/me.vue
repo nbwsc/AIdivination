@@ -9,7 +9,6 @@
             </span>
         </div>
 
-
         <div class="mt-4">
             会员类型：
             <a class="link" @click="gotoCharge">
@@ -53,7 +52,13 @@
         </div>
         <div class=" mt-2">3. 安装模型，根据提示粘贴 AccessKey</div>
         <div class="mt-2">4. 可以将指令换成你喜欢的名字（可选）</div>
-        <div class="mt-2">5. 使用 hey siri 唤醒，说出指令名字：比如“长眼睛模式”，在提示语音后输入你想问的问题并且拍照，然后耐心等待服务器返回即可。</div>
+        <div class="mt-2">5. 使用 hey siri 唤醒，说出指令名字：比如“睁开眼睛”，在提示语音后输入你想问的问题并且拍照，然后耐心等待服务器返回即可。</div>
+
+
+        <div class="text-xl mt-6">
+            <el-input v-model="card" placeholder="输入卡号或兑换码" size="normal" clearable></el-input>
+            <div class="text-2xl mt-2 underline link" @click="checkCard">充值</div>
+        </div>
 
         <qrcode />
     </div>
@@ -147,7 +152,12 @@ const checkCard = () => {
                     type: "error",
                 });
             }
+            ElMessage({
+                message: '充值成功',
+                type: "success",
+            });
             userinfo.value = data.data.data
+            card.value = ''
         }).catch(err => {
             console.log(err)
             ElMessage({

@@ -140,6 +140,7 @@ export default {
                 method: "POST",
                 data: { telphone: this.phoneNumber },
             }).then((data) => {
+                this.countdown = 120;
                 this.code = data.data;
                 ElMessage({
                     message: "验证码已发送，请注意查收",
