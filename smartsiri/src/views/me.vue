@@ -124,13 +124,17 @@ onMounted(() => {
             data: { userId },
         })
             .then((data) => {
-                if(data.data.code !== 0){
+                if (data.data.code !== 0) {
+                    window.localStorage.removeItem("smartsirilogints");
+                    window.localStorage.removeItem("userId");
                     return router.push('/login')
                 }
                 userinfo.value = data.data.data
                 window.userinfo = data.data.data
             })
             .catch(() => {
+                window.localStorage.removeItem("smartsirilogints");
+                window.localStorage.removeItem("userId");
                 router.push('/login')
             })
     }
