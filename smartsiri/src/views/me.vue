@@ -124,8 +124,14 @@ onMounted(() => {
             data: { userId },
         })
             .then((data) => {
+                if(data.data.code !== 0){
+                    return router.push('/login')
+                }
                 userinfo.value = data.data.data
                 window.userinfo = data.data.data
+            })
+            .catch(() => {
+                router.push('/login')
             })
     }
 })
