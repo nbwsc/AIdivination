@@ -78,20 +78,18 @@
 import qrcode from './qrcode.vue'
 const download = (name) => {
     switch (name) {
-        case "大聪明": // v1.2
-            window.open('https://www.icloud.com/shortcuts/d574496204734eb4901ba2e1439b3595')
+        case "大聪明": // v1.6.16
+            window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
             return
-        case "冲浪健将":// v1.3
-            // window.open('https://www.icloud.com/shortcuts/48ec7a661784412db57556f4d97609fd')
-            
-            // v1.2
-            window.open('https://www.icloud.com/shortcuts/0cc4c7c3735c4b16bc5a97693cbe2797')
+        case "冲浪健将":
+            // v1.6.16
+            window.open('https://www.icloud.com/shortcuts/027319f45b4e47eaba987db5720e84ff')
             return
-        case "解读屏幕": // v1.1
-            window.open('https://www.icloud.com/shortcuts/b7d1ed9ce41547c09c8eddad1e4828a2')
+        case "解读屏幕": // v1.6.16
+            window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
             return;
-        case "长眼睛": // v1.1
-            window.open('https://www.icloud.com/shortcuts/466fa1e7db8b40c694b026c415a7e0b5')
+        case "长眼睛": // v1.6.16
+            window.open('https://www.icloud.com/shortcuts/22d53b7abf974bae87d997c1458aa15b')
             return
     }
 };
