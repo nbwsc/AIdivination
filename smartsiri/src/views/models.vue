@@ -78,18 +78,30 @@
 import qrcode from './qrcode.vue'
 const download = (name) => {
     switch (name) {
-        case "大聪明": // v1.6.16
-            window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
+        case "大聪明": 
+            // v1.6.16
+            // window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
+            // v1.6.19
+            window.open('https://www.icloud.com/shortcuts/0219fc7544864032bae6b96343b2df99')
             return
         case "冲浪健将":
             // v1.6.16
-            window.open('https://www.icloud.com/shortcuts/027319f45b4e47eaba987db5720e84ff')
+            // window.open('https://www.icloud.com/shortcuts/027319f45b4e47eaba987db5720e84ff')
+            // v1.6.19
+            window.open('https://www.icloud.com/shortcuts/c3f0ac6a24fa4ae6a4c02d8dc82959e2')
+
             return
-        case "解读屏幕": // v1.6.16
-            window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
+        case "解读屏幕": 
+            // v1.6.16
+            // window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
+            // v1.6.19
+            window.open('https://www.icloud.com/shortcuts/1568ffd41f7f4232a13a6dd3d13b5af2')
             return;
-        case "长眼睛": // v1.6.16
-            window.open('https://www.icloud.com/shortcuts/22d53b7abf974bae87d997c1458aa15b')
+        case "长眼睛":
+            // v1.6.16
+            // window.open('https://www.icloud.com/shortcuts/22d53b7abf974bae87d997c1458aa15b')
+            // v1.6.19
+            window.open('https://www.icloud.com/shortcuts/40e91b858e8641bcab4e126e16b95db4')
             return
     }
 };
