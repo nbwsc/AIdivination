@@ -78,7 +78,7 @@
 import qrcode from './qrcode.vue'
 const download = (name) => {
     switch (name) {
-        case "大聪明": 
+        case "大聪明":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
             // v1.6.19
@@ -90,11 +90,11 @@ const download = (name) => {
             // v1.6.19
             window.open('https://www.icloud.com/shortcuts/eb2e9323839649ae929341a80dd981c4')
             return
-        case "解读屏幕": 
+        case "解读屏幕":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/ed3e8e5b2cf042e385c432c4c22df319')
+            window.open('https://www.icloud.com/shortcuts/7b42babb946e4c0cb69fbf3ae95b6fac')
             return;
         case "长眼睛":
             // v1.6.16
