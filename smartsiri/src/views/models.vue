@@ -39,7 +39,7 @@
             <el-button class="mt-4" type="success" @click="download('冲浪健将')">前往下载</el-button>
         </el-card>
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('长眼睛')">
-            <div style="color:#555"> 长眼睛
+            <div style="color:#555"> 睁开眼睛
                 <el-tag type="warning" effect="plain">
                     视觉模型
                 </el-tag>
@@ -82,26 +82,25 @@ const download = (name) => {
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/0219fc7544864032bae6b96343b2df99')
+            window.open('https://www.icloud.com/shortcuts/67b9d2d497ac4dd08612ac48e6db2686')
             return
         case "冲浪健将":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/027319f45b4e47eaba987db5720e84ff')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/c3f0ac6a24fa4ae6a4c02d8dc82959e2')
-
+            window.open('https://www.icloud.com/shortcuts/eb2e9323839649ae929341a80dd981c4')
             return
         case "解读屏幕": 
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/1568ffd41f7f4232a13a6dd3d13b5af2')
+            window.open('https://www.icloud.com/shortcuts/ed3e8e5b2cf042e385c432c4c22df319')
             return;
         case "长眼睛":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/22d53b7abf974bae87d997c1458aa15b')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/40e91b858e8641bcab4e126e16b95db4')
+            window.open('https://www.icloud.com/shortcuts/22965e1cfb2849afb0ba4ebfdf1af73f')
             return
     }
 };

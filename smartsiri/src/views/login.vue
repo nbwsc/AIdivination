@@ -13,7 +13,7 @@
                             @click="getSMScode">{{ smstxt
                             }}</el-button></el-col>
                     <el-col :span="14" :offset="2">
-                        <el-input v-model="smscode" placeholder="填写验证码" size="large" clearable>
+                        <el-input v-model="smscode" placeholder="填写验证码" size="large" clearable maxlength="4">
                         </el-input></el-col>
                 </el-row>
                 <el-button class="mt-4" style="width: 100%" type="success" size="large" @click="login">登录</el-button>
