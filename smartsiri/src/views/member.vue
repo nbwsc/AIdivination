@@ -12,7 +12,7 @@
                 </div>
                 <div class="mt-2">
                     <li> 首次注册系统赠送</li>
-                    <li> 文本模型：30次，图片模型：20次</li>
+                    <li> 文本模型：20次，图片模型：10次</li>
                 </div>
             </el-card>
             <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="gotoCharge(1)">
