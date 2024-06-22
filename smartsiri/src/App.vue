@@ -42,6 +42,7 @@ onMounted(async () => {
     return
   }
   window.wechatuserinfo = r.data
+  window.urlparams = { code, state }
   console.log(window.wechatuserinfo)
 })
 </script>
