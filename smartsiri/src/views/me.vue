@@ -45,7 +45,7 @@
         </div>
         <pre><code>{{ userinfo.accesskey }}</code></pre>
 
-        <div class="mt-4">如何使用？</div>
+        <div class="text-2xl mt-4">如何使用？</div>
         <div class="link underline mt-2" @click="copyAK">1. 点击复制AccessKey</div>
         <div class="link underline mt-2" @click="gotoModels">
             2. 下载你想要的模型
@@ -55,11 +55,31 @@
         <div class="mt-2">5. 使用 hey siri 唤醒，说出指令名字：比如“睁开眼睛”，在提示语音后输入你想问的问题并且拍照，然后耐心等待服务器返回即可。</div>
 
 
-        <div class="text-xl mt-6">
+        <div class="text-xl mt-8">
+            <div class="text-2xl mt-2" @click="copyRefCode">使用兑换码</div>
             <el-input v-model="card" placeholder="输入卡号或兑换码" size="normal" clearable></el-input>
-            <div class="text-2xl mt-2 underline link" @click="checkCard">充值</div>
+            <div class="mt-2 underline link" @click="checkCard">充值</div>
         </div>
 
+        <!-- add ref code here -->
+        <div class="mt-8">
+            <div class="text-2xl mt-2" @click="copyRefCode">邀请好友</div>
+            <div class="mt-2">
+                每邀请一个好友注册，即可获得50点对话余额。
+            </div>
+            <div class="mt-2" v-if="userinfo.ref">
+                我的邀请人：
+                <span class="link" @click="copyRefCode">
+                    {{ userinfo.ref.slice(-4) }}
+                </span>
+            </div>
+            <div class="mt-2">
+                <span class="link underline" @click="copyRefCode">复制邀请链接</span>
+                <el-icon class="link" @click="copyRefCode" style="font-size: 1rem;">
+                    <CopyDocument />
+                </el-icon>
+            </div>
+        </div>
         <qrcode />
     </div>
 </template>
@@ -142,6 +162,14 @@ onMounted(() => {
 const copyAK = () => {
     window.copyToClikpboard(userinfo.value.accesskey)
 }
+
+const copyRefCode = () => {
+    window.copyToClikpboard(`✨SmartSiri，让Siri插上AI的翅膀
+💪你可以通过Siri获得个人AI助手，拍照识物，解读屏幕等；
+💡注册地址：http://siri.leapcapital.cn?state=${userinfo.value.phone}
+💡使用我的邀请码注册可以免费一周体验会员和额外的15点余额。`)
+}
+
 const gotoModels = () => {
     router.push('/models')
 }
