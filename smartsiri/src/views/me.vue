@@ -166,7 +166,7 @@ const copyAK = () => {
 const copyRefCode = () => {
     window.copyToClikpboard(`✨SmartSiri，让Siri插上AI的翅膀
 💪你可以通过Siri获得个人AI助手，拍照识物，解读屏幕等；
-💡注册地址：http://siri.leapcapital.cn?state=${userinfo.value._id}
+💡注册下载地址：http://siri.leapcapital.cn?state=${userinfo.value._id}
 💡使用我的邀请码注册可以免费一周体验会员和额外的15点余额。`)
 }
 
