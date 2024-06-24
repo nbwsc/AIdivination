@@ -82,25 +82,29 @@ const download = (name) => {
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/67b9d2d497ac4dd08612ac48e6db2686')
+            // window.open('https://www.icloud.com/shortcuts/67b9d2d497ac4dd08612ac48e6db2686')
+            window.open('https://www.icloud.com/shortcuts/b2756ceeb84141f1bbb667c880490f7e')
             return
         case "冲浪健将":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/027319f45b4e47eaba987db5720e84ff')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/eb2e9323839649ae929341a80dd981c4')
+            // window.open('https://www.icloud.com/shortcuts/eb2e9323839649ae929341a80dd981c4')
+            window.open('https://www.icloud.com/shortcuts/a061209010dd4d89ac21f6467f7e5e66')
             return
         case "解读屏幕":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/7b42babb946e4c0cb69fbf3ae95b6fac')
+            // window.open('https://www.icloud.com/shortcuts/7b42babb946e4c0cb69fbf3ae95b6fac')
+            window.open('https://www.icloud.com/shortcuts/1686f8927ab940b793b06275b69ad1a1')
             return;
         case "长眼睛":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/22d53b7abf974bae87d997c1458aa15b')
             // v1.6.19
-            window.open('https://www.icloud.com/shortcuts/22965e1cfb2849afb0ba4ebfdf1af73f')
+            // window.open('https://www.icloud.com/shortcuts/22965e1cfb2849afb0ba4ebfdf1af73f')
+            window.open('https://www.icloud.com/shortcuts/27e32b4fa6794712bcb9211c036b1d89')
             return
     }
 };
