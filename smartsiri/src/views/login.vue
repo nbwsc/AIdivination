@@ -86,7 +86,7 @@ export default {
                 axios({
                     url: "/aiapi/smartsiri/signin",
                     method: "POST",
-                    data: { phone: this.phoneNumber, smscode: this.code, ref: window.urlparams.state },
+                    data: { phone: this.phoneNumber, smscode: this.code, ref: window.urlparams ? window.urlparams.state : '' },
                 })
                     .then((data) => {
                         if (data.data.code !== 0) {
