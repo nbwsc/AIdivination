@@ -67,17 +67,17 @@
             <div class="mt-2">
                 每邀请一个好友注册，即可获得50点对话余额。
             </div>
-            <div class="mt-2" v-if="userinfo.ref">
-                我的邀请人：
-                <span class="link" @click="copyRefCode">
-                    {{ userinfo.ref }}
-                </span>
-            </div>
             <div class="mt-2">
                 <span class="link underline" @click="copyRefCode">复制邀请链接</span>
                 <el-icon class="link" @click="copyRefCode" style="font-size: 1rem;">
                     <CopyDocument />
                 </el-icon>
+            </div>
+            <div class="mt-2" v-if="userinfo.ref">
+                我的邀请人：
+                <span class="link">
+                    {{ userinfo.ref }}
+                </span>
             </div>
         </div>
         <qrcode />
