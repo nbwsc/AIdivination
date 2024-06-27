@@ -4,7 +4,7 @@
 
         <div class="mt-4">
             手机号：
-            <span class="link">
+            <span class="link" @click="logout">
                 {{ userinfo.phone }}
             </span>
         </div>
@@ -56,7 +56,7 @@
 
 
         <div class="text-xl mt-8">
-            <div class="text-2xl mt-2" @click="copyRefCode">使用兑换码</div>
+            <div class="text-2xl mt-2">使用兑换码</div>
             <el-input v-model="card" placeholder="输入卡号或兑换码" size="normal" clearable></el-input>
             <div class="mt-2 underline link" @click="checkCard">充值</div>
         </div>
@@ -70,7 +70,7 @@
             <div class="mt-2" v-if="userinfo.ref">
                 我的邀请人：
                 <span class="link" @click="copyRefCode">
-                    {{ userinfo.ref.slice(-4) }}
+                    {{ userinfo.ref }}
                 </span>
             </div>
             <div class="mt-2">
@@ -85,7 +85,7 @@
 </template>
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { ElMessage } from "element-plus";
+import { ElMessage, ElPopconfirm } from "element-plus";
 import { CopyDocument } from '@element-plus/icons-vue'
 import qrcode from './qrcode.vue'
 import axios from 'axios';
@@ -131,7 +131,7 @@ onMounted(() => {
     console.log(ls < now - 360000000)
     if (ls < now - 360000000) {// 超过100h 返回登陆
         // window.location.href = '/#/login'
-        router.push('/login')
+        router.replace('/login')
         // this.$emit("login");
     }
     userId = window.localStorage.getItem("userId").replace(/"/g, '')
@@ -147,7 +147,7 @@ onMounted(() => {
                 if (data.data.code !== 0) {
                     window.localStorage.removeItem("smartsirilogints");
                     window.localStorage.removeItem("userId");
-                    return router.push('/login')
+                    return router.replace('/login')
                 }
                 userinfo.value = data.data.data
                 window.userinfo = data.data.data
@@ -155,7 +155,7 @@ onMounted(() => {
             .catch(() => {
                 window.localStorage.removeItem("smartsirilogints");
                 window.localStorage.removeItem("userId");
-                router.push('/login')
+                router.replace('/login')
             })
     }
 })
@@ -205,6 +205,22 @@ const checkCard = () => {
         })
 
 
+}
+
+const logout = () => {
+    ElPopconfirm({
+        title: '确认退出？',
+        confirmButtonText: '确认',
+        cancelButtonText: '取消',
+        icon: 'el-icon-warning',
+        iconColor: 'red',
+        title: '确认退出？',
+        onConfirm: () => {
+            window.localStorage.removeItem("smartsirilogints");
+            window.localStorage.removeItem("userId");
+            return router.replace('/login')
+        }
+    })
 }
 </script>
 <style>
