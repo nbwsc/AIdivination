@@ -22,7 +22,7 @@ onMounted(async () => {
 
   const encodeurl = encodeURIComponent('http://siri.leapcapital.cn')
   if (!code) {
-    //window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx861818ac575d28e1&redirect_uri=${encodeurl}&response_type=code&scope=snsapi_base&state=${state}#wechat_redirect`
+    window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3937c09b672488a5&redirect_uri=${encodeurl}&response_type=code&scope=snsapi_base&state=${state}#wechat_redirect`
     return
   }
 
@@ -33,7 +33,7 @@ onMounted(async () => {
   })
 
   if (r.data.errcode) {
-    //window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx861818ac575d28e1&redirect_uri=${encodeurl}&response_type=code&scope=snsapi_base&state=${state}#wechat_redirect`
+    window.location.href = `https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx3937c09b672488a5&redirect_uri=${encodeurl}&response_type=code&scope=snsapi_base&state=${state}#wechat_redirect`
 
     // ElMessage({
     //   message: r.data.errmsg,
