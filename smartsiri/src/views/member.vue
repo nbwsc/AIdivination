@@ -76,7 +76,6 @@ const router = useRouter()
 
 const gotoCharge = async (memberType) => {
     const r = await axios({ url: '/aiapi/wechat/sirimemberorder', method: "post", data: { memberType, openid: window.wechatuserinfo.openid, userId: window.userinfo._id } })
-    console.log(r.data.data)
     boostPay(r.data.data).then(() => {
         ElMessage({
             message: "支付成功",
@@ -85,7 +84,7 @@ const gotoCharge = async (memberType) => {
         router.push('/me')
     })
 }
-new window.VConsole();
+// new window.VConsole();
 
 </script>
 <style scoped>
