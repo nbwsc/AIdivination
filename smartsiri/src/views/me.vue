@@ -76,7 +76,7 @@
             <div class="mt-2" v-if="userinfo.ref">
                 我的邀请人：
                 <span class="link">
-                    {{ userinfo.ref }}
+                    {{ userinfo.ref.slice(-8) }}
                 </span>
             </div>
         </div>
