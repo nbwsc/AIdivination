@@ -121,7 +121,7 @@ const download = (name) => {
             window.open('https://www.icloud.com/shortcuts/27e32b4fa6794712bcb9211c036b1d89')
             return
         case "魔术相机":
-            window.open('https://www.icloud.com/shortcuts/528e84f472ff455eb686d44224876ac1')
+            window.open('https://www.icloud.com/shortcuts/185bcb0f029b4686b0a156bc276ddb6c')
             return
     }
 };
