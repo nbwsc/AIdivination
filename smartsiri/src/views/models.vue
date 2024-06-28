@@ -62,6 +62,20 @@
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
+
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('魔术相机')">
+            <div style="color:#555"> 魔术相机
+                <el-tag type="warning" effect="plain">
+                    图片模型
+                </el-tag>
+            </div>
+            <div class="mt-4">
+                <li>拍一张照片然后“duang”一下变魔术</li>
+                <li>可以拍照变成漫画风、赛博朋克、粘土化等风格</li>
+            </div>
+            <el-button class="mt-4" type="success">前往下载</el-button>
+        </el-card>
+
         <el-card class="mt-4" shadow="always" :body-style="{ padding: '20px' }" @click.native="gotoEnModel">
             <div>
                 <span>英文版模型</span>
@@ -105,6 +119,9 @@ const download = (name) => {
             // v1.6.19
             // window.open('https://www.icloud.com/shortcuts/22965e1cfb2849afb0ba4ebfdf1af73f')
             window.open('https://www.icloud.com/shortcuts/27e32b4fa6794712bcb9211c036b1d89')
+            return
+        case "魔术相机":
+            window.open('https://www.icloud.com/shortcuts/528e84f472ff455eb686d44224876ac1')
             return
     }
 };
