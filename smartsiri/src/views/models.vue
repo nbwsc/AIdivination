@@ -123,6 +123,9 @@ const download = (name) => {
         case "魔术相机":
             window.open('https://www.icloud.com/shortcuts/185bcb0f029b4686b0a156bc276ddb6c')
             return
+        case "添加日程":
+            window.open('https://www.icloud.com/shortcuts/7d4c9afc1701497d8f9b05c8ad580bed')
+            return;
     }
 };
 const gotoEnModel = () => {
