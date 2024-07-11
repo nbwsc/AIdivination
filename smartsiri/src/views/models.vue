@@ -75,7 +75,18 @@
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
-
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('魔术相机')">
+            <div style="color:#555"> 添加日程
+                <el-tag type="warning" effect="plain">
+                    图片模型
+                </el-tag>
+            </div>
+            <div class="mt-4">
+                <li>将你屏幕上的日程信息自动识别并添加到系统日历</li>
+                <li>聊天内容中的计划事项、线上会议、车票机票、电影演出票据等都支持</li>
+            </div>
+            <el-button class="mt-4" type="success">前往下载</el-button>
+        </el-card>
         <el-card class="mt-4" shadow="always" :body-style="{ padding: '20px' }" @click.native="gotoEnModel">
             <div>
                 <span>英文版模型</span>
