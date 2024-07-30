@@ -11,6 +11,19 @@
             </div>
         </div>
         <div class="mt-2 text-l">模型列表：</div>
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('大聪明')">
+            <div style="color:#555"> 基础指令
+                <el-tag type="warning" effect="plain">
+                    基本指令，请勿改名
+                </el-tag>
+            </div>
+            <div class="mt-4">
+                <li>基础指令提供基础用户鉴权</li>
+                <li>用途：被其他指令引用、快捷下载其他指令</li>
+            </div>
+            <el-button class="mt-4" type="success" @click="download('大聪明')">前往下载</el-button>
+
+        </el-card>
 
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('大聪明')">
             <div style="color:#555"> 大聪明
@@ -103,6 +116,9 @@
 import qrcode from './qrcode.vue'
 const download = (name) => {
     switch (name) {
+        case "基础指令":
+            window.open('https://www.icloud.com/shortcuts/7bfbca8007c64172bbd447b32cd451ed')
+            return;
         case "大聪明":
             // v1.6.16
             // window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
