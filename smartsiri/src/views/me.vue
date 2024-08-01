@@ -4,9 +4,16 @@
 
         <div class="mt-4">
             手机号：
-            <span class="link" @click="logout">
+            <span class="link underline" @click="logout">
                 {{ userinfo.phone }}
             </span>
+            <span class="link " @click="gotoCollection">
+                查看我的收藏
+            </span>
+        </div>
+
+        <div class="mt-4">
+
         </div>
 
         <div class="mt-4">
@@ -204,6 +211,10 @@ const checkCard = () => {
             });
         })
 
+
+}
+function gotoCollection() {
+    router.push('/mycollections')
 
 }
 

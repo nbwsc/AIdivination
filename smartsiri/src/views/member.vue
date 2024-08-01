@@ -65,7 +65,6 @@
     </div>
 </template>
 <script setup>
-import { ref, computed, onMounted } from 'vue'
 import { ElMessage } from "element-plus";
 import { useRouter } from 'vue-router';
 import qrcode from './qrcode.vue'

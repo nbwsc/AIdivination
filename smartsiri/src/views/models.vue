@@ -14,7 +14,7 @@
         <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('大聪明')">
             <div style="color:#555"> 基础指令
                 <el-tag type="warning" effect="plain">
-                    基本指令，请勿改名
+                    必须安装；请勿改名
                 </el-tag>
             </div>
             <div class="mt-4">
@@ -51,7 +51,7 @@
             </div>
             <el-button class="mt-4" type="success" @click="download('冲浪健将')">前往下载</el-button>
         </el-card>
-        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('长眼睛')">
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('睁开眼睛')">
             <div style="color:#555"> 睁开眼睛
                 <el-tag type="warning" effect="plain">
                     视觉模型
@@ -100,11 +100,17 @@
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
-        <el-card class="mt-4" shadow="always" :body-style="{ padding: '20px' }" @click.native="gotoEnModel">
-            <div>
-                <span>英文版模型</span>
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('魔术相机')">
+            <div style="color:#555"> 收藏助手
+                <el-tag type="warning" effect="plain">
+                    文字模型
+                </el-tag>
             </div>
-            Click here to download the English Models
+            <div class="mt-4">
+                <li>跨平台的文章收藏方案，形成摘要并存入个人知识库</li>
+                <li>支持公众号、微博、小红书、知乎等各种平台的文章</li>
+            </div>
+            <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
 
         <qrcode />
@@ -120,41 +126,30 @@ const download = (name) => {
             window.open('https://www.icloud.com/shortcuts/7bfbca8007c64172bbd447b32cd451ed')
             return;
         case "大聪明":
-            // v1.6.16
-            // window.open('https://www.icloud.com/shortcuts/7269ebd49eca455296fbb9adbaec32f7')
-            // v1.6.19
-            // window.open('https://www.icloud.com/shortcuts/67b9d2d497ac4dd08612ac48e6db2686')
-            window.open('https://www.icloud.com/shortcuts/b2756ceeb84141f1bbb667c880490f7e')
+            // v1.7.31
+            window.open('https://www.icloud.com/shortcuts/d2c50b4d3bdf40db9710d9d479d193d4')
             return
         case "冲浪健将":
-            // v1.6.16
-            // window.open('https://www.icloud.com/shortcuts/027319f45b4e47eaba987db5720e84ff')
-            // v1.6.19
-            // window.open('https://www.icloud.com/shortcuts/eb2e9323839649ae929341a80dd981c4')
-            window.open('https://www.icloud.com/shortcuts/a061209010dd4d89ac21f6467f7e5e66')
+            window.open('https://www.icloud.com/shortcuts/7c8a896c00c64136af0e9829987c8251')
             return
         case "解读屏幕":
-            // v1.6.16
-            // window.open('https://www.icloud.com/shortcuts/bb44142308114f97b592b7e7a86f43fa')
-            // v1.6.19
-            // window.open('https://www.icloud.com/shortcuts/7b42babb946e4c0cb69fbf3ae95b6fac')
-            window.open('https://www.icloud.com/shortcuts/1686f8927ab940b793b06275b69ad1a1')
+            window.open('https://www.icloud.com/shortcuts/40f2ccd55bd447c4b033a403754d7d9a')
             return;
-        case "长眼睛":
-            // v1.6.16
-            // window.open('https://www.icloud.com/shortcuts/22d53b7abf974bae87d997c1458aa15b')
-            // v1.6.19
-            // window.open('https://www.icloud.com/shortcuts/22965e1cfb2849afb0ba4ebfdf1af73f')
-            window.open('https://www.icloud.com/shortcuts/27e32b4fa6794712bcb9211c036b1d89')
+        case "睁开眼睛":
+            window.open('https://www.icloud.com/shortcuts/65cdd234e3f64477b098d1efa987205c')
             return
         case "魔术相机":
-            window.open('https://www.icloud.com/shortcuts/185bcb0f029b4686b0a156bc276ddb6c')
+            window.open('https://www.icloud.com/shortcuts/f0f5267375f3484cbcb4eae8269ae349')
             return
         case "添加日程":
-            window.open('https://www.icloud.com/shortcuts/7a25e47966104d36b0c21aec5743f5a3')
+            window.open('https://www.icloud.com/shortcuts/6786e0305c4b4b14acc44914a7c51cab')
             return;
+        case "收藏助手":
+            window.open("https://www.icloud.com/shortcuts/1edcdb34c37c4da19eb93334516a4fb8")
+            return
     }
 };
+
 const gotoEnModel = () => {
     window.open('/#/models_en')
     // this.$router.push("/models_en");
