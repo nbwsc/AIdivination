@@ -123,7 +123,7 @@ import qrcode from './qrcode.vue'
 const download = (name) => {
     switch (name) {
         case "基础指令":
-            window.open('https://www.icloud.com/shortcuts/7bfbca8007c64172bbd447b32cd451ed')
+            window.open('https://www.icloud.com/shortcuts/af5730c6c6084e6dac6b4b22ca0bd2f6')
             return;
         case "大聪明":
             // v1.7.31
