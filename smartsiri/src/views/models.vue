@@ -88,7 +88,7 @@
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
-        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('魔术相机')">
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('添加日程')">
             <div style="color:#555"> 添加日程
                 <el-tag type="warning" effect="plain">
                     图片模型
@@ -100,7 +100,7 @@
             </div>
             <el-button class="mt-4" type="success">前往下载</el-button>
         </el-card>
-        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('魔术相机')">
+        <el-card class="mt-2" shadow="always" :body-style="{ padding: '20px' }" @click="download('收藏助手')">
             <div style="color:#555"> 收藏助手
                 <el-tag type="warning" effect="plain">
                     文字模型
