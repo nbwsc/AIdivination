@@ -21,7 +21,7 @@
                 <li>基础指令提供基础用户鉴权</li>
                 <li>用途：被其他指令引用、快捷下载其他指令</li>
             </div>
-            <el-button class="mt-4" type="success" @click="download('大聪明')">前往下载</el-button>
+            <el-button class="mt-4" type="success" @click="download('基础指令')">前往下载</el-button>
 
         </el-card>
 
