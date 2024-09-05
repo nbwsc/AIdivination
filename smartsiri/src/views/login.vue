@@ -22,8 +22,8 @@
                     @click="gotomodel">免费下载模型</el-button>
                 <qrcode />
             </form>
-            <div style="text-align: center;position: absolute;bottom: 20px;">
-                <a href="https://www.samr.gov.cn/ ">京ICP备19019954号</a>
+            <div style="text-align: center;position: absolute;bottom: -40px;color: #fff;width:100%">
+                <a href="https://beian.miit.gov.cn/">京ICP备19019954号</a>
             </div>
         </div>
     </div>
